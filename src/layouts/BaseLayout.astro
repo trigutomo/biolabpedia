@@ -7,9 +7,10 @@ interface Props {
   type?: 'website' | 'article';
   publishedAt?: Date;
   updatedAt?: Date;
+  variant?: 'default' | 'home';
 }
 
-const { title, description, type = 'website', publishedAt, updatedAt } = Astro.props;
+const { title, description, type = 'website', publishedAt, updatedAt, variant = 'default' } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
 const siteName = 'Biolabpedia';
 const fullTitle = title === siteName ? `${siteName} — Panduan Laboratorium Biologi` : `${title} | ${siteName}`;
@@ -37,7 +38,8 @@ const fullTitle = title === siteName ? `${siteName} — Panduan Laboratorium Bio
     {updatedAt && <meta property="article:modified_time" content={updatedAt.toISOString()} />}
     <meta name="generator" content={Astro.generator} />
   </head>
-  <body>
+  <body class={variant === 'home' ? 'page-home' : undefined}>
+    <slot name="top-ad" />
     <header class="site-header">
       <div class="container">
         <a class="brand" href="/">

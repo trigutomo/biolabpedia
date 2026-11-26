@@ -1,0 +1,20 @@
+---
+interface Props {
+  size?: 'billboard' | 'leaderboard';
+}
+
+const { size = 'leaderboard' } = Astro.props;
+const dimensions = size === 'billboard' ? '970 × 120' : '970 × 90';
+---
+
+<aside class={`home-ad-slot home-ad-slot--${size}`} aria-label="Placeholder iklan dummy">
+  <div class="home-ad-slot__creative">
+    <span class="home-ad-slot__mark" aria-hidden="true">AD</span>
+    <div class="home-ad-slot__copy">
+      <span class="home-ad-slot__eyebrow">ADVERTISEMENT · DUMMY</span>
+      <strong>Ruang iklan untuk mitra edukasi laboratorium</strong>
+      <span>Placeholder sementara · {dimensions}</span>
+    </div>
+    <span class="home-ad-slot__dimension">{dimensions}</span>
+  </div>
+</aside>

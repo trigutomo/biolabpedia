@@ -1,0 +1,29 @@
+---
+interface Props {
+  title: string;
+  description: string;
+  href: string;
+  image: string;
+  imageAlt: string;
+  publishedAt: Date;
+  updatedAt?: Date;
+  variant?: 'standard' | 'compact';
+}
+
+const { title, description, href, image, imageAlt, publishedAt, updatedAt, variant = 'standard' } = Astro.props;
+const fmt = (d: Date) => d.toLocaleDateString('id-ID', { year: 'numeric', month: 'short', day: 'numeric' });
+---
+
+<article class={`home-story-card home-story-card--${variant}`}>
+  <a class="home-story-card__image" href={href} aria-label={title}>
+    <img src={image} alt={imageAlt} loading="lazy" />
+  </a>
+  <div class="home-story-card__body">
+    <h3><a href={href}>{title}</a></h3>
+    {variant === 'standard' && <p class="home-story-card__description">{description}</p>}
+    <p class="home-story-card__meta">
+      <span>{fmt(publishedAt)}</span>
+      {updatedAt && <span> · Diperbarui {fmt(updatedAt)}</span>}
+    </p>
+  </div>
+</article>
