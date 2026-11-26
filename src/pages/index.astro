@@ -52,7 +52,7 @@ const pillarSections = PILLAR_LIST.map((pillar) => ({
         <h1>Pengetahuan lab, lebih dekat.</h1>
         <p>Panduan alat, teknik, dan praktik laboratorium yang jelas untuk belajar dan bekerja lebih yakin.</p>
       </div>
-      <a class="home-browse-link" href="/artikel/">Jelajahi semua artikel <span aria-hidden="true">→</span></a>
+      <a class="home-browse-link" href="/artikel/">Jelajahi semua artikel</a>
     </div>
   </section>
 
@@ -113,7 +113,7 @@ const pillarSections = PILLAR_LIST.map((pillar) => ({
         <span class="home-eyebrow">Mulai dari yang Anda butuhkan</span>
         <h2 id="home-topics-title">Jelajahi topik</h2>
       </div>
-      <a href="/artikel/">Semua panduan <span aria-hidden="true">→</span></a>
+      <a href="/artikel/">Semua panduan</a>
     </div>
     <div class="home-topic-grid">
       {
@@ -122,7 +122,6 @@ const pillarSections = PILLAR_LIST.map((pillar) => ({
             <span class="home-topic-card__number">{String(index + 1).padStart(2, '0')}</span>
             <span class="home-topic-card__title">{pillar.label}</span>
             <span class="home-topic-card__description">{pillarDesc[pillar.id]}</span>
-            <span class="home-topic-card__arrow" aria-hidden="true">↗</span>
           </a>
         ))
       }
@@ -136,7 +135,7 @@ const pillarSections = PILLAR_LIST.map((pillar) => ({
           <span class="home-eyebrow">Pembaruan dari redaksi</span>
           <h2 id="home-latest-title">Bacaan terbaru</h2>
         </div>
-        <a href="/artikel/">Buka arsip <span aria-hidden="true">→</span></a>
+        <a href="/artikel/">Lihat seluruh artikel</a>
       </div>
       <div class="home-story-grid home-story-grid--latest">
         {
@@ -166,7 +165,7 @@ const pillarSections = PILLAR_LIST.map((pillar) => ({
               <h2 id={`pillar-${pillar.id}`}>{pillar.label}</h2>
               <p>{pillarDesc[pillar.id]}</p>
             </div>
-            <a href={`/artikel/?pillar=${pillar.id}`}>Lihat semua <span aria-hidden="true">→</span></a>
+            <a href={`/artikel/?pillar=${pillar.id}`}>Semua artikel</a>
           </div>
           <div class="home-story-grid">
             {

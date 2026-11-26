@@ -1226,3 +1226,45 @@ img {
   .home-ad-slot__copy { min-width:0; }
   .home-ad-slot__creative .home-ad-slot__eyebrow,.home-ad-slot__creative .home-ad-slot__copy>span:last-child { font-size:.58rem; }
 }
+
+
+/* Biolabpedia editorial rhythm and identity */
+.site-header { border-top:4px solid #238596; }
+.site-header .site-header__inner { min-height:0; padding-top:1rem; padding-bottom:.85rem; display:flex; align-items:center; justify-content:space-between; gap:2rem; }
+.brand-lockup { display:flex; flex-direction:column; align-items:flex-start; gap:.25rem; }
+.brand-tagline { margin:0; color:#587180; font-size:.7rem; line-height:1.25; letter-spacing:.035em; }
+.header-navigation { display:flex; flex-direction:column; align-items:flex-end; gap:.45rem; }
+.site-header__note { margin:0; color:#657c82; font-size:.7rem; letter-spacing:.055em; }
+.site-nav { gap:.25rem; }
+.site-nav a { border-radius:2px; padding:.42rem .85rem; }
+.site-nav a[aria-current='page'] { background:transparent; color:#14536c; box-shadow:inset 0 -2px #238596; }
+.site-nav a:hover { background:#edf4f3; }
+.site-footer { margin-top:0; border-radius:0; border-top:5px solid #238596; background:#12364b; color:#d0dce0; }
+.site-footer__inner { display:grid !important; grid-template-columns:minmax(230px,1.4fr) minmax(180px,.8fr) minmax(230px,1fr); align-items:start !important; gap:2.5rem !important; padding-top:2.8rem !important; padding-bottom:2.4rem !important; }
+.site-footer__brand .brand img { filter:brightness(0) invert(1); opacity:.94; }
+.site-footer__brand p,.site-footer__note p { margin:.8rem 0 0; max-width:38ch; color:#c4d2d7; font-size:.9rem; line-height:1.65; }
+.site-footer__links { display:flex; flex-direction:column; align-items:flex-start; gap:.55rem; }
+.site-footer__links h2 { margin:0 0 .2rem; color:#fff; font-size:.78rem; font-family:var(--font-sans); letter-spacing:.09em; text-transform:uppercase; }
+.site-footer__links a { color:#e0eaec; text-decoration:none; }
+.site-footer__links a:hover { color:#8ad2d0; text-decoration:underline; }
+.site-footer__note { border-left:1px solid #5a7885; padding-left:1.25rem; }
+.site-footer__note small { display:block; margin-top:1.35rem; color:#a9bec5; font-size:.76rem; }
+.page-home { --home-section-space:clamp(2.25rem,4vw,3.35rem); }
+.page-home .home-intro__inner { padding-block:1.75rem 1.55rem; }
+.page-home .home-lead-section { padding-block:var(--home-section-space); }
+.page-home .home-topics,.page-home .home-category-section { padding-block:var(--home-section-space); }
+.page-home .home-latest-section { padding-block:var(--home-section-space); }
+.page-home .home-ad-slot { padding-block:1rem; }
+.home-section-heading { margin-bottom:1.15rem; }
+.home-topic-card__arrow { display:none; }
+@media(max-width:700px) {
+ .site-header .site-header__inner { align-items:flex-start; flex-direction:column; gap:.7rem; padding-block:.8rem; }
+ .header-navigation { align-items:flex-start; width:100%; gap:.3rem; }
+ .site-header__note { display:none; }
+ .site-nav { width:100%; gap:.1rem; }
+ .site-nav a { padding:.4rem .65rem; }
+ .site-footer__inner { grid-template-columns:1fr 1fr; gap:1.8rem !important; padding-block:2rem !important; }
+ .site-footer__brand { grid-column:1/-1; }
+ .site-footer__note { border-left:0; padding-left:0; }
+}
+@media(max-width:420px) { .site-footer__inner { grid-template-columns:1fr; } .site-footer__brand { grid-column:auto; } }

@@ -41,15 +41,21 @@ const fullTitle = title === siteName ? `${siteName} — Panduan Laboratorium Bio
   <body class={variant === 'home' ? 'page-home' : undefined}>
     <slot name="top-ad" />
     <header class="site-header">
-      <div class="container">
-        <a class="brand" href="/">
-          <img src="/images/logo.svg" alt="Biolabpedia" height="40" />
-        </a>
-        <nav class="site-nav" aria-label="Navigasi utama">
-          <a href="/" aria-current={Astro.url.pathname === '/' ? 'page' : undefined}>Beranda</a>
-          <a href="/artikel/" aria-current={Astro.url.pathname.startsWith('/artikel') ? 'page' : undefined}>Artikel</a>
-          <a href="/tentang/" aria-current={Astro.url.pathname.startsWith('/tentang') ? 'page' : undefined}>Tentang</a>
-        </nav>
+      <div class="container site-header__inner">
+        <div class="brand-lockup">
+          <a class="brand" href="/" aria-label="Biolabpedia, beranda">
+            <img src="/images/logo.svg" alt="Biolabpedia" height="40" />
+          </a>
+          <p class="brand-tagline">Catatan praktis dari laboratorium biologi</p>
+        </div>
+        <div class="header-navigation">
+          <p class="site-header__note">Peralatan, teknik, dan praktik kerja</p>
+          <nav class="site-nav" aria-label="Navigasi utama">
+            <a href="/" aria-current={Astro.url.pathname === '/' ? 'page' : undefined}>Beranda</a>
+            <a href="/artikel/" aria-current={Astro.url.pathname.startsWith('/artikel') ? 'page' : undefined}>Artikel</a>
+            <a href="/tentang/" aria-current={Astro.url.pathname.startsWith('/tentang') ? 'page' : undefined}>Tentang</a>
+          </nav>
+        </div>
       </div>
     </header>
 
@@ -58,17 +64,21 @@ const fullTitle = title === siteName ? `${siteName} — Panduan Laboratorium Bio
     </main>
 
     <footer class="site-footer">
-      <div class="container">
-        <div>
-          <div class="brand-mini">Biolab<span style="opacity:.65">pedia</span></div>
-          <p style="margin:.5rem 0 0">Media edukasi laboratorium biologi.<br />Untuk mahasiswa dan praktisi laboratorium.</p>
+      <div class="container site-footer__inner">
+        <div class="site-footer__brand">
+          <a class="brand" href="/" aria-label="Biolabpedia, beranda">
+            <img src="/images/logo.svg" alt="Biolabpedia" height="40" loading="lazy" />
+          </a>
+          <p>Referensi ringkas untuk memahami alat, bahan, dan cara kerja di laboratorium biologi.</p>
         </div>
-        <div>
-          <p style="margin:0 0 .35rem">
-            <a href="/artikel/">Arsip artikel</a> ·
-            <a href="/tentang/">Tentang &amp; usulan topik</a>
-          </p>
-          <p style="margin:0;opacity:.7">© {new Date().getFullYear()} Biolabpedia. Konten bersifat edukasi umum.</p>
+        <div class="site-footer__links">
+          <h2>Jelajahi Biolabpedia</h2>
+          <a href="/artikel/">Semua artikel</a>
+          <a href="/tentang/">Tentang dan usulan topik</a>
+        </div>
+        <div class="site-footer__note">
+          <p>Ditulis untuk membantu kegiatan belajar dan kerja laboratorium sehari-hari.</p>
+          <small>© {new Date().getFullYear()} Biolabpedia. Konten bersifat edukasi umum.</small>
         </div>
       </div>
     </footer>
