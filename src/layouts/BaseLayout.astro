@@ -46,10 +46,8 @@ const fullTitle = title === siteName ? `${siteName} — Panduan Laboratorium Bio
           <a class="brand" href="/" aria-label="Biolabpedia, beranda">
             <img src="/images/logo.svg" alt="Biolabpedia" height="40" />
           </a>
-          <p class="brand-tagline">Catatan praktis dari laboratorium biologi</p>
         </div>
         <div class="header-navigation">
-          <p class="site-header__note">Peralatan, teknik, dan praktik kerja</p>
           <nav class="site-nav" aria-label="Navigasi utama">
             <a href="/" aria-current={Astro.url.pathname === '/' ? 'page' : undefined}>Beranda</a>
             <a href="/artikel/" aria-current={Astro.url.pathname.startsWith('/artikel') ? 'page' : undefined}>Artikel</a>
