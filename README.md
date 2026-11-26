@@ -26,7 +26,7 @@ Cara tercepat tanpa terminal: **dobel-klik `BUKA-WEBSITE.bat`** — otomatis ins
 
 ## Deployment
 
-Build ini statis (murni HTML/CSS/JS), jadi bisa di-hosting mana pun — unggah isi `dist/` ke Netlify, Vercel, GitHub Pages, Cloudflare Pages, atau shared hosting biasa.
+Build ini statis (murni HTML/CSS/JS), jadi bisa di-hosting mana pun — unggah isi `dist/` ke Vercel, GitHub Pages, Cloudflare Pages, atau shared hosting biasa.
 
 - Domain produksi: `https://biolabpedia.com` (lihat `site` di `astro.config.mjs`).
 - Untuk hosting dengan HTTPS/URL bersih, jalankan `npm run build` biasa (**tanpa** `build:file`) supaya link absolut root (`/artikel/…`) dipakai.

@@ -3,6 +3,5 @@ dist/
 .astro/
 graphify-out/
 .graphify*
-.netlify/
 .env
 .env.*
