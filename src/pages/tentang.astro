@@ -8,58 +8,51 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 >
   <section class="about-hero">
     <div class="container about-hero__inner">
-      <p class="about-eyebrow">Tentang Kami</p>
-      <h1>Pengetahuan laboratorium yang jelas dan dapat dipercaya.</h1>
+      <h1>Tentang Biolabpedia</h1>
       <p class="about-hero__lead">
-        Biolabpedia membantu mahasiswa dan praktisi memahami alat, bahan, teknik, dan
-        praktik kerja di laboratorium biologi.
+        Referensi yang jelas dan dapat dipercaya tentang alat, bahan, teknik, dan praktik
+        kerja di laboratorium biologi.
       </p>
     </div>
   </section>
 
   <section class="about-content">
-    <div class="container about-grid">
-      <article class="about-card about-mission">
-        <span class="about-card__index">01</span>
+    <div class="container about-content__inner">
+      <article class="about-section">
         <h2>Tujuan Kami</h2>
         <p>
-          Kami menyajikan penjelasan praktis tentang fungsi alat, prinsip kerja, penggunaan,
-          perawatan, dan teknik dasar laboratorium. Tujuannya adalah membantu pembaca bekerja
-          dengan pemahaman yang lebih baik, bukan mempromosikan produk.
+          Biolabpedia membantu mahasiswa dan praktisi memahami fungsi alat, prinsip kerja,
+          penggunaan, perawatan, serta teknik dasar laboratorium. Setiap panduan dibuat
+          untuk memperkuat pemahaman dan mendukung pekerjaan sehari-hari.
         </p>
       </article>
 
-      <article class="about-card about-editorial">
-        <span class="about-card__index">02</span>
+      <article class="about-section">
         <h2>Prinsip Editorial</h2>
         <ul class="about-principles">
           <li><strong>Akurat.</strong> Informasi teknis merujuk pada manual, SOP, SDS, atau sumber tepercaya.</li>
-          <li><strong>Sesuai konteks.</strong> Panduan umum dapat berbeda menurut alat, sampel, protokol, dan aturan laboratorium.</li>
+          <li><strong>Sesuai konteks.</strong> Panduan dapat berbeda menurut alat, sampel, protokol, dan aturan laboratorium.</li>
           <li><strong>Terbuka pada koreksi.</strong> Rujukan disertakan dan artikel ditinjau ulang saat informasi berubah.</li>
-          <li><strong>Independen.</strong> Penyebutan merek hanya untuk konteks edukasi; Biolabpedia bukan toko.</li>
+          <li><strong>Independen.</strong> Penyebutan merek hanya untuk konteks edukasi. Biolabpedia bukan toko.</li>
         </ul>
       </article>
 
-      <article class="about-card about-authors">
-        <span class="about-card__index">03</span>
+      <article class="about-section">
         <h2>Di Balik Artikel</h2>
         <p>
           Artikel disusun dengan mengacu pada manual produsen, SOP laboratorium, SDS, serta
-          sumber ilmiah dan pendidikan. Jika Anda menemukan informasi yang kurang tepat atau
-          sudah usang, masukan Anda membantu kami memperbaikinya.
+          sumber ilmiah dan pendidikan. Masukan pembaca membantu kami menjaga informasi tetap
+          tepat dan relevan.
         </p>
       </article>
 
-      <aside class="about-contact">
-        <p class="about-contact__eyebrow">Ada pertanyaan atau usulan?</p>
-        <h2>Mari membuat referensi laboratorium lebih berguna.</h2>
-        <p>Kirim koreksi atau usulan topik ke redaksi Biolabpedia.</p>
-        <a class="about-contact__link" href="mailto:redaksi@biolabpedia.com">redaksi@biolabpedia.com</a>
+      <section class="about-contact" aria-labelledby="about-contact-title">
+        <h2 id="about-contact-title">Kontak dan Usulan Topik</h2>
+        <p>Punya pertanyaan, koreksi, atau ide artikel? Hubungi redaksi Biolabpedia.</p>
+        <a href="mailto:redaksi@biolabpedia.com">redaksi@biolabpedia.com</a>
         <p class="about-contact__note">Untuk usulan artikel, sertakan topik dan rujukan awal bila tersedia.</p>
-      </aside>
-    </div>
+      </section>
 
-    <div class="container">
       <p class="about-disclaimer">
         Informasi di Biolabpedia bersifat edukasi umum dan tidak menggantikan SOP, manual
         instrumen, SDS, atau arahan pengawas laboratorium. Selalu ikuti aturan keselamatan setempat.
