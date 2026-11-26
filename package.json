@@ -1,0 +1,17 @@
+{
+  "name": "biolabpedia",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Biolabpedia — media edukasi alat, teknik, dan praktik laboratorium biologi",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "build:file": "astro build && node scripts/make-file-friendly.mjs"
+  },
+  "dependencies": {
+    "astro": "^5.13.5"
+  }
+}

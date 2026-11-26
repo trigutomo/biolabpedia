@@ -1,0 +1,423 @@
+{
+  "communities": {
+    "0": [
+      "astro_content",
+      "ref_astro_content",
+      "src_components_articlecard",
+      "src_components_articlecard_fmt",
+      "src_components_articlecard_props",
+      "src_content_config",
+      "src_content_config_articles",
+      "src_content_config_collections",
+      "src_content_config_pillar_list",
+      "src_content_config_pillars",
+      "src_pages_artikel_slug",
+      "src_pages_artikel_slug_fmt",
+      "src_pages_artikel_slug_getstaticpaths",
+      "src_pages_artikel_slug_pillar",
+      "src_pages_artikel_slug_related",
+      "src_pages_artikel_slug_updateprogress",
+      "src_pages_index",
+      "src_pages_index_articles",
+      "src_pages_index_featured",
+      "src_pages_index_fmt",
+      "src_pages_index_latest",
+      "src_pages_index_pillardesc",
+      "src_pages_index_pillarlabel",
+      "src_pages_index_sidefeatured"
+    ],
+    "1": [
+      "ref_fs",
+      "ref_js_yaml",
+      "scripts_add_meta",
+      "scripts_add_meta_fs",
+      "scripts_add_meta_yaml",
+      "scripts_fix_all",
+      "scripts_fix_all_fs",
+      "scripts_fix_all_yaml",
+      "scripts_fix_regex",
+      "scripts_fix_regex_fs",
+      "scripts_fix_tags",
+      "scripts_fix_tags_fs",
+      "scripts_fix_tags_yaml",
+      "scripts_fix_yaml",
+      "scripts_fix_yaml_fs",
+      "scripts_strip_quotes",
+      "scripts_strip_quotes_fs",
+      "scripts_strip_quotes_yaml",
+      "scripts_yaml_block",
+      "scripts_yaml_block_formatvalue",
+      "scripts_yaml_block_fs",
+      "scripts_yaml_block_yaml"
+    ],
+    "2": [
+      "astro_config",
+      "package",
+      "package_dependencies",
+      "package_dependencies_astro",
+      "package_description",
+      "package_name",
+      "package_private",
+      "package_type",
+      "package_version",
+      "ref_astro"
+    ],
+    "3": [
+      "src_layouts_baselayout",
+      "src_layouts_baselayout_props",
+      "src_pages_404",
+      "src_pages_artikel_index",
+      "src_pages_artikel_index_apply",
+      "src_pages_artikel_index_articles",
+      "src_pages_artikel_index_fmt",
+      "src_pages_artikel_index_pillarlabel",
+      "src_pages_tentang",
+      "src_styles_global"
+    ],
+    "4": [
+      "package_scripts",
+      "package_scripts_astro",
+      "package_scripts_build",
+      "package_scripts_build_file",
+      "package_scripts_dev",
+      "package_scripts_preview"
+    ],
+    "5": [
+      "ref_astro_tsconfigs_strict",
+      "tsconfig",
+      "tsconfig_exclude",
+      "tsconfig_extends",
+      "tsconfig_include"
+    ],
+    "6": [
+      "ref_node_fs",
+      "ref_node_path",
+      "scripts_make_file_friendly",
+      "scripts_make_file_friendly_dist",
+      "scripts_make_file_friendly_walk"
+    ],
+    "7": [
+      "ref_path",
+      "scripts_check_links",
+      "scripts_check_links_files",
+      "scripts_check_links_fs"
+    ],
+    "8": [
+      "pillar_kenali_alat",
+      "src_content_articles_hotplate_stirrer_panduan",
+      "src_content_articles_hotplate_thermo_cimarec"
+    ],
+    "9": [
+      "pillar_pemecahan_masalah",
+      "src_content_articles_kesalahan_umum_pipetting",
+      "src_content_articles_micropipette_dasar"
+    ],
+    "10": [
+      "pillar_bahan_habis_pakai",
+      "src_content_articles_filter_tips_bag_10"
+    ],
+    "11": [
+      "pillar_panduan_penggunaan",
+      "src_content_articles_serological_pipette_5_steril"
+    ],
+    "12": [
+      "pillar_perawatan_keselamatan",
+      "src_content_articles_decon_90_pembersih"
+    ],
+    "13": [
+      "pillar_teknik_dasar",
+      "src_content_articles_teknik_aseptik"
+    ],
+    "14": [
+      "readme_biolabpedia",
+      "src_content_config_ts"
+    ],
+    "15": [
+      "src_content_articles_filter_tips_bag_1000",
+      "src_content_articles_filter_tips_rack_1000"
+    ],
+    "16": [
+      "src_content_articles_filter_tips_bag_100"
+    ],
+    "17": [
+      "src_content_articles_filter_tips_rack_10"
+    ],
+    "18": [
+      "src_content_articles_filter_tips_rack_100"
+    ],
+    "19": [
+      "src_content_articles_filter_tips_rack_200"
+    ],
+    "20": [
+      "src_content_articles_memilih_pipette_tips"
+    ],
+    "21": [
+      "src_content_articles_mencari_sumber_kontaminasi"
+    ],
+    "22": [
+      "src_content_articles_mengatasi_kesalahan_larutan"
+    ],
+    "23": [
+      "src_content_articles_mengatasi_masalah_sentrifus"
+    ],
+    "24": [
+      "src_content_articles_microcentrifuge_tubes"
+    ],
+    "25": [
+      "src_content_articles_microcentrifuge_tubes_1_5_steril"
+    ],
+    "26": [
+      "src_content_articles_micropipette_0_1_2_5"
+    ],
+    "27": [
+      "src_content_articles_micropipette_0_5_10"
+    ],
+    "28": [
+      "src_content_articles_micropipette_1000_5000"
+    ],
+    "29": [
+      "src_content_articles_micropipette_100_1000"
+    ],
+    "30": [
+      "src_content_articles_micropipette_10_100"
+    ],
+    "31": [
+      "src_content_articles_micropipette_20_200"
+    ],
+    "32": [
+      "src_content_articles_micropipette_2_20"
+    ],
+    "33": [
+      "src_content_articles_mupid_exu_elektroforesis"
+    ],
+    "34": [
+      "src_content_articles_parafilm_penutup"
+    ],
+    "35": [
+      "src_content_articles_perawatan_alat_lab_dasar"
+    ],
+    "36": [
+      "src_content_articles_pipette_tips_bag_10"
+    ],
+    "37": [
+      "src_content_articles_pipette_tips_bag_1000_biru"
+    ],
+    "38": [
+      "src_content_articles_pipette_tips_bag_200_kuning"
+    ],
+    "39": [
+      "src_content_articles_serological_pipette"
+    ],
+    "40": [
+      "src_content_articles_serological_pipette_10_steril"
+    ],
+    "41": [
+      "src_content_articles_slide_box_100"
+    ],
+    "42": [
+      "src_content_articles_slide_mikroskop_panduan"
+    ],
+    "43": [
+      "src_content_articles_teknik_larutan_buffer"
+    ],
+    "44": [
+      "src_content_articles_teknik_sentrifus"
+    ],
+    "45": [
+      "src_content_articles_vortex_dlab_mx_s"
+    ],
+    "46": [
+      "src_content_articles_vortex_mixer_penggunaan"
+    ]
+  },
+  "cohesion": {
+    "0": 0.10507246376811594,
+    "1": 0.10822510822510822,
+    "2": 0.2222222222222222,
+    "3": 0.2,
+    "4": 0.3333333333333333,
+    "5": 0.4,
+    "6": 0.4,
+    "7": 0.5,
+    "8": 0.6666666666666666,
+    "9": 0.6666666666666666,
+    "10": 1.0,
+    "11": 1.0,
+    "12": 1.0,
+    "13": 1.0,
+    "14": 1.0,
+    "15": 1.0,
+    "16": 1.0,
+    "17": 1.0,
+    "18": 1.0,
+    "19": 1.0,
+    "20": 1.0,
+    "21": 1.0,
+    "22": 1.0,
+    "23": 1.0,
+    "24": 1.0,
+    "25": 1.0,
+    "26": 1.0,
+    "27": 1.0,
+    "28": 1.0,
+    "29": 1.0,
+    "30": 1.0,
+    "31": 1.0,
+    "32": 1.0,
+    "33": 1.0,
+    "34": 1.0,
+    "35": 1.0,
+    "36": 1.0,
+    "37": 1.0,
+    "38": 1.0,
+    "39": 1.0,
+    "40": 1.0,
+    "41": 1.0,
+    "42": 1.0,
+    "43": 1.0,
+    "44": 1.0,
+    "45": 1.0,
+    "46": 1.0
+  },
+  "gods": [
+    {
+      "id": "package_scripts",
+      "label": "scripts",
+      "degree": 6
+    },
+    {
+      "id": "src_content_config_pillar_list",
+      "label": "PILLAR_LIST",
+      "degree": 4
+    },
+    {
+      "id": "ref_astro",
+      "label": "astro",
+      "degree": 4
+    },
+    {
+      "id": "scripts_make_file_friendly_walk",
+      "label": "walk()",
+      "degree": 3
+    },
+    {
+      "id": "package_dependencies_astro",
+      "label": "astro@^5.13.5",
+      "degree": 2
+    },
+    {
+      "id": "src_content_articles_hotplate_stirrer_panduan",
+      "label": "Hotplate stirrer: memilih, mengoperasikan, dan memelihara",
+      "degree": 2
+    },
+    {
+      "id": "src_content_articles_kesalahan_umum_pipetting",
+      "label": "Kesalahan umum pipetting dan cara mengatasinya",
+      "degree": 2
+    },
+    {
+      "id": "src_components_articlecard_props",
+      "label": "Props",
+      "degree": 1
+    },
+    {
+      "id": "src_layouts_baselayout_props",
+      "label": "Props",
+      "degree": 1
+    },
+    {
+      "id": "src_content_config_articles",
+      "label": "articles",
+      "degree": 1
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Filter tips bag 10 µL",
+      "target": "Memilih dan memahami bahan habis pakai",
+      "source_files": [
+        "src/content/articles/filter-tips-bag-10.md",
+        "README.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories"
+    },
+    {
+      "source": "Serological pipette 5 mL steril",
+      "target": "Panduan penggunaan",
+      "source_files": [
+        "src/content/articles/serological-pipette-5-steril.md",
+        "README.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories"
+    },
+    {
+      "source": "Decon 90 pembersih laboratorium",
+      "target": "Perawatan, penyimpanan, dan keselamatan",
+      "source_files": [
+        "src/content/articles/decon-90-pembersih.md",
+        "README.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories"
+    },
+    {
+      "source": "Teknik aseptik dasar di laboratorium",
+      "target": "Teknik dasar laboratorium",
+      "source_files": [
+        "src/content/articles/teknik-aseptik.md",
+        "README.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories"
+    },
+    {
+      "source": "Filter tips bag 1000 µL",
+      "target": "Filter tips rack 1000 µL",
+      "source_files": [
+        "src/content/articles/filter-tips-bag-1000.md",
+        "src/content/articles/filter-tips-rack-1000.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; semantically similar concepts with no structural link"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `astro` connect `Project Configuration` to `Astro Content Collections`?",
+      "why": "High betweenness centrality (0.059) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `astro/tsconfigs/strict`, `Memilih dan memahami bahan habis pakai`, `Filter tips bag 10 µL` to the rest of the system?",
+      "why": "48 weakly-connected nodes found - possible documentation gaps or missing edges."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Astro Content Collections` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.10507246376811594 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `scripts` connect `NPM Build Scripts` to `Project Configuration`?",
+      "why": "High betweenness centrality (0.026) - this node is a cross-community bridge."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `YAML Processing Scripts` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.10822510822510822 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `PILLAR_LIST` connect `Astro Content Collections` to `Page Layouts and Templates`?",
+      "why": "High betweenness centrality (0.003) - this node is a cross-community bridge."
+    }
+  ]
+}

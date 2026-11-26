@@ -1,0 +1,12 @@
+{
+  "runs": [
+    {
+      "date": "2026-11-25T04:19:31.542500+00:00",
+      "input_tokens": 35644,
+      "output_tokens": 5356,
+      "files": 70
+    }
+  ],
+  "total_input_tokens": 35644,
+  "total_output_tokens": 5356
+}

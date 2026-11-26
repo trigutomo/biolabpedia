@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 80" fill="none">
+  <rect width="120" height="80" fill="#eef3f9"/>
+  <!-- pelindung / safety -->
+  <path d="M60 18 L84 28 L84 48 C84 58 72 64 60 68 C48 64 36 58 36 48 L36 28 Z" fill="#144e8c"/>
+  <path d="M52 46 L58 52 L70 38" stroke="#ffffff" stroke-width="3" fill="none"/>
+  <!-- api kecil -->
+  <path d="M95 55 Q92 46 95 40 Q100 46 100 55 Q97 58 95 55" fill="#b8542e"/>
+</svg>

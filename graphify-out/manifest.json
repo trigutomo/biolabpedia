@@ -1,0 +1,374 @@
+{
+  "astro.config.mjs": {
+    "mtime": 1795519701.0252762,
+    "seen": 1795580371.5261605,
+    "ast_hash": "4b82577a7e96d20d2f1d1a8432e3b688",
+    "semantic_hash": "4b82577a7e96d20d2f1d1a8432e3b688"
+  },
+  "package.json": {
+    "mtime": 1795519701.0252762,
+    "seen": 1795580371.5261605,
+    "ast_hash": "3ea1a725cf20cae460def9b5acd22497",
+    "semantic_hash": "3ea1a725cf20cae460def9b5acd22497"
+  },
+  "scripts/add-meta.cjs": {
+    "mtime": 1795574021.6412158,
+    "seen": 1795580371.5261605,
+    "ast_hash": "f2cbaa23e034c31abd4e761bd068cdf9",
+    "semantic_hash": "f2cbaa23e034c31abd4e761bd068cdf9"
+  },
+  "scripts/check-links.cjs": {
+    "mtime": 1795569854.5791123,
+    "seen": 1795580371.5261605,
+    "ast_hash": "1dc528a0b4f4bad8f3fd54af514b8780",
+    "semantic_hash": "1dc528a0b4f4bad8f3fd54af514b8780"
+  },
+  "scripts/fix-all.cjs": {
+    "mtime": 1795579107.0949488,
+    "seen": 1795580371.5261605,
+    "ast_hash": "97b48d5d8526ecd0cdd8b1b544852700",
+    "semantic_hash": "97b48d5d8526ecd0cdd8b1b544852700"
+  },
+  "scripts/fix-regex.cjs": {
+    "mtime": 1795579155.0745177,
+    "seen": 1795580371.5261605,
+    "ast_hash": "0650381871b6f04fc4ee823a61b69ea7",
+    "semantic_hash": "0650381871b6f04fc4ee823a61b69ea7"
+  },
+  "scripts/fix-tags.cjs": {
+    "mtime": 1795574155.6050792,
+    "seen": 1795580371.5261605,
+    "ast_hash": "a65b08ad9470c241b38c9324fab210fb",
+    "semantic_hash": "a65b08ad9470c241b38c9324fab210fb"
+  },
+  "scripts/fix-yaml.cjs": {
+    "mtime": 1795521529.5225842,
+    "seen": 1795580371.5261605,
+    "ast_hash": "a494436769bacdb64d215f22fadbdbbc",
+    "semantic_hash": "a494436769bacdb64d215f22fadbdbbc"
+  },
+  "scripts/make-file-friendly.mjs": {
+    "mtime": 1795569815.0637543,
+    "seen": 1795580371.5261605,
+    "ast_hash": "61cffd27715c4dc40b899b9b217e3368",
+    "semantic_hash": "61cffd27715c4dc40b899b9b217e3368"
+  },
+  "scripts/strip-quotes.cjs": {
+    "mtime": 1795570459.7756753,
+    "seen": 1795580371.5261605,
+    "ast_hash": "78400fdb94c2c516cb04bfdb0e11840d",
+    "semantic_hash": "78400fdb94c2c516cb04bfdb0e11840d"
+  },
+  "scripts/yaml-block.cjs": {
+    "mtime": 1795579053.1737487,
+    "seen": 1795580371.5261605,
+    "ast_hash": "6394814d91d89ce4d61c01440af2e9a3",
+    "semantic_hash": "6394814d91d89ce4d61c01440af2e9a3"
+  },
+  "src/components/ArticleCard.astro": {
+    "mtime": 1795518511.3742013,
+    "seen": 1795580371.5261605,
+    "ast_hash": "56d5022895d45dbe30075b9e9bd91b7e",
+    "semantic_hash": "56d5022895d45dbe30075b9e9bd91b7e"
+  },
+  "src/content.config.ts": {
+    "mtime": 1795574031.2899027,
+    "seen": 1795580371.5261605,
+    "ast_hash": "7928d0392f68f525cdd05363b4816389",
+    "semantic_hash": "7928d0392f68f525cdd05363b4816389"
+  },
+  "src/layouts/BaseLayout.astro": {
+    "mtime": 1795570261.0111835,
+    "seen": 1795580371.5261605,
+    "ast_hash": "e018f31f5272976e352b24780348672a",
+    "semantic_hash": "e018f31f5272976e352b24780348672a"
+  },
+  "src/pages/404.astro": {
+    "mtime": 1795570240.9901478,
+    "seen": 1795580371.5261605,
+    "ast_hash": "4a5d2dcb2e87e1ab71f6f2352c3f21eb",
+    "semantic_hash": "4a5d2dcb2e87e1ab71f6f2352c3f21eb"
+  },
+  "src/pages/artikel/[slug].astro": {
+    "mtime": 1795577482.3847413,
+    "seen": 1795580371.5261605,
+    "ast_hash": "a07a1c649e85409a2c0503743a1e235d",
+    "semantic_hash": "a07a1c649e85409a2c0503743a1e235d"
+  },
+  "src/pages/artikel/index.astro": {
+    "mtime": 1795578797.4266589,
+    "seen": 1795580371.5261605,
+    "ast_hash": "9128f415214f19769621392aa943a22c",
+    "semantic_hash": "9128f415214f19769621392aa943a22c"
+  },
+  "src/pages/index.astro": {
+    "mtime": 1795577635.4304,
+    "seen": 1795580371.5261605,
+    "ast_hash": "b482d055fe241541de236bdddfa7c9ea",
+    "semantic_hash": "b482d055fe241541de236bdddfa7c9ea"
+  },
+  "src/pages/tentang.astro": {
+    "mtime": 1795570229.3719127,
+    "seen": 1795580371.5261605,
+    "ast_hash": "70ecc92ecccfffe8c5cb05a6fb104286",
+    "semantic_hash": "70ecc92ecccfffe8c5cb05a6fb104286"
+  },
+  "tsconfig.json": {
+    "mtime": 1795518415.224586,
+    "seen": 1795580371.5261605,
+    "ast_hash": "1d3613ac08bdda17e2b82251613dbc21",
+    "semantic_hash": "1d3613ac08bdda17e2b82251613dbc21"
+  },
+  "README.md": {
+    "mtime": 1795518913.2765138,
+    "seen": 1795580371.5261605,
+    "ast_hash": "66595b839cbca802f4451f1693bc53da",
+    "semantic_hash": "66595b839cbca802f4451f1693bc53da"
+  },
+  "src/content/articles/decon-90-pembersih.md": {
+    "mtime": 1795579167.5722659,
+    "seen": 1795580371.5261605,
+    "ast_hash": "eafce762eceadd5280b974ed521a0632",
+    "semantic_hash": "eafce762eceadd5280b974ed521a0632"
+  },
+  "src/content/articles/filter-tips-bag-10.md": {
+    "mtime": 1795579167.5850084,
+    "seen": 1795580371.5261605,
+    "ast_hash": "65085fd7971ac15aef49110d99850280",
+    "semantic_hash": "65085fd7971ac15aef49110d99850280"
+  },
+  "src/content/articles/filter-tips-bag-100.md": {
+    "mtime": 1795579167.5933022,
+    "seen": 1795580371.5261605,
+    "ast_hash": "6faef5f829dc83a0519dd869835cc9e6",
+    "semantic_hash": "6faef5f829dc83a0519dd869835cc9e6"
+  },
+  "src/content/articles/filter-tips-bag-1000.md": {
+    "mtime": 1795579167.595314,
+    "seen": 1795580371.5261605,
+    "ast_hash": "3124a4410ec1763ac7c640afc9c0ac52",
+    "semantic_hash": "3124a4410ec1763ac7c640afc9c0ac52"
+  },
+  "src/content/articles/filter-tips-rack-10.md": {
+    "mtime": 1795579167.5984292,
+    "seen": 1795580371.5261605,
+    "ast_hash": "e26f190fe58a6cc671d700b9ff4e65b5",
+    "semantic_hash": "e26f190fe58a6cc671d700b9ff4e65b5"
+  },
+  "src/content/articles/filter-tips-rack-100.md": {
+    "mtime": 1795579167.600443,
+    "seen": 1795580371.5261605,
+    "ast_hash": "8bdcb0fa930d3158e44e6548a99c287c",
+    "semantic_hash": "8bdcb0fa930d3158e44e6548a99c287c"
+  },
+  "src/content/articles/filter-tips-rack-1000.md": {
+    "mtime": 1795579167.6061428,
+    "seen": 1795580371.5261605,
+    "ast_hash": "e8e458421305143ed8992ccb36eaa63c",
+    "semantic_hash": "e8e458421305143ed8992ccb36eaa63c"
+  },
+  "src/content/articles/filter-tips-rack-200.md": {
+    "mtime": 1795579167.608162,
+    "seen": 1795580371.5261605,
+    "ast_hash": "48dcde5a58c68abd2fc4cca39d7b74da",
+    "semantic_hash": "48dcde5a58c68abd2fc4cca39d7b74da"
+  },
+  "src/content/articles/hotplate-stirrer-panduan.md": {
+    "mtime": 1795579167.608162,
+    "seen": 1795580371.5261605,
+    "ast_hash": "df7bd1cd51157ce8c075a44b18cdf54a",
+    "semantic_hash": "df7bd1cd51157ce8c075a44b18cdf54a"
+  },
+  "src/content/articles/hotplate-thermo-cimarec.md": {
+    "mtime": 1795579167.6169713,
+    "seen": 1795580371.5261605,
+    "ast_hash": "e16ad90b748370a60abe59601da236d2",
+    "semantic_hash": "e16ad90b748370a60abe59601da236d2"
+  },
+  "src/content/articles/kesalahan-umum-pipetting.md": {
+    "mtime": 1795579167.6169713,
+    "seen": 1795580371.5261605,
+    "ast_hash": "0a4d65e8879a651e543088e59fb9fca0",
+    "semantic_hash": "0a4d65e8879a651e543088e59fb9fca0"
+  },
+  "src/content/articles/memilih-pipette-tips.md": {
+    "mtime": 1795579167.6240156,
+    "seen": 1795580371.5261605,
+    "ast_hash": "1335a2dd545bef00dbf4f7e38e8c04db",
+    "semantic_hash": "1335a2dd545bef00dbf4f7e38e8c04db"
+  },
+  "src/content/articles/mencari-sumber-kontaminasi.md": {
+    "mtime": 1795579167.6240156,
+    "seen": 1795580371.5261605,
+    "ast_hash": "f2d8d774f50be2576c91d5eb47abcd3e",
+    "semantic_hash": "f2d8d774f50be2576c91d5eb47abcd3e"
+  },
+  "src/content/articles/mengatasi-kesalahan-larutan.md": {
+    "mtime": 1795579167.6300223,
+    "seen": 1795580371.5261605,
+    "ast_hash": "3e0df26384f8cbd429e448d662762876",
+    "semantic_hash": "3e0df26384f8cbd429e448d662762876"
+  },
+  "src/content/articles/mengatasi-masalah-sentrifus.md": {
+    "mtime": 1795579167.6300223,
+    "seen": 1795580371.5261605,
+    "ast_hash": "8ab537a66dcd349dd67923142eb12466",
+    "semantic_hash": "8ab537a66dcd349dd67923142eb12466"
+  },
+  "src/content/articles/microcentrifuge-tubes-1-5-steril.md": {
+    "mtime": 1795579167.6300223,
+    "seen": 1795580371.5261605,
+    "ast_hash": "8001017b3cc0edc935fbdb822c7d210d",
+    "semantic_hash": "8001017b3cc0edc935fbdb822c7d210d"
+  },
+  "src/content/articles/microcentrifuge-tubes.md": {
+    "mtime": 1795579167.642756,
+    "seen": 1795580371.5261605,
+    "ast_hash": "be135181a03c7258a67bc000b16dbb39",
+    "semantic_hash": "be135181a03c7258a67bc000b16dbb39"
+  },
+  "src/content/articles/micropipette-0-1-2-5.md": {
+    "mtime": 1795579167.642756,
+    "seen": 1795580371.5261605,
+    "ast_hash": "af38fd2f0a34876aaa3aa51a0750b9fc",
+    "semantic_hash": "af38fd2f0a34876aaa3aa51a0750b9fc"
+  },
+  "src/content/articles/micropipette-0-5-10.md": {
+    "mtime": 1795579167.642756,
+    "seen": 1795580371.5261605,
+    "ast_hash": "600dbb32b56f4db6eb15f13733893a46",
+    "semantic_hash": "600dbb32b56f4db6eb15f13733893a46"
+  },
+  "src/content/articles/micropipette-10-100.md": {
+    "mtime": 1795579167.642756,
+    "seen": 1795580371.5261605,
+    "ast_hash": "7b0dcbacdbff30ec4ff145cfda8fdb5f",
+    "semantic_hash": "7b0dcbacdbff30ec4ff145cfda8fdb5f"
+  },
+  "src/content/articles/micropipette-100-1000.md": {
+    "mtime": 1795579167.6552231,
+    "seen": 1795580371.5261605,
+    "ast_hash": "8f2d7f936753964e50d143d627fecf46",
+    "semantic_hash": "8f2d7f936753964e50d143d627fecf46"
+  },
+  "src/content/articles/micropipette-1000-5000.md": {
+    "mtime": 1795579167.6582513,
+    "seen": 1795580371.5261605,
+    "ast_hash": "61ccf17c098006de9593e7e1e03b4cf9",
+    "semantic_hash": "61ccf17c098006de9593e7e1e03b4cf9"
+  },
+  "src/content/articles/micropipette-2-20.md": {
+    "mtime": 1795579167.6582513,
+    "seen": 1795580371.5261605,
+    "ast_hash": "c81dcc79115dbf51776518b55ffc265d",
+    "semantic_hash": "c81dcc79115dbf51776518b55ffc265d"
+  },
+  "src/content/articles/micropipette-20-200.md": {
+    "mtime": 1795579167.6582513,
+    "seen": 1795580371.5261605,
+    "ast_hash": "092953b92af8e0881b148a4558cef222",
+    "semantic_hash": "092953b92af8e0881b148a4558cef222"
+  },
+  "src/content/articles/micropipette-dasar.md": {
+    "mtime": 1795579167.6582513,
+    "seen": 1795580371.5261605,
+    "ast_hash": "cabddce21281393bd62acf435d7f1854",
+    "semantic_hash": "cabddce21281393bd62acf435d7f1854"
+  },
+  "src/content/articles/mupid-exu-elektroforesis.md": {
+    "mtime": 1795579167.671075,
+    "seen": 1795580371.5261605,
+    "ast_hash": "72e84fb28e0373b405cd6dbdeb186a83",
+    "semantic_hash": "72e84fb28e0373b405cd6dbdeb186a83"
+  },
+  "src/content/articles/parafilm-penutup.md": {
+    "mtime": 1795579167.6740382,
+    "seen": 1795580371.5261605,
+    "ast_hash": "2d7ce0545f297f42c857f8d71aa0e7f2",
+    "semantic_hash": "2d7ce0545f297f42c857f8d71aa0e7f2"
+  },
+  "src/content/articles/perawatan-alat-lab-dasar.md": {
+    "mtime": 1795579167.6740382,
+    "seen": 1795580371.5261605,
+    "ast_hash": "d3987089610b31a88376685c892a718e",
+    "semantic_hash": "d3987089610b31a88376685c892a718e"
+  },
+  "src/content/articles/pipette-tips-bag-10.md": {
+    "mtime": 1795579167.6740382,
+    "seen": 1795580371.5261605,
+    "ast_hash": "ce3fe04723d5d0778abd38bb4b203e5c",
+    "semantic_hash": "ce3fe04723d5d0778abd38bb4b203e5c"
+  },
+  "src/content/articles/pipette-tips-bag-1000-biru.md": {
+    "mtime": 1795579167.6740382,
+    "seen": 1795580371.5261605,
+    "ast_hash": "09b56712e5a6c961ff0abfda09439c2e",
+    "semantic_hash": "09b56712e5a6c961ff0abfda09439c2e"
+  },
+  "src/content/articles/pipette-tips-bag-200-kuning.md": {
+    "mtime": 1795579167.6857886,
+    "seen": 1795580371.5261605,
+    "ast_hash": "9ac187493ac717a57ffa1b57319c44dc",
+    "semantic_hash": "9ac187493ac717a57ffa1b57319c44dc"
+  },
+  "src/content/articles/serological-pipette-10-steril.md": {
+    "mtime": 1795579167.6895227,
+    "seen": 1795580371.5261605,
+    "ast_hash": "f0435375387cef642cbf2f68cd7b5f2e",
+    "semantic_hash": "f0435375387cef642cbf2f68cd7b5f2e"
+  },
+  "src/content/articles/serological-pipette-5-steril.md": {
+    "mtime": 1795579167.6895227,
+    "seen": 1795580371.5261605,
+    "ast_hash": "183ca5f8bc589e01f50b315c3a86dcd2",
+    "semantic_hash": "183ca5f8bc589e01f50b315c3a86dcd2"
+  },
+  "src/content/articles/serological-pipette.md": {
+    "mtime": 1795579167.6895227,
+    "seen": 1795580371.5261605,
+    "ast_hash": "df112ca76fa3b13239bcde49366824c5",
+    "semantic_hash": "df112ca76fa3b13239bcde49366824c5"
+  },
+  "src/content/articles/slide-box-100.md": {
+    "mtime": 1795579167.6895227,
+    "seen": 1795580371.5261605,
+    "ast_hash": "d0b7a2270dcb270fb697d1588d6634ec",
+    "semantic_hash": "d0b7a2270dcb270fb697d1588d6634ec"
+  },
+  "src/content/articles/slide-mikroskop-panduan.md": {
+    "mtime": 1795579167.7017155,
+    "seen": 1795580371.5261605,
+    "ast_hash": "56602a380041df36bb2f47a8c26849f9",
+    "semantic_hash": "56602a380041df36bb2f47a8c26849f9"
+  },
+  "src/content/articles/teknik-aseptik.md": {
+    "mtime": 1795579167.7052653,
+    "seen": 1795580371.5261605,
+    "ast_hash": "d5852d204bbdb63289249df4cc5162c7",
+    "semantic_hash": "d5852d204bbdb63289249df4cc5162c7"
+  },
+  "src/content/articles/teknik-larutan-buffer.md": {
+    "mtime": 1795579167.707283,
+    "seen": 1795580371.5261605,
+    "ast_hash": "7aa4b8f1002dd341c8cece6fd7f4580e",
+    "semantic_hash": "7aa4b8f1002dd341c8cece6fd7f4580e"
+  },
+  "src/content/articles/teknik-sentrifus.md": {
+    "mtime": 1795579167.707283,
+    "seen": 1795580371.5261605,
+    "ast_hash": "fcd3ab7bc475f9951055c00ffee59b94",
+    "semantic_hash": "fcd3ab7bc475f9951055c00ffee59b94"
+  },
+  "src/content/articles/vortex-dlab-mx-s.md": {
+    "mtime": 1795579167.707283,
+    "seen": 1795580371.5261605,
+    "ast_hash": "013a0dc1fcc6882b6a923797f33bbf5a",
+    "semantic_hash": "013a0dc1fcc6882b6a923797f33bbf5a"
+  },
+  "src/content/articles/vortex-mixer-penggunaan.md": {
+    "mtime": 1795579167.716983,
+    "seen": 1795580371.5261605,
+    "ast_hash": "efe23315dab3b554399fa7038cd2737a",
+    "semantic_hash": "efe23315dab3b554399fa7038cd2737a"
+  }
+}

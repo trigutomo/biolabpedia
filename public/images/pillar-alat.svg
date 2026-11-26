@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 80" fill="none">
+  <rect width="120" height="80" fill="#eef3f9"/>
+  <!-- mikroskop sederhana -->
+  <rect x="35" y="55" width="50" height="8" rx="2" fill="#144e8c"/>
+  <rect x="52" y="30" width="14" height="28" rx="3" fill="#0e3a6b"/>
+  <circle cx="59" cy="26" r="10" fill="#144e8c"/>
+  <rect x="45" y="48" width="30" height="4" rx="2" fill="#5d748e"/>
+  <rect x="70" y="20" width="6" height="18" rx="2" fill="#5d748e"/>
+</svg>

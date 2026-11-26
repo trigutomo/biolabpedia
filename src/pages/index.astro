@@ -1,0 +1,191 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import { PILLAR_LIST } from '../content.config';
+
+const articles = (await getCollection('articles')).sort(
+  (a, b) => b.data.publishedAt.getTime() - a.data.publishedAt.getTime(),
+);
+const featured = articles.filter((a) => a.data.featured);
+const lead = featured[0] ?? articles[0];
+const sideFeatured = featured.slice(1, 4);
+const latest = articles.filter((a) => a.id !== lead?.id).slice(0, 6);
+
+const pillarLabel = (id: string) => PILLAR_LIST.find((p) => p.id === id)?.label ?? id;
+
+const fmt = (d: Date) =>
+  d.toLocaleDateString('id-ID', { year: 'numeric', month: 'long', day: 'numeric' });
+
+const pillarDesc: Record<string, string> = {
+  'kenali-alat': 'Fungsi, prinsip kerja, dan karakteristik alat-alat laboratorium biologi.',
+  'panduan-penggunaan': 'Langkah operasi dan praktik terbaik untuk alat serta prosedur umum.',
+  'bahan-habis-pakai': 'Memilih dan memahami pipette tips, tabung, slide, dan bahan sekali pakai.',
+  'perawatan-keselamatan': 'Kebersihan, penyimpanan, kalibrasi, APD, dan budaya kerja yang aman.',
+  'teknik-dasar': 'Teknik inti laboratorium: pipetting, sentrifus, preparasi sampel, dan lainnya.',
+  'pemecahan-masalah': 'Diagnosa kesalahan umum, gejala, dan cara memperbaikinya.',
+};
+---
+
+<BaseLayout
+  title="Biolabpedia"
+  description="Biolabpedia adalah media edukasi tentang alat, perlengkapan, teknik, dan praktik laboratorium biologi untuk mahasiswa dan praktisi."
+>
+  <section class="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div>
+          <span class="kicker">Media edukasi laboratorium biologi</span>
+          <h1>Pahami alat dan teknik laboratorium biologi</h1>
+          <p class="lead">
+            Penjelasan tepercaya tentang fungsi alat, cara pakai, perawatan, bahan habis pakai,
+            teknik dasar, dan pemecahan masalah — ditulis untuk mahasiswa dan praktisi laboratorium.
+          </p>
+          <div class="hero-actions">
+            <a class="btn" href="/artikel/">Telusuri artikel</a>
+            <a class="btn btn-outline" href="/tentang/">Tentang Biolabpedia</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <img src="./images/hero-lab.svg" alt="Ilustrasi alat laboratorium: micropipette, tabung reaksi, dan gelas kimia" width="480" height="320" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Topik unggulan</h2>
+        <a class="more-link" href="/artikel/">Semua artikel →</a>
+      </div>
+
+      <div class="featured-grid">
+        {
+          lead && (
+            <article class="featured-lead">
+              <a class="badge" href={`/artikel/?pillar=${lead.data.pillar}`}>
+                {pillarLabel(lead.data.pillar)}
+              </a>
+              <h3>
+                <a href={`/artikel/${lead.id}/`}>{lead.data.title}</a>
+              </h3>
+              <p>{lead.data.description}</p>
+              <p class="meta">
+                <span>Terbit {fmt(lead.data.publishedAt)}</span>
+                {lead.data.updatedAt && <span>Diperbarui {fmt(lead.data.updatedAt)}</span>}
+              </p>
+            </article>
+          )
+        }
+
+        <div class="featured-side">
+          {
+            sideFeatured.map((article) => (
+              <article class="featured-item">
+                <a class="badge" href={`/artikel/?pillar=${article.data.pillar}`}>
+                  {pillarLabel(article.data.pillar)}
+                </a>
+                <h3>
+                  <a href={`/artikel/${article.id}/`}>{article.data.title}</a>
+                </h3>
+                <p>{article.data.description}</p>
+              </article>
+            ))
+          }
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Artikel terbaru</h2>
+      </div>
+      <div class="grid grid-3">
+        {
+          latest.map((article) => (
+            <ArticleCard
+              title={article.data.title}
+              description={article.data.description}
+              href={`/artikel/${article.id}/`}
+              pillarLabel={pillarLabel(article.data.pillar)}
+              publishedAt={article.data.publishedAt}
+              updatedAt={article.data.updatedAt}
+            />
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  {
+    PILLAR_LIST.map((pillar) => {
+      const pillarArticles = articles.filter((a) => a.data.pillar === pillar.id);
+      if (pillarArticles.length === 0) return null;
+      const pillarImages = {
+        'kenali-alat': './images/pillar-alat.svg',
+        'panduan-penggunaan': './images/pillar-panduan.svg',
+        'bahan-habis-pakai': './images/pillar-bahan.svg',
+        'perawatan-keselamatan': './images/pillar-keselamatan.svg',
+        'teknik-dasar': './images/pillar-teknik.svg',
+        'pemecahan-masalah': './images/pillar-masalah.svg',
+      };
+      return (
+        <section class="section pillar-section">
+          <div class="container">
+            <div class="section-header">
+              <div class="section-header-title">
+                <img class="pillar-icon" src={pillarImages[pillar.id]} alt="" width="60" height="40" />
+                <h2>{pillar.label}</h2>
+              </div>
+              <a class="more-link" href={`/artikel/?pillar=${pillar.id}`}>
+                Selengkapnya →
+              </a>
+            </div>
+            {pillarArticles.length === 0 && (
+              <div class="empty-state">
+                <p>Belum ada artikel di kategori ini. Artikel baru akan segera menyusul.</p>
+              </div>
+            )}
+            {pillarArticles.length > 0 && (
+              <div class="grid grid-3">
+                {pillarArticles.slice(0, 3).map((article) => (
+                  <ArticleCard
+                    title={article.data.title}
+                    description={article.data.description}
+                    href={`/artikel/${article.id}/`}
+                    publishedAt={article.data.publishedAt}
+                    updatedAt={article.data.updatedAt}
+                  />
+                ))}
+              </div>
+            )}
+          </div>
+        </section>
+      );
+    })
+  }
+
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Jelajahi per topik</h2>
+      </div>
+      <ul class="pillar-grid">
+        {
+          PILLAR_LIST.map((pillar, i) => (
+            <li>
+              <a href={`/artikel/?pillar=${pillar.id}`}>
+                <span class="pillar-num">{String(i + 1).padStart(2, '0')}</span>
+                <span class="pillar-title">{pillar.label}</span>
+                <span class="pillar-desc">{pillarDesc[pillar.id]}</span>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </section>
+</BaseLayout>

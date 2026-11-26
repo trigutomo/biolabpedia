@@ -1,0 +1,146 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { PILLAR_LIST } from '../../content.config';
+
+const articles = (await getCollection('articles'))
+  .sort((a, b) => b.data.publishedAt.getTime() - a.data.publishedAt.getTime())
+  .map((entry) => ({
+    id: entry.id,
+    title: entry.data.title,
+    description: entry.data.description,
+    pillar: entry.data.pillar,
+    publishedAt: entry.data.publishedAt.toISOString(),
+    updatedAt: entry.data.updatedAt?.toISOString() ?? null,
+    tags: entry.data.tags,
+    href: `/artikel/${entry.id}/`,
+  }));
+
+const pillarLabel = (id: string) => PILLAR_LIST.find((p) => p.id === id)?.label ?? id;
+const fmt = (d: Date) =>
+  d.toLocaleDateString('id-ID', { year: 'numeric', month: 'long', day: 'numeric' });
+---
+
+<BaseLayout
+  title="Arsip Artikel"
+  description="Cari dan telusuri seluruh artikel Biolabpedia tentang alat, teknik, bahan, dan keselamatan laboratorium biologi."
+>
+  <section class="hero" style="padding:3.25rem 0 2.25rem">
+    <div class="container">
+      <span class="kicker">Arsip</span>
+      <h1 style="max-width:14ch">Semua artikel</h1>
+      <p class="lead" style="font-size:1.15rem">
+        {articles.length} artikel tentang alat, teknik, bahan, dan praktik laboratorium biologi.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="controls">
+        <input
+          type="search"
+          id="search-input"
+          placeholder="Cari artikel…"
+          aria-label="Cari artikel"
+        />
+        <div class="filter-group" id="filter-group" role="group" aria-label="Filter kategori">
+          <button class="filter-btn" type="button" data-pillar="all" aria-pressed="true">Semua</button>
+          {
+            PILLAR_LIST.map((pillar) => (
+              <button class="filter-btn" type="button" data-pillar={pillar.id} aria-pressed="false">
+                {pillar.short}
+              </button>
+            ))
+          }
+        </div>
+      </div>
+
+      <p id="result-count" aria-live="polite"></p>
+
+      <ul class="article-list" id="article-list">
+        {
+          articles.map((article) => (
+            <li
+              data-article
+              data-pillar={article.pillar}
+              data-search={`${article.title} ${article.description} ${article.tags.join(' ')}`.toLowerCase()}
+            >
+              <article class="article-row">
+                <a class="badge" href={`/artikel/?pillar=${article.pillar}`}>
+                  {pillarLabel(article.pillar)}
+                </a>
+                <h3>
+                  <a href={article.href}>{article.title}</a>
+                </h3>
+                <p>{article.description}</p>
+                <p class="meta">
+                  <span>Terbit {fmt(new Date(article.publishedAt))}</span>
+                  {article.updatedAt && <span>Diperbarui {fmt(new Date(article.updatedAt))}</span>}
+                </p>
+              </article>
+            </li>
+          ))
+        }
+      </ul>
+
+      <div class="no-results" id="no-results" hidden>
+        Tidak ada artikel yang cocok. Coba kata kunci lain atau pilih kategori “Semua”.
+      </div>
+    </div>
+  </section>
+
+  <script is:inline define:vars={{ articleCount: articles.length }}>
+    (function () {
+      const input = document.getElementById('search-input');
+      const buttons = document.querySelectorAll('.filter-btn');
+      const items = document.querySelectorAll('[data-article]');
+      const count = document.getElementById('result-count');
+      const empty = document.getElementById('no-results');
+
+      let activePillar = 'all';
+
+      const params = new URLSearchParams(window.location.search);
+      const initialPillar = params.get('pillar');
+      if (initialPillar) {
+        const match = Array.from(buttons).find((b) => b.dataset.pillar === initialPillar);
+        if (match) activePillar = initialPillar;
+      }
+
+      function apply() {
+        const query = (input.value || '').trim().toLowerCase();
+        let visible = 0;
+
+        items.forEach(function (item) {
+          const matchPillar = activePillar === 'all' || item.dataset.pillar === activePillar;
+          const matchQuery = !query || item.dataset.search.includes(query);
+          const show = matchPillar && matchQuery;
+          item.hidden = !show;
+          if (show) visible += 1;
+        });
+
+        count.textContent = visible + ' dari ' + articleCount + ' artikel';
+        empty.hidden = visible > 0;
+
+        buttons.forEach(function (btn) {
+          btn.setAttribute('aria-pressed', String(btn.dataset.pillar === activePillar));
+        });
+
+        const url = new URL(window.location.href);
+        if (activePillar === 'all') url.searchParams.delete('pillar');
+        else url.searchParams.set('pillar', activePillar);
+        history.replaceState(null, '', url);
+      }
+
+      input.addEventListener('input', apply);
+      buttons.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          activePillar = btn.dataset.pillar;
+          apply();
+        });
+      });
+
+      apply();
+    })();
+  </script>
+</section>
