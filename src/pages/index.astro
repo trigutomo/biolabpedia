@@ -2,7 +2,6 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import HomeStoryCard from '../components/HomeStoryCard.astro';
-import HomeAdSlot from '../components/HomeAdSlot.astro';
 import { PILLAR_LIST } from '../content.config';
 
 const articles = (await getCollection('articles')).sort(
@@ -43,8 +42,6 @@ const pillarSections = PILLAR_LIST.map((pillar) => ({
   description="Biolabpedia adalah media edukasi tentang alat, perlengkapan, teknik, dan praktik laboratorium biologi untuk mahasiswa dan praktisi."
   variant="home"
 >
-  <HomeAdSlot slot="top-ad" size="billboard" />
-
   <section class="home-intro">
     <div class="container home-intro__inner">
       <div>
@@ -105,8 +102,6 @@ const pillarSections = PILLAR_LIST.map((pillar) => ({
     </div>
   </section>
 
-  <HomeAdSlot />
-
   <section class="home-topics container" id="topik" aria-labelledby="home-topics-title">
     <div class="home-section-heading">
       <div>
@@ -156,8 +151,7 @@ const pillarSections = PILLAR_LIST.map((pillar) => ({
   </section>
 
   {
-    pillarSections.map(({ pillar, articles: pillarArticles }, index) => (
-      <Fragment>
+    pillarSections.map(({ pillar, articles: pillarArticles }) => (
         <section class="home-category-section container" aria-labelledby={`pillar-${pillar.id}`}>
           <div class="home-section-heading">
             <div>
@@ -181,8 +175,6 @@ const pillarSections = PILLAR_LIST.map((pillar) => ({
             }
           </div>
         </section>
-        {(index === 1 || index === 4) && <HomeAdSlot />}
-      </Fragment>
     ))
   }
 </BaseLayout>
