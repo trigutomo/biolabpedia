@@ -3,19 +3,17 @@ interface Props {
   title: string;
   description: string;
   href: string;
-  pillarLabel?: string;
   publishedAt: Date;
   updatedAt?: Date;
 }
 
-const { title, description, href, pillarLabel, publishedAt, updatedAt } = Astro.props;
+const { title, description, href, publishedAt, updatedAt } = Astro.props;
 
 const fmt = (d: Date) =>
   d.toLocaleDateString('id-ID', { year: 'numeric', month: 'long', day: 'numeric' });
 ---
 
 <article class="article-row">
-  {pillarLabel && <a class="badge" href={`/artikel/?pillar=${encodeURIComponent(pillarLabel)}`}>{pillarLabel}</a>}
   <h3><a href={href}>{title}</a></h3>
   <p>{description}</p>
   <p class="meta">

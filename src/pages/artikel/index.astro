@@ -16,7 +16,6 @@ const articles = (await getCollection('articles'))
     href: `/artikel/${entry.id}/`,
   }));
 
-const pillarLabel = (id: string) => PILLAR_LIST.find((p) => p.id === id)?.label ?? id;
 const fmt = (d: Date) =>
   d.toLocaleDateString('id-ID', { year: 'numeric', month: 'long', day: 'numeric' });
 ---
@@ -67,9 +66,6 @@ const fmt = (d: Date) =>
               data-search={`${article.title} ${article.description} ${article.tags.join(' ')}`.toLowerCase()}
             >
               <article class="article-row">
-                <a class="badge" href={`/artikel/?pillar=${article.pillar}`}>
-                  {pillarLabel(article.pillar)}
-                </a>
                 <h3>
                   <a href={article.href}>{article.title}</a>
                 </h3>

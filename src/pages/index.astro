@@ -12,8 +12,6 @@ const lead = featured[0] ?? articles[0];
 const sideFeatured = featured.slice(1, 4);
 const latest = articles.filter((a) => a.id !== lead?.id).slice(0, 6);
 
-const pillarLabel = (id: string) => PILLAR_LIST.find((p) => p.id === id)?.label ?? id;
-
 const fmt = (d: Date) =>
   d.toLocaleDateString('id-ID', { year: 'numeric', month: 'long', day: 'numeric' });
 
@@ -64,9 +62,6 @@ const pillarDesc: Record<string, string> = {
         {
           lead && (
             <article class="featured-lead">
-              <a class="badge" href={`/artikel/?pillar=${lead.data.pillar}`}>
-                {pillarLabel(lead.data.pillar)}
-              </a>
               <h3>
                 <a href={`/artikel/${lead.id}/`}>{lead.data.title}</a>
               </h3>
@@ -83,9 +78,6 @@ const pillarDesc: Record<string, string> = {
           {
             sideFeatured.map((article) => (
               <article class="featured-item">
-                <a class="badge" href={`/artikel/?pillar=${article.data.pillar}`}>
-                  {pillarLabel(article.data.pillar)}
-                </a>
                 <h3>
                   <a href={`/artikel/${article.id}/`}>{article.data.title}</a>
                 </h3>
@@ -110,7 +102,6 @@ const pillarDesc: Record<string, string> = {
               title={article.data.title}
               description={article.data.description}
               href={`/artikel/${article.id}/`}
-              pillarLabel={pillarLabel(article.data.pillar)}
               publishedAt={article.data.publishedAt}
               updatedAt={article.data.updatedAt}
             />
