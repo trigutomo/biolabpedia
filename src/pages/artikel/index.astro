@@ -21,22 +21,19 @@ const fmt = (d: Date) =>
 ---
 
 <BaseLayout
-  title="Arsip Artikel"
-  description="Cari dan telusuri seluruh artikel Biolabpedia tentang alat, teknik, bahan, dan keselamatan laboratorium biologi."
+  title="Semua Artikel"
+  description="Tentang alat, teknik, bahan, dan praktik laboratorium biologi."
 >
-  <section class="hero" style="padding:3.25rem 0 2.25rem">
+  <section class="article-index-hero">
     <div class="container">
-      <span class="kicker">Arsip</span>
-      <h1 style="max-width:14ch">Semua artikel</h1>
-      <p class="lead" style="font-size:1.15rem">
-        {articles.length} artikel tentang alat, teknik, bahan, dan praktik laboratorium biologi.
-      </p>
+      <h1>Semua Artikel</h1>
+      <p>Tentang alat, teknik, bahan, dan praktik laboratorium biologi.</p>
     </div>
   </section>
 
-  <section class="section">
+  <section class="section article-index-section">
     <div class="container">
-      <div class="controls">
+      <div class="controls article-index-controls">
         <input
           type="search"
           id="search-input"
@@ -83,40 +80,99 @@ const fmt = (d: Date) =>
       <div class="no-results" id="no-results" hidden>
         Tidak ada artikel yang cocok. Coba kata kunci lain atau pilih kategori “Semua”.
       </div>
+
+      <nav class="article-pagination" id="article-pagination" aria-label="Halaman artikel" hidden></nav>
     </div>
   </section>
 
-  <script is:inline define:vars={{ articleCount: articles.length }}>
+  <script is:inline>
     (function () {
       const input = document.getElementById('search-input');
       const buttons = document.querySelectorAll('.filter-btn');
       const items = document.querySelectorAll('[data-article]');
       const count = document.getElementById('result-count');
       const empty = document.getElementById('no-results');
+      const pagination = document.getElementById('article-pagination');
+      const pageSize = 10;
 
       let activePillar = 'all';
+      let activePage = 1;
 
       const params = new URLSearchParams(window.location.search);
       const initialPillar = params.get('pillar');
+      const initialPage = Number.parseInt(params.get('page') || '1', 10);
+      if (Number.isFinite(initialPage) && initialPage > 0) activePage = initialPage;
       if (initialPillar) {
         const match = Array.from(buttons).find((b) => b.dataset.pillar === initialPillar);
         if (match) activePillar = initialPillar;
       }
 
+      function addPageButton(label, ariaLabel, page, className, disabled) {
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.className = className;
+        button.textContent = label;
+        button.setAttribute('aria-label', ariaLabel);
+        button.disabled = disabled;
+        button.addEventListener('click', function () {
+          activePage = page;
+          apply();
+          document.getElementById('article-list').scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+        pagination.appendChild(button);
+      }
+
+      function renderPagination(totalPages) {
+        pagination.replaceChildren();
+        pagination.hidden = totalPages <= 1;
+        if (totalPages <= 1) return;
+
+        addPageButton('‹', 'Halaman sebelumnya', Math.max(1, activePage - 1), 'article-pagination__step', activePage === 1);
+        for (let page = 1; page <= totalPages; page += 1) {
+          const button = document.createElement('button');
+          button.type = 'button';
+          button.className = 'article-pagination__number';
+          button.textContent = String(page);
+          button.setAttribute('aria-label', 'Halaman ' + page);
+          if (page === activePage) {
+            button.setAttribute('aria-current', 'page');
+            button.disabled = true;
+          } else {
+            button.addEventListener('click', function () {
+              activePage = page;
+              apply();
+              document.getElementById('article-list').scrollIntoView({ behavior: 'smooth', block: 'start' });
+            });
+          }
+          pagination.appendChild(button);
+        }
+        addPageButton('›', 'Halaman berikutnya', Math.min(totalPages, activePage + 1), 'article-pagination__step', activePage === totalPages);
+      }
+
       function apply() {
         const query = (input.value || '').trim().toLowerCase();
-        let visible = 0;
+        const matchedItems = [];
 
         items.forEach(function (item) {
           const matchPillar = activePillar === 'all' || item.dataset.pillar === activePillar;
           const matchQuery = !query || item.dataset.search.includes(query);
-          const show = matchPillar && matchQuery;
-          item.hidden = !show;
-          if (show) visible += 1;
+          item.hidden = true;
+          if (matchPillar && matchQuery) matchedItems.push(item);
         });
 
-        count.textContent = visible + ' dari ' + articleCount + ' artikel';
-        empty.hidden = visible > 0;
+        const totalPages = Math.max(1, Math.ceil(matchedItems.length / pageSize));
+        if (activePage > totalPages) activePage = totalPages;
+        const start = (activePage - 1) * pageSize;
+        const pageItems = matchedItems.slice(start, start + pageSize);
+        pageItems.forEach((item) => { item.hidden = false; });
+
+        const firstResult = matchedItems.length ? start + 1 : 0;
+        const lastResult = Math.min(start + pageSize, matchedItems.length);
+        count.textContent = matchedItems.length
+          ? 'Menampilkan ' + firstResult + '–' + lastResult + ' dari ' + matchedItems.length + ' artikel'
+          : '0 artikel ditemukan';
+        empty.hidden = matchedItems.length > 0;
+        renderPagination(totalPages);
 
         buttons.forEach(function (btn) {
           btn.setAttribute('aria-pressed', String(btn.dataset.pillar === activePillar));
@@ -125,13 +181,19 @@ const fmt = (d: Date) =>
         const url = new URL(window.location.href);
         if (activePillar === 'all') url.searchParams.delete('pillar');
         else url.searchParams.set('pillar', activePillar);
+        if (activePage === 1) url.searchParams.delete('page');
+        else url.searchParams.set('page', String(activePage));
         history.replaceState(null, '', url);
       }
 
-      input.addEventListener('input', apply);
+      input.addEventListener('input', function () {
+        activePage = 1;
+        apply();
+      });
       buttons.forEach(function (btn) {
         btn.addEventListener('click', function () {
           activePillar = btn.dataset.pillar;
+          activePage = 1;
           apply();
         });
       });
