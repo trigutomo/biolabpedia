@@ -1,81 +1,68 @@
----
 import BaseLayout from '../layouts/BaseLayout.astro';
 ---
 
 <BaseLayout
   title="Tentang Biolabpedia"
-  description="Misi, prinsip editorial, dan cara menghubungi atau mengirim usulan topik ke Biolabpedia."
+  description="Mengenal tujuan, prinsip editorial, dan tim di balik Biolabpedia."
 >
-  <section class="hero">
-    <div class="container">
-      <span class="kicker">Tentang</span>
-      <h1 style="max-width:16ch">Tentang Biolabpedia</h1>
-      <p class="lead">
-        Media edukasi independen tentang alat, perlengkapan, teknik, dan praktik
-        laboratorium biologi.
+  <section class="about-hero">
+    <div class="container about-hero__inner">
+      <p class="about-eyebrow">Tentang Kami</p>
+      <h1>Pengetahuan laboratorium yang jelas dan dapat dipercaya.</h1>
+      <p class="about-hero__lead">
+        Biolabpedia membantu mahasiswa dan praktisi memahami alat, bahan, teknik, dan
+        praktik kerja di laboratorium biologi.
       </p>
     </div>
   </section>
 
-  <section class="section">
-    <div class="container prose prose-wide">
-      <h2>Misi</h2>
-      <p>
-        Biolabpedia membantu mahasiswa dan praktisi laboratorium memahami fungsi alat,
-        prinsip kerja, cara penggunaan yang benar, perawatan, serta teknik dasar yang
-        dipakai sehari-hari di laboratorium biologi. Tujuannya adalah literasi teknis yang
-        jelas dan tepercaya — bukan promosi produk.
+  <section class="about-content">
+    <div class="container about-grid">
+      <article class="about-card about-mission">
+        <span class="about-card__index">01</span>
+        <h2>Tujuan Kami</h2>
+        <p>
+          Kami menyajikan penjelasan praktis tentang fungsi alat, prinsip kerja, penggunaan,
+          perawatan, dan teknik dasar laboratorium. Tujuannya adalah membantu pembaca bekerja
+          dengan pemahaman yang lebih baik, bukan mempromosikan produk.
+        </p>
+      </article>
+
+      <article class="about-card about-editorial">
+        <span class="about-card__index">02</span>
+        <h2>Prinsip Editorial</h2>
+        <ul class="about-principles">
+          <li><strong>Akurat.</strong> Informasi teknis merujuk pada manual, SOP, SDS, atau sumber tepercaya.</li>
+          <li><strong>Sesuai konteks.</strong> Panduan umum dapat berbeda menurut alat, sampel, protokol, dan aturan laboratorium.</li>
+          <li><strong>Terbuka pada koreksi.</strong> Rujukan disertakan dan artikel ditinjau ulang saat informasi berubah.</li>
+          <li><strong>Independen.</strong> Penyebutan merek hanya untuk konteks edukasi; Biolabpedia bukan toko.</li>
+        </ul>
+      </article>
+
+      <article class="about-card about-authors">
+        <span class="about-card__index">03</span>
+        <h2>Di Balik Artikel</h2>
+        <p>
+          Artikel disusun dengan mengacu pada manual produsen, SOP laboratorium, SDS, serta
+          sumber ilmiah dan pendidikan. Jika Anda menemukan informasi yang kurang tepat atau
+          sudah usang, masukan Anda membantu kami memperbaikinya.
+        </p>
+      </article>
+
+      <aside class="about-contact">
+        <p class="about-contact__eyebrow">Ada pertanyaan atau usulan?</p>
+        <h2>Mari membuat referensi laboratorium lebih berguna.</h2>
+        <p>Kirim koreksi atau usulan topik ke redaksi Biolabpedia.</p>
+        <a class="about-contact__link" href="mailto:redaksi@biolabpedia.com">redaksi@biolabpedia.com</a>
+        <p class="about-contact__note">Untuk usulan artikel, sertakan topik dan rujukan awal bila tersedia.</p>
+      </aside>
+    </div>
+
+    <div class="container">
+      <p class="about-disclaimer">
+        Informasi di Biolabpedia bersifat edukasi umum dan tidak menggantikan SOP, manual
+        instrumen, SDS, atau arahan pengawas laboratorium. Selalu ikuti aturan keselamatan setempat.
       </p>
-
-      <h2>Prinsip editorial</h2>
-      <ul>
-        <li>
-          <strong>Akurat dan dapat diverifikasi.</strong> Spesifikasi, prosedur, klaim
-          keselamatan, dan hasil tidak dikarang. Detail model dirujuk ke manual produsen,
-          prosedur ke SOP laboratorium, dan informasi bahan ke SDS (Safety Data Sheet).
-        </li>
-        <li>
-          <strong>Konteks ditegaskan.</strong> Panduan bersifat umum dan dapat berbeda
-          menurut model alat, sampel, protokol, serta aturan laboratorium masing-masing.
-        </li>
-        <li>
-          <strong>Sumber dicantumkan.</strong> Artikel teknis menyertakan rujukan, dan isi
-          ditinjau ulang bila informasinya berubah (tanggal pembaruan ditampilkan).
-        </li>
-        <li>
-          <strong>Merek kontekstual, bukan endorsement.</strong> Penyebutan produk atau merek
-          hanya sebagai contoh edukasi.
-        </li>
-        <li>
-          <strong>Bukan toko.</strong> Tidak ada harga, keranjang belanja, atau ajakan
-          membeli.
-        </li>
-      </ul>
-
-      <h2>Siapa yang menulis</h2>
-      <p>
-        Artikel disusun dengan rujukan manual produsen, SOP laboratorium, SDS, serta sumber
-        ilmiah dan pendidikan tepercaya. Bila Anda menemukan informasi yang keliru atau
-        usang, kabar itu sangat membantu perbaikan.
-      </p>
-
-      <h2>Kontak dan usulan topik</h2>
-      <p>
-        Punya pertanyaan, koreksi, atau usulan topik? Kirim ke:
-      </p>
-      <ul>
-        <li>Email: <a href="mailto:redaksi@biolabpedia.com">redaksi@biolabpedia.com</a></li>
-        <li>
-          Sertakan judul usulan, pilar topik yang relevan, dan bila ada, rujukan awal
-          (manual, SOP, atau literatur).
-        </li>
-      </ul>
-
-      <div class="disclaimer">
-        Konten Biolabpedia adalah informasi edukasi umum, bukan pengganti SOP, manual
-        instrumen, SDS, atau bimbingan pengawas laboratorium. Selamanya utamakan peraturan
-        keselamatan setempat.
-      </div>
     </div>
   </section>
 </BaseLayout>

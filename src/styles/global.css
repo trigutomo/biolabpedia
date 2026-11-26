@@ -96,6 +96,7 @@ img {
   position: sticky;
   top: 0;
   z-index: 10;
+  box-shadow: 0 2px 7px rgba(22, 49, 66, 0.09);
 }
 
 .site-header .container {
@@ -1233,7 +1234,7 @@ img {
 
 
 /* Biolabpedia editorial rhythm and identity */
-.page-home .site-header { border:0; box-shadow:none; }
+.page-home .site-header { border:0; box-shadow:0 2px 7px rgba(22, 49, 66, 0.09); }
 .site-header .site-header__inner { min-height:0; padding-top:1rem; padding-bottom:.85rem; display:flex; align-items:center; justify-content:space-between; gap:2rem; }
 .brand-lockup { display:flex; flex-direction:column; align-items:flex-start; gap:.25rem; }
 .brand-wordmark { display:inline-flex; align-items:baseline; gap:0; color:#173e56; font-family:var(--font-display); font-size:1.8rem; font-weight:700; line-height:1; letter-spacing:-.055em; text-decoration:none; }
@@ -1277,6 +1278,31 @@ img {
  .site-footer__note { border-left:0; padding-left:0; }
 }
 @media(max-width:420px) { .site-footer__inner { grid-template-columns:1fr; } .site-footer__brand { grid-column:auto; } }
+
+/* About page: calm editorial layout */
+.about-hero { padding:clamp(3.25rem,7vw,5.75rem) 0 clamp(2.75rem,5vw,4.25rem); background:linear-gradient(115deg,#edf4f3 0%,#f7f9f8 68%,#f1f5f4 100%); }
+.about-hero__inner { max-width:72rem; }
+.about-eyebrow,.about-contact__eyebrow { margin:0 0 .9rem; color:#397d7b; font:700 .76rem/1.4 var(--font-sans); letter-spacing:.12em; text-transform:uppercase; }
+.about-hero h1 { max-width:19ch; margin:0; color:#173e56; font:700 clamp(2.35rem,5.2vw,3.8rem)/1.08 var(--font-display); letter-spacing:-.04em; }
+.about-hero__lead { max-width:59ch; margin:1.2rem 0 0; color:#526c77; font:400 clamp(1.05rem,1.8vw,1.2rem)/1.7 var(--font-sans); }
+.about-content { padding:clamp(2.5rem,5vw,4rem) 0 1rem; }
+.about-grid { display:grid; grid-template-columns:1fr 1fr; gap:1.25rem; align-items:stretch; }
+.about-card { position:relative; padding:clamp(1.35rem,2.6vw,2rem); background:#fff; border:1px solid #e4ebea; border-radius:10px; box-shadow:0 8px 26px rgba(25,56,68,.035); }
+.about-card__index { display:block; margin-bottom:1.15rem; color:#55918e; font:600 .78rem/1 var(--font-sans); letter-spacing:.09em; }
+.about-card h2,.about-contact h2 { margin:0 0 .8rem; color:#173e56; font:600 clamp(1.35rem,2.3vw,1.7rem)/1.2 var(--font-display); letter-spacing:-.02em; }
+.about-card p { margin:0; color:#526570; font:400 1rem/1.75 var(--font-sans); }
+.about-principles { display:grid; gap:.75rem; margin:0; padding:0; list-style:none; color:#526570; font:400 .96rem/1.65 var(--font-sans); }
+.about-principles li { padding-left:1rem; border-left:2px solid #c9dfdc; }
+.about-principles strong { color:#234b5c; font-weight:650; }
+.about-contact { grid-column:1/-1; padding:clamp(1.6rem,3vw,2.4rem); border-radius:10px; background:#173e56; color:#e6f0f1; }
+.about-contact__eyebrow { color:#9fd1ca; }
+.about-contact h2 { max-width:30ch; color:#fff; }
+.about-contact > p:not(.about-contact__eyebrow):not(.about-contact__note) { margin:.35rem 0 .55rem; color:#d2e0e2; font:400 .98rem/1.6 var(--font-sans); }
+.about-contact__link { display:inline-block; color:#a9ddd5; font:600 1.05rem/1.6 var(--font-sans); text-underline-offset:3px; }
+.about-contact__link:hover { color:#fff; }
+.about-contact__note { margin:.8rem 0 0; color:#bdced2; font:400 .88rem/1.5 var(--font-sans); }
+.about-disclaimer { max-width:92ch; margin:1.5rem auto 0; padding:1rem 1.1rem; border-left:3px solid #b9d7d2; color:#687b82; font:400 .86rem/1.65 var(--font-sans); }
+@media(max-width:700px) { .about-grid { grid-template-columns:1fr; gap:.9rem; } .about-contact { grid-column:auto; } .about-hero { padding-top:3rem; } }
 
 
 /* Comfortable padding for every article card */
