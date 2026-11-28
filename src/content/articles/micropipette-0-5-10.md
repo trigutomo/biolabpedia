@@ -1,51 +1,45 @@
 ---
-title: Micropipette volume 0,5–10 µL
-description: |-
-  Micropipette rentang 0,5–10 µL (P10): alat utama untuk transfer volume kecil pada PCR dan kerja molekuler, panduan penggunaan, dan cara menjaga akurasi.
+title: "Micropipette 0,5–10 µL: Pilih Rentang Tepat untuk Volume Kecil"
+description: >-
+  Kenali penggunaan micropipette 0,5–10 µL dan cara menyiapkan transfer volume kecil agar lebih konsisten pada pekerjaan molekuler maupun preparasi sampel.
 pillar: kenali-alat
 publishedAt: 2026-11-24
+updatedAt: 2026-11-28
 tags: [micropipette, "P10", volume kecil, PCR, DragonLab]
+featured: false
 author: Redaksi Biolabpedia
 readingTime: 2
+sources:
+  - label: "Eppendorf — Liquid handling FAQ"
+    url: "https://www.eppendorf.com/us-en/lab-academy/life-science/microbiology/liquid-handling-faq/"
+  - label: "Eppendorf — Manual pipetting techniques"
+    url: "https://www.eppendorf.com/product-media/doc/en/72923/Eppendorf_Liquid-Handling_Poster_Manual-Pipettes_Pipetting-Techniques.pdf"
 ---
 
-Micropipette rentang 0,5–10 µL (P10) adalah salah satu alat paling sering dipakai di laboratorium molekuler. Rentang ini menutup kebutuhan penambahan reagen PCR, enzim, primer, dan template dalam satuan mikroliter.
+Volume target sebaiknya berada dalam rentang operasional yang direkomendasikan pipet, bukan sekadar di bawah kapasitas maksimum. Pada volume kecil, pemilihan tip, kecepatan aspirasi, dan suhu sampel ikut memengaruhi volume yang terkirim.
 
-## Kapan digunakan
+![Micropipette 0,5–10 µL: Pilih Rentang Tepat untuk Volume Kecil — ilustrasi editorial Biolabpedia](/images/articles/pipetting-indonesia.png)
 
-- Penyiapan master mix dan penambahan reagen PCR (volume umum 0,5–5 µL).
-- Transfer sampel DNA/RNA dalam jumlah kecil.
-- Penambahan enzim, pewarna, atau larutan standar.
+## Hal yang Perlu Dipahami
 
-## Menjaga akurasi
+Cocokkan tipe tip, set volume sebelum aspirasi, dan tekan plunger sampai stop pertama untuk mengambil cairan pada mode forward pipetting. Aspirasi perlahan, beri jeda singkat, lalu dispensasi sampai stop kedua. Gunakan teknik lain hanya jika tervalidasi untuk sampel.
 
-- **Volume ideal** — akurasi terbaik di tengah rentang (sekitar 3–7 µL). Untuk volume tepat 10 µL, pertimbangkan alat rentang lebih besar agar tidak di ujung batas.
-- **Tips yang tepat** — gunakan tips 10 µL (filter tips untuk kerja sensitif). Tips yang longgar membuat volume meleset.
-- **Teknik plunger** — tekan ke first stop sebelum masuk cairan, tarik perlahan, dorong sampai second stop untuk mengeluarkan sisa.
-- **Hindari gelembung** — gelembung kecil pun mengubah volume pada rentang mikro.
+> **Baca juga:** [Micropipette 0,1–2,5 µL: Menjaga Presisi pada Volume Mikro](/artikel/micropipette-0-1-2-5/)
 
-## Kesalahan umum
+## Pemeriksaan Sebelum dan Sesudah Pipetting
 
-- Memakai tips yang tidak presisi atau aus.
-- Memiringkan pipette saat menarik cairan (udara ikut terisap).
-- Bekerja terlalu cepat sehingga timbul gelembung.
-- Memakai ulang tips antar sampel (kontaminasi silang).
+Cocokkan alat dan tip, periksa kebocoran atau kerusakan, lalu gunakan gerakan yang konsisten. Ganti tip di antara sampel dan buang dengan ejector. Bila hasil kuantitatif penting, cek pipet dan teknik operator dengan prosedur verifikasi laboratorium.
 
-## Perawatan
+Untuk cairan kental, volatil, atau mudah berbusa, teknik forward pipetting standar mungkin tidak memberi pemulihan terbaik. Pertimbangkan tip low-retention atau wide-bore dan teknik alternatif hanya bila direkomendasikan metode. Catat pipet, tip, volume, dan operator ketika mengevaluasi variasi.
 
-- Jangan merendam badan alat; bersihkan dengan kain lembut bila terkena percikan.
-- Simpan tegak pada rak dengan plunger longgar.
-- Kalibrasi berkala — krusial untuk hasil uji dan penelitian.
+## Jika Hasil Belum Konsisten
 
-## Pertanyaan yang sering muncul
+Ubah satu faktor dalam satu waktu dan bandingkan dengan kontrol atau kondisi yang telah diketahui bekerja. Periksa catatan operator, alat, bahan, waktu, dan lingkungan sebelum mengulang seluruh pekerjaan. Pendekatan ini membantu membedakan masalah teknik dari masalah sampel atau reagen.
 
-**Bisakah dipakai untuk volume 10 µL?**
-Bisa, tetapi tepat di batas atas rentang. Untuk volume sering 10 µL, alat rentang 10–100 µL lebih stabil. Idealnya gunakan alat yang volume targetnya di tengah rentang.
+## Kesimpulan Praktis
 
-**Kenapa ada gelembung di tips?**
-Plunger dilepas terlalu cepat. Tarik perlahan dan tahan sebentar sebelum memindahkan.
+Micropipette 0,5–10 µL perlu dipilih dan digunakan berdasarkan kebutuhan metode, spesifikasi produk, dan SOP laboratorium. Simpan catatan setelan serta lot bahan agar hasil dapat ditelusuri dan diulang.
 
-**Perlu filter tips?**
-Untuk PCR, RNA, atau sampel sensitif — ya. Untuk kerja rutin yang tidak sensitif, tips standar cukup dan lebih hemat.
+> **Baca juga:** [Pipetting Tidak Konsisten? Periksa 6 Kesalahan yang Sering Terjadi](/artikel/kesalahan-umum-pipetting/)
 
-> Catatan: rentang dan spesifikasi akurasi berbeda antar model dan merek (misalnya DragonLab). Rujuk manual produsen.
+Catatan: panduan ini bersifat umum. Ikuti manual model, label produk, SDS, dan SOP laboratorium yang berlaku.

@@ -1,41 +1,45 @@
 ---
-title: Filter tips rack 100 µL
-description: |-
-  Filter tips rack ukuran 100 µL untuk micropipette P100: peran barrier filter pada volume kecil, kapan dipilih dibanding ukuran lain, dan praktik penanganannya.
+title: "Filter Tips 100 µL dalam Rack: Kecocokan Tip dan Pipet"
+description: >-
+  Panduan singkat menggunakan filter tips 100 µL dalam rack: cek rentang volume, pasang tip dengan benar, dan cegah kontaminasi silang saat memindahkan sampel.
 pillar: bahan-habis-pakai
 publishedAt: 2026-11-24
+updatedAt: 2026-11-28
 tags: [filter tips, rack, "100 µL", aerosol, pipette tips]
+featured: false
 author: Redaksi Biolabpedia
-readingTime: 1
+readingTime: 2
+sources:
+  - label: "Thermo Fisher — Choosing the right pipette tip"
+    url: "https://www.thermofisher.com/us/en/home/life-science/lab-plasticware-supplies/lab-plasticware-supplies-learning-center/lab-plasticware-supplies-resource-library/fundamentals-of-pipetting/liquid-handling-selection/selecting-the-right-pipette-tip.html"
+  - label: "Eppendorf — Liquid handling FAQ"
+    url: "https://www.eppendorf.com/us-en/lab-academy/life-science/microbiology/liquid-handling-faq/"
 ---
 
-Filter tips rack 100 µL adalah pipette tips ber-barrier filter untuk micropipette berkapasitas 10–100 µL. Tips ini menutup rentang volume kecil–sedang yang banyak dipakai pada penyiapan reagen dan transfer sampel molekuler.
+Rack menghemat waktu pada pekerjaan berulang karena tip tersusun dan mudah dijangkau. Ukuran 100 µL menggambarkan kapasitas tip, bukan jaminan bahwa semua volume di dalamnya dapat dipipet dengan akurasi yang sama.
 
-## Fungsi barrier filter
+![Filter Tips 100 µL dalam Rack: Kecocokan Tip dan Pipet — ilustrasi editorial Biolabpedia](/images/articles/bahan-habis-pakai.png)
 
-Filter di dalam tips mencegah aerosol dan cairan masuk ke badan alat. Pada volume kecil, kesalahan volume yang kecil pun bisa berdampak besar pada hasil, sehingga menjaga kebersihan alat dan sampel menjadi krusial.
+## Hal yang Perlu Dipahami
 
-- Mengurangi kontaminasi silang antar sampel.
-- Melindungi sampel RNA/DNA dari nuklease yang tertinggal di alat.
-- Memperpanjang umur piston dan seal micropipette.
+Gunakan pada rentang yang tervalidasi untuk pipet dan assay. Tekan pipet tegak lurus secukupnya untuk membuat seal yang baik tanpa merusak tip; setelah transfer, buang tip dengan ejector dan jangan menyentuh rack dengan tip bekas.
 
-## Kapan memilih ukuran 100 µL
+> **Baca juga:** [Filter Tips 100 µL Kemasan Bag: Pilih Berdasarkan Assay](/artikel/filter-tips-bag-100/)
 
-- Volume kerja berkisar 10–100 µL.
-- Penyiapan reagen PCR, enzim, atau pewarna dalam jumlah kecil.
-- Transfer sampel ke microplate atau tabung PCR.
+## Pemeriksaan Sebelum dan Sesudah Pipetting
 
-Untuk volume di atas 100 µL, gunakan tips 200 µL; untuk volume sangat kecil (di bawah 10 µL), gunakan tips 10 µL agar presisi terjaga.
+Cocokkan alat dan tip, periksa kebocoran atau kerusakan, lalu gunakan gerakan yang konsisten. Ganti tip di antara sampel dan buang dengan ejector. Bila hasil kuantitatif penting, cek pipet dan teknik operator dengan prosedur verifikasi laboratorium.
 
-## Rack vs bag
+Untuk cairan kental, volatil, atau mudah berbusa, teknik forward pipetting standar mungkin tidak memberi pemulihan terbaik. Pertimbangkan tip low-retention atau wide-bore dan teknik alternatif hanya bila direkomendasikan metode. Catat pipet, tip, volume, dan operator ketika mengevaluasi variasi.
 
-Rak lebih praktis untuk penggunaan rutin karena tips tertutup dan mudah diambil. Bag lebih ekonomis untuk kebutuhan besar, tetapi perlu dipindah ke tips box dan lebih rentan terkontaminasi bila kemasan lama terbuka.
+## Jika Hasil Belum Konsisten
 
-## Penanganan
+Ubah satu faktor dalam satu waktu dan bandingkan dengan kontrol atau kondisi yang telah diketahui bekerja. Periksa catatan operator, alat, bahan, waktu, dan lingkungan sebelum mengulang seluruh pekerjaan. Pendekatan ini membantu membedakan masalah teknik dari masalah sampel atau reagen.
 
-- Cocokkan dengan micropipette P100 (10–100 µL).
-- Jangan memaksa tips pada shank yang tidak sesuai — seal bocor membuat volume tidak presisi.
-- Buka tutup rak seperlunya; tutup kembali setelah pemakaian.
-- Buang tips bekas sampel berisiko sesuai prosedur limbah laboratorium.
+## Kesimpulan Praktis
 
-> Catatan: fitur bebas nuklease/pirogen dan status steril berbeda antar merek (Genfollower, Servicebio, Biologix, dan lainnya). Verifikasi dari dokumentasi produsen.
+Filter Tips 100 µL dalam Rack perlu dipilih dan digunakan berdasarkan kebutuhan metode, spesifikasi produk, dan SOP laboratorium. Simpan catatan setelan serta lot bahan agar hasil dapat ditelusuri dan diulang.
+
+> **Baca juga:** [Micropipette: Prinsip Kerja dan Teknik Dasar yang Perlu Dikuasai](/artikel/micropipette-dasar/)
+
+Catatan: panduan ini bersifat umum. Ikuti manual model, label produk, SDS, dan SOP laboratorium yang berlaku.

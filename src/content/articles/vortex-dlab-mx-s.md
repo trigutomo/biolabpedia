@@ -1,47 +1,45 @@
 ---
-title: Vortex mixer DLAB MX-S
-description: |-
-  Vortex mixer (pengocok sampel) DLAB MX-S dan sejenisnya: prinsip getaran orbit, pengaturan kecepatan, penerapan pada campuran sampel, dan batas penggunaannya.
+title: "Vortex DLAB MX-S: Kenali Mode dan Batas Penggunaan"
+description: >-
+  Vortex MX-S mencampur cairan melalui gerakan orbital. Sebelum digunakan, cocokkan adaptor, mode operasi, dan batas kecepatan dengan manual model yang tersedia di laboratorium.
 pillar: kenali-alat
 publishedAt: 2026-11-24
+updatedAt: 2026-11-28
 tags: [vortex, mixer, DLAB, pengocok sampel, homogenisasi]
+featured: false
 author: Redaksi Biolabpedia
-readingTime: 1
+readingTime: 2
 sources:
-  - label: Manual vortex mixer DLAB MX-S / Onilab — rujuk manual untuk parameter tepat
+  - label: "DLAB — MX-S vortex mixer user manual"
+    url: "https://assets.wolflabs.co.uk/AssetsStore/DLAB_Vortexer_MX_manual.pdf"
+  - label: "WHO — Laboratory biosafety manual, 4th edition"
+    url: "https://www.who.int/publications/i/item/9789240011311"
 ---
 
-Vortex mixer adalah alat untuk mengocok atau mencampur cairan dalam wadah kecil (tabung, botol, microcentrifuge tube) secara cepat. Model seperti DLAB MX-S (dan sejenisnya dari Onilab) bekerja dengan pelat karet yang bergetar (gerakan orbit) sehingga isinya teraduk saat wadah ditekan pada pelat.
+Vortex dapat bekerja dengan menekan tabung pada kepala alat atau memakai attachment untuk beberapa tabung. Cara pemasangan, beban, dan waktu pencampuran berbeda sesuai aksesori; jangan menggunakan adaptor yang tidak ditentukan.
 
-## Prinsip kerja
+![Vortex DLAB MX-S: Kenali Mode dan Batas Penggunaan — ilustrasi editorial Biolabpedia](/images/articles/vortex-indonesia.png)
 
-Pelat karet di atas alat bergetar dengan gerakan orbit. Ujung wadah yang ditekan pada pelat ikut bergetar sehingga cairan di dalamnya teraduk merata. Beberapa model punya mode touch (bergetar saat ditekan) dan mode continuous (bergetar terus).
+## Hal yang Perlu Dipahami
 
-## Pengaturan kecepatan
+Pastikan tabung tertutup rapat, pegang dengan aman, lalu mulai pada setelan rendah dan naikkan bertahap. Hindari mengocok wadah yang tidak dirancang untuk vortex. Bersihkan tumpahan setelah alat dimatikan dan cabut daya sesuai petunjuk produsen.
 
-- **Rendah** — mencampur larutan jernih, menghindari buih berlebih.
-- **Sedang–tinggi** — suspensi partikel, mengaduk ulang sedimen, campuran yang sulit homogen.
+> **Baca juga:** [Vortex Mixer: Kapan Dipakai dan Bagaimana Mengontrol Pencampuran](/artikel/vortex-mixer-penggunaan/)
 
-Beberapa model mengizinkan penambahan aksesori (misalnya platform untuk beberapa tabung sekaligus) — cek ketersediaan pada model yang digunakan.
+## Langkah Kerja dan Pengendalian Risiko
 
-## Kapan dipakai
+Rencanakan urutan kerja sebelum mulai, gunakan alat pelindung dan containment sesuai penilaian risiko, serta ikuti manual, label produk, dan SOP fasilitas. Hentikan pekerjaan jika kondisi alat atau sampel tidak aman; dokumentasikan penyimpangan sebelum melanjutkan.
 
-- Mencampur reagen sebelum/sesudah reaksi.
-- Menghomogenkan suspensi sel atau partikel.
-- Melarutkan padatan dalam pelarut.
-- Membuat larutan kerja dari stok.
+Pembersihan, desinfeksi, dan sterilisasi adalah proses berbeda. Pilih metode berdasarkan agen, bahan permukaan, dan tujuan; pastikan waktu kontak serta kompatibilitas mengikuti label atau SOP. Catat insiden, lot bahan, dan langkah dekontaminasi untuk membantu investigasi bila masalah berulang.
 
-## Batas penggunaan
+## Jika Hasil Belum Konsisten
 
-- **Sampel peka panas atau busa** — getaran terus-menerus menaikkan suhu dan buih. Gunakan kecepatan rendah dan jeda.
-- **Wadah terbuka lebar** — risiko tumpah; gunakan kecepatan tinggi dengan hati-hati.
-- **Sampel biologis sensitif** — sel/protein tertentu bisa rusak bila dikocok terlalu keras. Ikuti protokol.
-- **Bukan untuk reaksi berpemanasan** — untuk itu gunakan hotplate stirrer.
+Ubah satu faktor dalam satu waktu dan bandingkan dengan kontrol atau kondisi yang telah diketahui bekerja. Periksa catatan operator, alat, bahan, waktu, dan lingkungan sebelum mengulang seluruh pekerjaan. Pendekatan ini membantu membedakan masalah teknik dari masalah sampel atau reagen.
 
-## Perawatan
+## Kesimpulan Praktis
 
-- Bersihkan pelat karet bila terkena tumpahan.
-- Jangan merendam seluruh alat dalam air.
-- Simpan di tempat kering; cek kabel dan sakelar berkala.
+Vortex DLAB MX-S perlu dipilih dan digunakan berdasarkan kebutuhan metode, spesifikasi produk, dan SOP laboratorium. Simpan catatan setelan serta lot bahan agar hasil dapat ditelusuri dan diulang.
 
-> Catatan: kecepatan, mode, dan batas waktu berbeda antar model dan merek (DLAB, Onilab, dan lainnya). Rujuk manual produsen.
+> **Baca juga:** [Perawatan Alat Laboratorium: Rutinitas Sederhana yang Menjaga Kinerja](/artikel/perawatan-alat-lab-dasar/)
+
+Catatan: panduan ini bersifat umum. Ikuti manual model, label produk, SDS, dan SOP laboratorium yang berlaku.

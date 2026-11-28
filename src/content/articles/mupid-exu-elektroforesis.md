@@ -1,45 +1,45 @@
 ---
-title: MUPID ExU elektroforesis
-description: |-
-  MUPID ExU sebagai perangkat elektroforesis horizontal: prinsip kerja pemisahan DNA/RNA berdasarkan ukuran, komponen utama, dan panduan penggunaan dasar.
+title: "Mupid-exU: Menyiapkan Elektroforesis Gel dengan Aman"
+description: >-
+  Mupid-exU adalah perangkat elektroforesis horizontal. Kenali komponen, koneksi, dan pengecekan keselamatan sebelum menjalankan pemisahan DNA atau aplikasi yang didukung manual.
 pillar: kenali-alat
 publishedAt: 2026-11-24
+updatedAt: 2026-11-28
 tags: [elektroforesis, MUPID, gel, DNA, RNA]
+featured: false
 author: Redaksi Biolabpedia
-readingTime: 1
+readingTime: 2
 sources:
-  - label: Manual perangkat elektroforesis MUPID ExU — rujuk manual untuk detail model
+  - label: "Mupid — exU specifications"
+    url: "https://www.mupid.com/en/exU/spec.html"
+  - label: "WHO — Laboratory biosafety manual, 4th edition"
+    url: "https://www.who.int/publications/i/item/9789240011311"
 ---
 
-MUPID ExU adalah perangkat elektroforesis horizontal untuk memisahkan molekul DNA, RNA, atau protein berdasarkan ukuran. Elektroforesis bekerja dengan mengalirkan listrik melalui gel: molekul bermuatan bergerak melalui pori gel, dan molekul kecil bergerak lebih cepat daripada molekul besar.
+Sistem terdiri dari tangki, elektroda, tutup, dan catu daya. Kondisi gel, buffer, tegangan, serta durasi harus mengikuti protokol dan batas unit; hasil tidak dapat ditentukan hanya dari nama alat.
 
-## Prinsip kerja
+![Mupid-exU: Menyiapkan Elektroforesis Gel dengan Aman — ilustrasi editorial Biolabpedia](/images/articles/electrophoresis-indonesia.png)
 
-- Gel (biasanya agarose untuk DNA/RNA) berfungsi sebagai "saringan" berpori.
-- Arus listrik menggerakkan molekul bermuatan negatif (DNA/RNA) dari katoda ke anoda.
-- Molekul kecil menembus pori lebih mudah dan bergerak lebih jauh.
-- Pembanding ukuran (marker/ladder) dicantumkan pada gel untuk memperkirakan ukuran fragmen.
+## Hal yang Perlu Dipahami
 
-## Komponen utama
+Pastikan alat dan kabel kering, tutup terpasang benar, dan catu daya mati saat menyusun gel atau menangani buffer. Jangan membuka tangki saat proses berjalan. Setelah proses, matikan daya sebelum membuka dan tangani pewarna atau sampel sesuai SDS serta SOP.
 
-- **Kam gel** — tempat menuang gel dan memasang comb untuk membuat sumur.
-- **Buffer** — medium penghantar listrik (umumnya TAE atau TBE).
-- **Sumber listrik** — mengatur tegangan dan arus.
-- **Tutup elektroda** — menghubungkan aliran listrik dengan aman.
+> **Baca juga:** [Teknik Aseptik: Cegah Kontaminasi dengan Alur Kerja yang Tepat](/artikel/teknik-aseptik/)
 
-## Panduan dasar
+## Langkah Kerja dan Pengendalian Risiko
 
-1. Siapkan gel agarose sesuai konsentrasi yang dibutuhkan (konsentrasi tinggi untuk fragmen kecil, rendah untuk fragmen besar).
-2. Tuang gel ke kam, pasang comb, tunggu mengeras.
-3. Masukkan gel ke chamber, tuang buffer sampai menutupi gel.
-4. Muat sampel ke sumur (dengan pipette atau gel-loading tips).
-5. Nyalakan listrik pada tegangan yang sesuai (ikuti protokol), jalankan sampai pemisahan cukup.
-6. Visualisasi dengan pewarna DNA dan alat imaging.
+Rencanakan urutan kerja sebelum mulai, gunakan alat pelindung dan containment sesuai penilaian risiko, serta ikuti manual, label produk, dan SOP fasilitas. Hentikan pekerjaan jika kondisi alat atau sampel tidak aman; dokumentasikan penyimpangan sebelum melanjutkan.
 
-## Keselamatan
+Pembersihan, desinfeksi, dan sterilisasi adalah proses berbeda. Pilih metode berdasarkan agen, bahan permukaan, dan tujuan; pastikan waktu kontak serta kompatibilitas mengikuti label atau SOP. Catat insiden, lot bahan, dan langkah dekontaminasi untuk membantu investigasi bila masalah berulang.
 
-- Arus listrik dan buffer basa berbahaya — jangan menyentuh elektroda atau buffer saat alat menyala.
-- Gunakan sarung tangan untuk sampel biologis.
-- Matikan alat sebelum mengangkat gel.
+## Jika Hasil Belum Konsisten
 
-> Catatan: tegangan, waktu, konsentrasi gel, dan buffer berbeda menurut protokol dan model alat (MUPID ExU). Rujuk manual dan SOP laboratorium.
+Ubah satu faktor dalam satu waktu dan bandingkan dengan kontrol atau kondisi yang telah diketahui bekerja. Periksa catatan operator, alat, bahan, waktu, dan lingkungan sebelum mengulang seluruh pekerjaan. Pendekatan ini membantu membedakan masalah teknik dari masalah sampel atau reagen.
+
+## Kesimpulan Praktis
+
+Mupid-exU perlu dipilih dan digunakan berdasarkan kebutuhan metode, spesifikasi produk, dan SOP laboratorium. Simpan catatan setelan serta lot bahan agar hasil dapat ditelusuri dan diulang.
+
+> **Baca juga:** [Perawatan Alat Laboratorium: Rutinitas Sederhana yang Menjaga Kinerja](/artikel/perawatan-alat-lab-dasar/)
+
+Catatan: panduan ini bersifat umum. Ikuti manual model, label produk, SDS, dan SOP laboratorium yang berlaku.

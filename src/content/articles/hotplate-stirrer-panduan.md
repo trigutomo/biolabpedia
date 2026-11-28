@@ -1,58 +1,45 @@
 ---
-title: |-
-  Hotplate stirrer: memilih, mengoperasikan, dan memelihara
-description: |-
-  Panduan hotplate stirrer sebagai alat pemanas sekaligus pengaduk magnetik: prinsip kerja, cara memilih pelat dan kecepatan, langkah operasi, indikator keamanan, serta perawatan agar awet dan aman.
+title: "Hotplate Stirrer: Mengatur Panas dan Pengadukan dengan Aman"
+description: >-
+  Kenali fungsi hotplate stirrer, batas kontrol suhu permukaan, pemilihan batang pengaduk, dan pemeriksaan keselamatan sebelum memanaskan larutan.
 pillar: kenali-alat
 publishedAt: 2026-11-04
+updatedAt: 2026-11-28
 tags: [hotplate, stirrer, pemanas, pengaduk magnetik]
+featured: false
 author: Redaksi Biolabpedia
 readingTime: 2
 sources:
-  - label: Manual hotplate stirrer merek yang digunakan
-  - label: Pedoman keselamatan laboratorium untuk penggunaan pemanas dan pelarut
+  - label: "Thermo Fisher — Cimarec hotplates and stirrers operating manual"
+    url: "https://documents.thermofisher.com/TFS-Assets/LED/manuals/CimarecHotplates-Stirrers%20v17%2020170308.pdf"
+  - label: "WHO — Laboratory biosafety manual, 4th edition"
+    url: "https://www.who.int/publications/i/item/9789240011311"
 ---
 
-Hotplate stirrer menggabungkan dua fungsi: **hotplate** (pelat pemanas listrik) dan **stirrer** (pengaduk magnetik). Sebuah magnet di bawah pelat berputar, menarik stir bar (batang magnetik) di dalam wadah sehingga cairan teraduk merata sambil dipanaskan.
+Hotplate stirrer menggabungkan pemanas dan magnet pengaduk. Sensor umumnya memantau suhu plate, bukan suhu larutan secara langsung, sehingga suhu sampel dapat berbeda tergantung bejana, volume, pengadukan, dan posisi probe.
 
-## Prinsip kerja
+![Hotplate Stirrer: Mengatur Panas dan Pengadukan dengan Aman — ilustrasi editorial Biolabpedia](/images/articles/hotplate-indonesia.png)
 
-- **Pemanasan** - elemen pemanas di bawah pelat mengubah listrik menjadi panas, dialihkan ke wadah di atasnya.
-- **Pengadukan** - motor memutar magnet di bawah pelat; stir bar dalam wadah ikut berputar dan mengaduk cairan.
+## Hal yang Perlu Dipahami
 
-Karena dua fungsi tergabung, hotplate stirrer cocok untuk melarutkan padatan, menyiapkan larutan, reaksi pada suhu terkendali, atau menjaga larutan tetap teraduk selama proses.
+Letakkan alat pada permukaan stabil dan gunakan bejana yang sesuai. Mulai dari kecepatan rendah untuk menangkap batang pengaduk, naikkan bertahap, dan kendalikan suhu berdasarkan kebutuhan prosedur. Bahan mudah menguap atau berbahaya memerlukan penilaian risiko dan ventilasi yang sesuai; ikuti manual model.
 
-## Memilih hotplate stirrer
+> **Baca juga:** [Hotplate Cimarec: Kenali Kontrol, Sensor, dan Batas Suhunya](/artikel/hotplate-thermo-cimarec/)
 
-Pertimbangan utama:
+## Pemeriksaan dan Pencatatan
 
-- **Luas dan material pelat** - stainless steel tahan lama dan mudah dibersihkan; kaca atau keramik lebih tahan bahan kimia tertentu. Sesuaikan ukuran pelat dengan ukuran wadah.
-- **Rentang suhu dan akurasi** - untuk kerja presisi, pilih model dengan kontrol suhu yang jelas dan, bila perlu, probe suhu eksternal.
-- **Rentang kecepatan pengadukan** - larutan kental butuh kecepatan lebih tinggi; larutan berbusa butuh yang lebih rendah.
-- **Beban maksimum** - pastikan pelat menopang berat wadah plus isinya.
+Gunakan alat ukur yang sesuai dan catat bahan, lot, volume, setelan, suhu atau pH aktual, serta waktu. Jangan mengandalkan satu angka display jika prosedur membutuhkan pengukuran sampel langsung. Simpan larutan dalam wadah kompatibel dan beri label lengkap.
 
-## Langkah operasi dasar
+Perubahan volume akibat pemanasan atau penambahan titran dapat menggeser konsentrasi akhir. Catat suhu saat pengukuran pH dan waktu larutan dibuat. Untuk bahan mudah menguap atau berbahaya, gunakan kontrol ventilasi dan kompatibilitas wadah berdasarkan SDS serta penilaian risiko.
 
-1. Letakkan alat pada permukaan rata, berventilasi, dan bebas bahan mudah terbakar di sekitarnya.
-2. Posisikan wadah di tengah pelat.
-3. Masukkan stir bar bersih; nyalakan pengadukan pada kecepatan rendah dulu, naikkan perlahan sampai pusaran stabil (hindari sampai cairan menyentuh tutup bila tidak diinginkan).
-4. Nyalakan pemanas pada suhu yang diperlukan; atur perlahan.
-5. Pantau suhu (termometer atau probe) dan kondisi campuran selama proses.
-6. Matikan pemanas dan pengadukan, tunggu pelat dingin sebelum menyentuh atau memindahkan wadah.
+## Jika Hasil Belum Konsisten
 
-## Keselamatan
+Ubah satu faktor dalam satu waktu dan bandingkan dengan kontrol atau kondisi yang telah diketahui bekerja. Periksa catatan operator, alat, bahan, waktu, dan lingkungan sebelum mengulang seluruh pekerjaan. Pendekatan ini membantu membedakan masalah teknik dari masalah sampel atau reagen.
 
-- **Pelat panas menyala** - jangan menyentuh permukaan; tunggu indikator dingin. Wadah kaca bisa ikut panas - gunakan penjepit.
-- **Pelarut mudah terbakar** - jangan digunakan terbuka di hotplate tanpa pertimbangan hood atau lemari asap serta peraturan laboratorium.
-- **Sampel yang memuai atau berbusa** - gunakan wadah berukuran lebih besar dan kecepatan aduk moderat.
-- **Stir bar hilang atau aus** - magnet yang tidak sinkron membuat adukan tidak efektif; ganti bila sudah aus atau tidak menempel baik.
-- **Jangan mengeringkan wadah di atas pelat** - residu sulit dibersihkan dan bisa terbakar.
+## Kesimpulan Praktis
 
-## Perawatan
+Hotplate Stirrer perlu dipilih dan digunakan berdasarkan kebutuhan metode, spesifikasi produk, dan SOP laboratorium. Simpan catatan setelan serta lot bahan agar hasil dapat ditelusuri dan diulang.
 
-- Bersihkan pelat setelah dingin; hindari pelarut yang merusak material pelat (cek manual).
-- Simpan stir bar di wadah khusus agar tidak hilang atau magnetnya melemah akibat panas berlebih.
-- Periksa kabel dan sakelar berkala; hentikan pemakaian bila kabel rusak.
+> **Baca juga:** [Membuat Larutan Buffer: Hitung, Atur pH, lalu Verifikasi](/artikel/teknik-larutan-buffer/)
 
-> Catatan: rentang suhu, kecepatan, dan material pelat berbeda antar model. Rujuk manual produsen dan aturan keselamatan laboratorium Anda.
-atan laboratorium Anda.
+Catatan: panduan ini bersifat umum. Ikuti manual model, label produk, SDS, dan SOP laboratorium yang berlaku.

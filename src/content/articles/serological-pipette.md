@@ -1,59 +1,45 @@
 ---
-title: |-
-  Serological pipette: prinsip, penggunaan, dan perbandingan dengan micropipette
-description: |-
-  Penjelasan serological pipette (pipet ukur) sebagai alat transfer volume besar: prinsip kerja dengan pipet pump, perbedaan dengan micropipette, langkah penggunaan, serta perawatan dan keselamatan.
+title: "Pipet Serologis: Fungsi dan Teknik Transfer Volume Mililiter"
+description: >-
+  Pipet serologis dipakai untuk memindahkan volume beberapa mililiter menggunakan pipette controller. Pahami graduasi, tipe pipet, dan aturan keselamatan sebelum bekerja.
 pillar: panduan-penggunaan
 publishedAt: 2026-11-12
+updatedAt: 2026-11-28
 tags: [serological pipette, pipet pump, volume besar, transfer]
+featured: false
 author: Redaksi Biolabpedia
 readingTime: 2
 sources:
-  - label: Manual atau panduan penggunaan pipet ukur dan pipet pump dari produsen
+  - label: "Thermo Fisher — Serological pipettes product information"
+    url: "https://www.thermofisher.com/order/catalog/product/in/en/170357T"
+  - label: "WHO — Laboratory biosafety manual, 4th edition"
+    url: "https://www.who.int/publications/i/item/9789240011311"
 ---
 
-Serological pipette (pipet ukur) adalah pipet kaca atau sekali pakai bertakik ukur untuk mengambil dan menyalurkan volume cairan yang relatif besar - umumnya mililiter (mL) - dengan bantuan pipet pump atau pipet bulb. Berbeda dengan micropipette yang menangani mikroliter, serological pipette dipakai untuk transfer dan penakaran volume lebih besar.
+Graduasi dapat berjenis serologis atau Mohr, dengan cara membaca dan mengeluarkan volume yang berbeda. Label produk menjelaskan apakah pipet dirancang untuk blow-out dan jenis controller yang kompatibel.
 
-## Prinsip kerja
+![Pipet Serologis: Fungsi dan Teknik Transfer Volume Mililiter — ilustrasi editorial Biolabpedia](/images/articles/pipetting-indonesia.png)
 
-Pipet ukur bekerja dengan tekanan udara: saat pipet pump menghisap udara, cairan naik ke dalam pipet hingga level yang ditentukan. Untuk menyalurkan, tekanan dilepas perlahan sehingga cairan keluar mengikuti garis ukur pada pipet.
+## Hal yang Perlu Dipahami
 
-Bagian utama:
+Gunakan controller mekanis atau elektronik, bukan mulut. Pegang pipet tegak ketika mengatur meniskus, hindari gelembung, dan ikuti tanda pada pipet untuk pengosongan akhir. Untuk kultur, lakukan pembukaan dan transfer sesuai teknik aseptik.
 
-- **Pipet** - tabung bertakik ukur, umumnya bervolume 1 sampai 50 mL (tergantung jenis).
-- **Pipet pump atau bulb** - alat hisap (biasanya roda jempol atau bola karet) yang dipasang di ujung atas pipet.
-- **Takik ukur** - penanda volume untuk membaca jumlah cairan.
+> **Baca juga:** [Serological Pipette 5 mL Steril: Transfer Aseptik yang Lebih Terkendali](/artikel/serological-pipette-5-steril/)
 
-## Perbedaan dengan micropipette
+## Langkah Kerja dan Pengendalian Risiko
 
-| Aspek | Serological pipette | Micropipette |
-|---|---|---|
-| Rentang volume | mL (besar) | uL (kecil) |
-| Presisi | Untuk volume besar, ketepatan tergantung pembacaan mata | Presisi tinggi untuk volume kecil |
-| Penggerak | Pipet pump atau bulb | Piston mekanis |
-| Ujung | Kaca atau plastik sekali pakai | Pipette tips sekali pakai |
+Rencanakan urutan kerja sebelum mulai, gunakan alat pelindung dan containment sesuai penilaian risiko, serta ikuti manual, label produk, dan SOP fasilitas. Hentikan pekerjaan jika kondisi alat atau sampel tidak aman; dokumentasikan penyimpangan sebelum melanjutkan.
 
-## Langkah penggunaan dasar
+Perhatikan apakah pipet bertanda “to deliver” atau “to contain” dan apakah modelnya blow-out; informasi ini menentukan cara membaca serta mengeluarkan volume. Gunakan controller yang kompatibel, jaga ujung tetap di dalam wadah saat aspirasi, dan hindari pembentukan aerosol.
 
-1. Pilih pipet ukur sesuai volume; pasang pipet pump dengan rapat.
-2. Masukkan ujung pipet ke cairan, jangan terlalu dalam agar tidak menyedot sedimen.
-3. Hisap cairan ke tingkat yang sedikit di atas garis ukur yang diinginkan.
-4. Turunkan dengan melepas tekanan perlahan hingga tepat pada garis ukur - permukaan cairan (meniskus) harus terbaca pada mata sejajar.
-5. Pindahkan ke wadah tujuan, salurkan perlahan; tepikan ujung pipet ke dinding wadah untuk mengurangi sisa tetes.
-6. Kembalikan sisa cairan sesuai prosedur; buang pipet sekali pakai ke wadah yang benar.
+## Jika Hasil Belum Konsisten
 
-## Kesalahan umum
+Ubah satu faktor dalam satu waktu dan bandingkan dengan kontrol atau kondisi yang telah diketahui bekerja. Periksa catatan operator, alat, bahan, waktu, dan lingkungan sebelum mengulang seluruh pekerjaan. Pendekatan ini membantu membedakan masalah teknik dari masalah sampel atau reagen.
 
-- **Membaca meniskus dari atas** - hasil meleset; baca permukaan cairan sejajar mata di garis ukur.
-- **Pipet pump tidak rapat** - hisapan tidak stabil.
-- **Menyalurkan terlalu cepat** - percikan dan volume tidak terkendali.
-- **Pipet kaca dipakai ulang tanpa pembersihan yang benar** - kontaminasi silang; ikuti SOP.
+## Kesimpulan Praktis
 
-## Keselamatan dan perawatan
+Pipet Serologis perlu dipilih dan digunakan berdasarkan kebutuhan metode, spesifikasi produk, dan SOP laboratorium. Simpan catatan setelan serta lot bahan agar hasil dapat ditelusuri dan diulang.
 
-- Untuk bahan kimia, gunakan hood atau lemari asap sesuai prosedur dan kenakan APD yang sesuai.
-- Jangan memakai mulut untuk menghisap (prinsip lama yang sudah ditinggalkan karena risiko tertelan).
-- Pipet kaca: periksa retakan sebelum pakai; pecahan masuk wadah khusus.
-- Pipet sekali pakai: buang sesuai kategori limbah.
+> **Baca juga:** [Teknik Aseptik: Cegah Kontaminasi dengan Alur Kerja yang Tepat](/artikel/teknik-aseptik/)
 
-> Catatan: volume, skala, dan jenis pipet bervariasi antar produsen. Untuk hasil uji atau kerja presisi, ikuti kalibrasi dan SOP laboratorium Anda.
+Catatan: panduan ini bersifat umum. Ikuti manual model, label produk, SDS, dan SOP laboratorium yang berlaku.

@@ -1,50 +1,45 @@
 ---
-title: Micropipette volume 2–20 µL
-description: |-
-  Micropipette rentang 2–20 µL (P20): penggunaan pada transfer reagen volume kecil–sedang, panduan teknik pipetting, dan perawatan alat.
+title: "Micropipette 2–20 µL: Cara Memilih Volume Kerja yang Sesuai"
+description: >-
+  Rentang 2–20 µL cocok untuk banyak transfer kecil. Artikel ini membahas pemilihan volume, kecocokan tip, dan teknik dasar agar hasil antarulangan lebih seragam.
 pillar: kenali-alat
 publishedAt: 2026-11-24
+updatedAt: 2026-11-28
 tags: [micropipette, "P20", volume kecil, transfer, DragonLab]
+featured: false
 author: Redaksi Biolabpedia
-readingTime: 1
+readingTime: 2
+sources:
+  - label: "Eppendorf — Liquid handling FAQ"
+    url: "https://www.eppendorf.com/us-en/lab-academy/life-science/microbiology/liquid-handling-faq/"
+  - label: "Eppendorf — Manual pipetting techniques"
+    url: "https://www.eppendorf.com/product-media/doc/en/72923/Eppendorf_Liquid-Handling_Poster_Manual-Pipettes_Pipetting-Techniques.pdf"
 ---
 
-Micropipette rentang 2–20 µL (P20) menutup kebutuhan volume kecil–sedang yang banyak ditemui di laboratorium biologi: penambahan reagen, buffer, dan transfer sampel dalam satuan mikroliter.
+Volume pada batas bawah rentang lebih sensitif terhadap variasi operator daripada volume di bagian tengah. Bila metode memungkinkan, pilih rentang pipet yang menempatkan target dekat area kerja optimal produsen.
 
-## Kapan digunakan
+![Micropipette 2–20 µL: Cara Memilih Volume Kerja yang Sesuai — ilustrasi editorial Biolabpedia](/images/articles/pipetting-indonesia.png)
 
-- Penambahan reagen dan larutan dalam volume 2–20 µL.
-- Penyiapan campuran reaksi yang komponennya kecil.
-- Transfer sampel untuk analisis lanjutan.
+## Hal yang Perlu Dipahami
 
-## Akurasi dan rentang
+Aspirasi dengan gerakan plunger yang halus dan posisi pipet tegak. Hindari gelembung, periksa apakah cairan menempel di dinding luar tip, dan gunakan pre-wetting bila diperlukan oleh protokol. Evaluasi pipet secara berkala, terutama setelah jatuh atau terkena cairan.
 
-Akurasi terbaik berada di tengah rentang (sekitar 5–15 µL). Untuk volume di bawah 2 µL, gunakan alat rentang lebih kecil (misalnya 0,5–10 µL) agar tidak di bawah batas minimum alat.
+> **Baca juga:** [Micropipette 0,5–10 µL: Pilih Rentang Tepat untuk Volume Kecil](/artikel/micropipette-0-5-10/)
 
-## Teknik pipetting yang benar
+## Pemeriksaan Sebelum dan Sesudah Pipetting
 
-1. Pilih tips 20 µL (filter tips untuk kerja sensitif terhadap kontaminasi).
-2. Set volume sesuai kebutuhan; putar knob mengikuti arah pada manual.
-3. Tekan plunger ke first stop sebelum ujung tips masuk cairan.
-4. Masukkan tips tegak lurus; tarik plunger perlahan dan tahan sebentar.
-5. Salurkan ke wadah tujuan: tekan first stop, lalu second stop untuk sisa.
-6. Ganti tips untuk tiap sampel berbeda.
+Cocokkan alat dan tip, periksa kebocoran atau kerusakan, lalu gunakan gerakan yang konsisten. Ganti tip di antara sampel dan buang dengan ejector. Bila hasil kuantitatif penting, cek pipet dan teknik operator dengan prosedur verifikasi laboratorium.
 
-## Perawatan
+Untuk cairan kental, volatil, atau mudah berbusa, teknik forward pipetting standar mungkin tidak memberi pemulihan terbaik. Pertimbangkan tip low-retention atau wide-bore dan teknik alternatif hanya bila direkomendasikan metode. Catat pipet, tip, volume, dan operator ketika mengevaluasi variasi.
 
-- Hindari membawa cairan ke dalam badan alat (jangan mengisi melebihi kapasitas tips).
-- Simpan tegak, plunger longgar, di tempat bersih.
-- Lakukan kalibrasi berkala sesuai jadwal laboratorium.
+## Jika Hasil Belum Konsisten
 
-## Pertanyaan yang sering muncul
+Ubah satu faktor dalam satu waktu dan bandingkan dengan kontrol atau kondisi yang telah diketahui bekerja. Periksa catatan operator, alat, bahan, waktu, dan lingkungan sebelum mengulang seluruh pekerjaan. Pendekatan ini membantu membedakan masalah teknik dari masalah sampel atau reagen.
 
-**Kenapa volume meleset di bawah 2 µL?**
-Volume itu di bawah batas minimum alat. Gunakan alat rentang lebih kecil (0,5–10 µL atau 0,1–2,5 µL) untuk volume sangat kecil.
+## Kesimpulan Praktis
 
-**Bagaimana menghindari kontaminasi silang?**
-Ganti tips untuk tiap sampel berbeda, dan gunakan filter tips untuk sampel sensitif.
+Micropipette 2–20 µL perlu dipilih dan digunakan berdasarkan kebutuhan metode, spesifikasi produk, dan SOP laboratorium. Simpan catatan setelan serta lot bahan agar hasil dapat ditelusuri dan diulang.
 
-**Apa beda first stop dan second stop?**
-First stop untuk menarik dan mengeluarkan volume yang terukur; second stop (dorong lebih dalam) untuk mengeluarkan sisa cairan di ujung tips.
+> **Baca juga:** [Pipetting Tidak Konsisten? Periksa 6 Kesalahan yang Sering Terjadi](/artikel/kesalahan-umum-pipetting/)
 
-> Catatan: spesifikasi akurasi dan prosedur kalibrasi berbeda antar model dan merek (misalnya DragonLab). Rujuk manual produsen.
+Catatan: panduan ini bersifat umum. Ikuti manual model, label produk, SDS, dan SOP laboratorium yang berlaku.

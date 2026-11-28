@@ -1,49 +1,45 @@
 ---
-title: Perawatan, penyimpanan, dan keselamatan alat laboratorium sehari-hari
-description: |-
-  Panduan umum merawat, menyimpan, dan menggunakan alat laboratorium dengan aman: kebersihan setelah pakai, penyimpanan yang benar, cek berkala, serta kebiasaan keselamatan yang mencegah kecelakaan dan kerusakan alat.
+title: "Perawatan Alat Laboratorium: Rutinitas Sederhana yang Menjaga Kinerja"
+description: >-
+  Pembersihan, pemeriksaan, pencatatan, dan penyimpanan yang teratur membantu alat tetap siap pakai. Frekuensi dan metode harus mengikuti manual serta risiko pemakaian.
 pillar: perawatan-keselamatan
 publishedAt: 2026-11-14
+updatedAt: 2026-11-28
 tags: [perawatan, penyimpanan, keselamatan, APD, kalibrasi]
+featured: false
 author: Redaksi Biolabpedia
 readingTime: 2
 sources:
-  - label: Pedoman keselamatan dan kesehatan kerja laboratorium (K3) yang berlaku di institusi
-  - label: Manual perawatan masing-masing alat
+  - label: "WHO — Laboratory biosafety manual, 4th edition"
+    url: "https://www.who.int/publications/i/item/9789240011311"
+  - label: "Thermo Fisher — Centrifuge best practices"
+    url: "https://www.thermofisher.com/uk/en/home/life-science/lab-equipment/lab-equipment-learning-center/centrifuges/centrifuge-best-practices.html"
 ---
 
-Merawat alat laboratorium bukan sekadar kebersihan - kebiasaan kecil yang konsisten mencegah kontaminasi, kerusakan, kecelakaan, dan hasil yang tidak andal. Berikut praktik umum yang berlaku di banyak laboratorium biologi.
+Perawatan preventif berbeda untuk setiap alat. Residu yang aman dibersihkan pada satu permukaan bisa merusak coating, seal, sensor, atau komponen listrik pada alat lain.
 
-## Setelah setiap pemakaian
+![Perawatan Alat Laboratorium: Rutinitas Sederhana yang Menjaga Kinerja — ilustrasi editorial Biolabpedia](/images/articles/aseptic-indonesia.png)
 
-- **Bersihkan area kerja** - lap meja dengan desinfektan yang sesuai prosedur; pisahkan bahan kimia dan biologis.
-- **Kembalikan alat ke tempatnya** - micropipette di rak tegak, wadah tertutup, kabel tidak tergantung di tepi meja.
-- **Cek kondisi alat** - kabel, sakelar, tutup, dan bagian yang aus. Laporkan kerusakan sebelum dipakai orang lain.
-- **Buang limbah** - sesuai kategori (biologis, kimia, benda tajam, plastik sekali pakai).
+## Hal yang Perlu Dipahami
 
-## Penyimpanan
+Buat jadwal berdasarkan manual produsen; periksa kabel, rotor, seal, dan aksesori sebelum digunakan. Matikan serta cabut alat sebelum pembersihan bila disyaratkan. Catat kerusakan atau hasil kontrol yang menyimpang dan hentikan penggunaan jika keselamatan atau akurasi diragukan.
 
-- Simpan alat di tempat kering, bebas debu, dan terhindar dari sinar matahari langsung bila memungkinkan.
-- Alat presisi (micropipette, alat ukur) disimpan tegak pada rak, jangan ditumpuk atau diletakkan terbalik.
-- Bahan kimia disimpan sesuai label dan kompatibilitasnya (jangan mencampur yang tidak kompatibel).
-- Tutup wadah reagen rapat; beri label tanggal dan isi.
+> **Baca juga:** [Teknik Aseptik: Cegah Kontaminasi dengan Alur Kerja yang Tepat](/artikel/teknik-aseptik/)
 
-## Perawatan berkala
+## Langkah Kerja dan Pengendalian Risiko
 
-- **Kalibrasi** - alat ukur (pipette, balance, pH meter) dikalibrasi sesuai jadwal institusi, terutama untuk hasil uji.
-- **Servis** - ikuti jadwal servis produsen atau teknisi untuk alat bergerak (sentrifus, mixer, hotplate).
-- **Ganti bagian habis pakai** - seal, stir bar, tips, filter, dan komponen yang aus.
+Rencanakan urutan kerja sebelum mulai, gunakan alat pelindung dan containment sesuai penilaian risiko, serta ikuti manual, label produk, dan SOP fasilitas. Hentikan pekerjaan jika kondisi alat atau sampel tidak aman; dokumentasikan penyimpangan sebelum melanjutkan.
 
-## Kebiasaan keselamatan
+Pembersihan, desinfeksi, dan sterilisasi adalah proses berbeda. Pilih metode berdasarkan agen, bahan permukaan, dan tujuan; pastikan waktu kontak serta kompatibilitas mengikuti label atau SOP. Catat insiden, lot bahan, dan langkah dekontaminasi untuk membantu investigasi bila masalah berulang.
 
-- Kenakan APD (jaket laboratorium, sarung tangan, kacamata pelindung) sesuai jenis pekerjaan.
-- Baca label dan SDS bahan sebelum digunakan; pahami tanda bahaya.
-- Gunakan alat pemanas dan pelarut mudah terbakar sesuai prosedur dan ventilasi yang tepat.
-- Jangan bekerja sendirian pada proses berisiko tanpa pemberitahuan.
-- Kenali lokasi eyewash, shower, pemadam api, dan jalur evakuasi.
+## Jika Hasil Belum Konsisten
 
-## Kapan berhenti dan melapor
+Ubah satu faktor dalam satu waktu dan bandingkan dengan kontrol atau kondisi yang telah diketahui bekerja. Periksa catatan operator, alat, bahan, waktu, dan lingkungan sebelum mengulang seluruh pekerjaan. Pendekatan ini membantu membedakan masalah teknik dari masalah sampel atau reagen.
 
-Berhenti menggunakan dan laporkan bila: kabel rusak, casing retak, alat berbau terbakar, kalibrasi gagal, atau terjadi tumpahan bahan berbahaya yang tidak tertangani. Jangan memperbaiki alat sendiri tanpa kompetensi yang memadai.
+## Kesimpulan Praktis
 
-> Catatan: setiap laboratorium punya SOP, jadwal kalibrasi, dan aturan pembuangan limbah sendiri. Prinsip umum di atas melengkapi - bukan menggantikan - peraturan setempat.
+Perawatan Alat Laboratorium perlu dipilih dan digunakan berdasarkan kebutuhan metode, spesifikasi produk, dan SOP laboratorium. Simpan catatan setelan serta lot bahan agar hasil dapat ditelusuri dan diulang.
+
+> **Baca juga:** [Sentrifus Bergetar atau Hasil Tidak Rapi? Mulai dari Pemeriksaan Ini](/artikel/mengatasi-masalah-sentrifus/)
+
+Catatan: panduan ini bersifat umum. Ikuti manual model, label produk, SDS, dan SOP laboratorium yang berlaku.

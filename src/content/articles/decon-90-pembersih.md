@@ -1,42 +1,45 @@
 ---
-title: Decon 90 pembersih laboratorium
-description: |-
-  Decon 90 sebagai larutan pembersih laboratorium: fungsi membersihkan alat dan permukaan, prinsip kerja surfaktan, cara penggunaan umum, dan pertimbangan keselamatan.
+title: "Pembersih Laboratorium Decon 90: Kapan Digunakan dan Cara Membilasnya"
+description: >-
+  Kenali fungsi Decon 90, cara menentukan pengenceran dari label, serta alasan pembilasan tuntas dan pemeriksaan kompatibilitas bahan penting sebelum pembersihan.
 pillar: perawatan-keselamatan
 publishedAt: 2026-11-24
+updatedAt: 2026-11-28
 tags: [pembersih, "Decon 90", kebersihan, perawatan, kontaminasi]
+featured: false
 author: Redaksi Biolabpedia
-readingTime: 1
+readingTime: 2
 sources:
-  - label: Safety Data Sheet (SDS) dan panduan penggunaan Decon 90 — selalu rujuk SDS terbaru
+  - label: "Decon Laboratories — Decon 90 technical data"
+    url: "https://envcoglobal.com/catalog/field-supplies/decon-90/"
+  - label: "WHO — Laboratory biosafety manual, 4th edition"
+    url: "https://www.who.int/publications/i/item/9789240011311"
 ---
 
-Decon 90 adalah larutan pembersih laboratorium berbasis surfaktan (zat aktif permukaan) yang dipakai untuk membersihkan alat gelas, permukaan, dan wadah dari residu serta kontaminan. Pembersihan yang benar adalah dasar hasil laboratorium yang andal.
+Deterjen laboratorium membantu melepaskan residu dari permukaan dan peralatan yang kompatibel. Decon 90 bukan pengganti disinfeksi atau sterilisasi; pilih langkah dekontaminasi berdasarkan jenis residu, risiko biologis, dan SOP fasilitas.
 
-## Prinsip kerja
+![Pembersih Laboratorium Decon 90: Kapan Digunakan dan Cara Membilasnya — ilustrasi editorial Biolabpedia](/images/articles/aseptic-indonesia.png)
 
-Surfaktan menurunkan tegangan permukaan air sehingga kotoran, minyak, dan residu terangkat dari permukaan dan terbawa larutan. Decon 90 umumnya dipakai untuk:
+## Hal yang Perlu Dipahami
 
-- Membersihkan gelas laboratorium (tabung, beaker, labu).
-- Membersihkan permukaan kerja dari tumpahan dan residu.
-- Pra-perawatan alat sebelum sterilisasi.
+Jangan menebak konsentrasi atau waktu kontak dari panduan umum. Ikuti label dan lembar data produk untuk pengenceran, kompatibilitas, APD, dan pembuangan. Setelah pencucian, bilas sesuai petunjuk sampai residu deterjen terangkat; residu dapat mengganggu pengukuran atau kultur berikutnya.
 
-## Cara penggunaan umum
+> **Baca juga:** [Perawatan Alat Laboratorium: Rutinitas Sederhana yang Menjaga Kinerja](/artikel/perawatan-alat-lab-dasar/)
 
-1. Ikuti pengenceran yang dianjurkan pada SDS/panduan produk (konsentrasi berbeda untuk kebutuhan berbeda).
-2. Rendam atau lap permukaan dengan larutan.
-3. Bilas dengan air bersih (aquades untuk kebutuhan analitik) sampai tidak ada residu sabun.
-4. Keringkan sebelum digunakan atau disimpan.
+## Langkah Kerja dan Pengendalian Risiko
 
-## Pertimbangan keselamatan
+Rencanakan urutan kerja sebelum mulai, gunakan alat pelindung dan containment sesuai penilaian risiko, serta ikuti manual, label produk, dan SOP fasilitas. Hentikan pekerjaan jika kondisi alat atau sampel tidak aman; dokumentasikan penyimpangan sebelum melanjutkan.
 
-- **Baca SDS** — pahami bahaya, tindakan pertolongan pertama, dan pembuangan.
-- **Sarung tangan dan APD** — surfaktan dapat mengiritasi kulit dan mata.
-- **Ventilasi** — gunakan di area berventilasi baik.
-- **Pembuangan** — buang larutan bekas sesuai peraturan setempat; jangan menuang sembarangan.
+Pembersihan, desinfeksi, dan sterilisasi adalah proses berbeda. Pilih metode berdasarkan agen, bahan permukaan, dan tujuan; pastikan waktu kontak serta kompatibilitas mengikuti label atau SOP. Catat insiden, lot bahan, dan langkah dekontaminasi untuk membantu investigasi bila masalah berulang.
 
-## Perbedaan dengan desinfektan
+## Jika Hasil Belum Konsisten
 
-Decon 90 adalah pembersih (mengangkat kotoran), bukan desinfektan (membunuh mikroorganisme). Untuk mendisinfeksi permukaan, gunakan desinfektan yang sesuai setelah pembersihan. Urutan yang benar: bersihkan dulu, lalu disinfeksi.
+Ubah satu faktor dalam satu waktu dan bandingkan dengan kontrol atau kondisi yang telah diketahui bekerja. Periksa catatan operator, alat, bahan, waktu, dan lingkungan sebelum mengulang seluruh pekerjaan. Pendekatan ini membantu membedakan masalah teknik dari masalah sampel atau reagen.
 
-> Catatan: konsentrasi, kontak, dan tindakan keselamatan harus mengikuti SDS terbaru dari produsen. Jangan mengarang prosedur sendiri.
+## Kesimpulan Praktis
+
+Pembersih Laboratorium Decon 90 perlu dipilih dan digunakan berdasarkan kebutuhan metode, spesifikasi produk, dan SOP laboratorium. Simpan catatan setelan serta lot bahan agar hasil dapat ditelusuri dan diulang.
+
+> **Baca juga:** [Teknik Aseptik: Cegah Kontaminasi dengan Alur Kerja yang Tepat](/artikel/teknik-aseptik/)
+
+Catatan: panduan ini bersifat umum. Ikuti manual model, label produk, SDS, dan SOP laboratorium yang berlaku.

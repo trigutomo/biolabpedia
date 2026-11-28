@@ -1,54 +1,45 @@
 ---
-title: Micropipette volume 0,1–2,5 µL
-description: |-
-  Micropipette rentang 0,1–2,5 µL (P2): prinsip kerja volume sangat kecil, kapan digunakan, cara menjaga akurasi, dan perawatan ringannya.
+title: "Micropipette 0,1–2,5 µL: Menjaga Presisi pada Volume Mikro"
+description: >-
+  Rentang 0,1–2,5 µL memerlukan perhatian khusus terhadap teknik, kondisi pipet, dan tip. Artikel ini membantu menilai kapan rentang mikro tepat untuk metode Anda.
 pillar: kenali-alat
 publishedAt: 2026-11-24
+updatedAt: 2026-11-28
 tags: [micropipette, "P2", volume kecil, presisi, DragonLab]
+featured: false
 author: Redaksi Biolabpedia
 readingTime: 2
+sources:
+  - label: "Eppendorf — Liquid handling FAQ"
+    url: "https://www.eppendorf.com/us-en/lab-academy/life-science/microbiology/liquid-handling-faq/"
+  - label: "Eppendorf — Manual pipetting techniques"
+    url: "https://www.eppendorf.com/product-media/doc/en/72923/Eppendorf_Liquid-Handling_Poster_Manual-Pipettes_Pipetting-Techniques.pdf"
 ---
 
-Micropipette rentang 0,1–2,5 µL (sering disebut P2) adalah alat untuk menangani volume sangat kecil — satuan seperseribu mililiter. Alat ini dipakai pada teknik yang menuntut presisi ekstra, seperti PCR dan penanganan sampel molekuler.
+Pada volume sekecil ini, penguapan, pembasahan tip, suhu, dan cara menekan plunger dapat berpengaruh nyata. Pilih pipet yang rentang kerjanya mencakup volume target; jangan menganggap satu pipet paling akurat di seluruh rentang nominalnya.
 
-## Kapan digunakan
+![Micropipette 0,1–2,5 µL: Menjaga Presisi pada Volume Mikro — ilustrasi editorial Biolabpedia](/images/articles/pipetting-indonesia.png)
 
-- Penambahan enzim, primer, atau template dalam volume mikro.
-- Kerja yang membutuhkan volume tepat di bawah 2,5 µL.
-- Penanganan sampel bernilai tinggi yang tidak boleh terbuang.
+## Hal yang Perlu Dipahami
 
-## Tantangan volume sangat kecil
+Prakondisikan tip dengan aspirasi-dispensasi sesuai protokol, pertahankan posisi tegak saat mengambil sampel, dan gunakan kecepatan yang konsisten. Untuk pekerjaan kritis, hindari menyentuh cairan terlalu lama dan verifikasi akurasi berkala menggunakan metode gravimetri yang sesuai.
 
-Pada rentang mikro, kesalahan kecil berdampak besar:
+> **Baca juga:** [Micropipette: Prinsip Kerja dan Teknik Dasar yang Perlu Dikuasai](/artikel/micropipette-dasar/)
 
-- **Gelembung udara** — bahkan satu gelembung kecil mengubah volume nyata. Tarik plunger perlahan.
-- **Suhu** — perubahan suhu mengubah volume cairan. Bekerja pada suhu ruang stabil.
-- **Kecocokan tips** — tips harus presisi pada shank; kebocoran kecil membuat volume tidak konsisten.
-- **Elektrostatik** — cairan bisa menempel di dinding tips. Gunakan tips berkualitas dan teknik yang benar.
+## Pemeriksaan Sebelum dan Sesudah Pipetting
 
-## Tips penggunaan
+Cocokkan alat dan tip, periksa kebocoran atau kerusakan, lalu gunakan gerakan yang konsisten. Ganti tip di antara sampel dan buang dengan ejector. Bila hasil kuantitatif penting, cek pipet dan teknik operator dengan prosedur verifikasi laboratorium.
 
-1. Pilih tips khusus volume kecil (10 µL atau kurang), idealnya filter tips untuk kerja sensitif.
-2. Tekan plunger ke first stop sebelum masuk cairan.
-3. Masukkan tips tegak lurus; jangan miring ekstrem.
-4. Tarik dan dorong plunger perlahan; beri jeda singkat.
-5. Ganti tips untuk tiap sampel agar tidak terjadi kontaminasi silang.
+Untuk cairan kental, volatil, atau mudah berbusa, teknik forward pipetting standar mungkin tidak memberi pemulihan terbaik. Pertimbangkan tip low-retention atau wide-bore dan teknik alternatif hanya bila direkomendasikan metode. Catat pipet, tip, volume, dan operator ketika mengevaluasi variasi.
 
-## Perawatan
+## Jika Hasil Belum Konsisten
 
-- Jangan merendam atau membasahi badan alat.
-- Simpan tegak pada rak; atur volume ke tengah rentang untuk penyimpanan lama.
-- Kalibrasi berkala sesuai jadwal laboratorium.
+Ubah satu faktor dalam satu waktu dan bandingkan dengan kontrol atau kondisi yang telah diketahui bekerja. Periksa catatan operator, alat, bahan, waktu, dan lingkungan sebelum mengulang seluruh pekerjaan. Pendekatan ini membantu membedakan masalah teknik dari masalah sampel atau reagen.
 
-## Pertanyaan yang sering muncul
+## Kesimpulan Praktis
 
-**Boleh memakai tips biasa untuk alat ini?**
-Untuk volume mikro dan sampel sensitif, gunakan tips khusus volume kecil (10 µL ke bawah) — idealnya filter tips. Tips besar membuat volume tidak presisi.
+Micropipette 0,1–2,5 µL perlu dipilih dan digunakan berdasarkan kebutuhan metode, spesifikasi produk, dan SOP laboratorium. Simpan catatan setelan serta lot bahan agar hasil dapat ditelusuri dan diulang.
 
-**Kenapa hasil tidak konsisten?**
-Paling sering karena gelembung, tips longgar, atau alat belum dikalibrasi. Perbaiki teknik plunger dan pastikan kecocokan tips.
+> **Baca juga:** [Cara Memilih Pipette Tips: Cocokkan Tip, Sampel, dan Tujuan Uji](/artikel/memilih-pipette-tips/)
 
-**Berapa kali kalibrasi?**
-Tergantung frekuensi pakai dan tuntutan laboratorium. Untuk hasil uji, kalibrasi rutin mengikuti jadwal mutu; untuk penggunaan umum, berkala atau bila terasa tidak akurat.
-
-> Catatan: rentang, akurasi, dan prosedur kalibrasi spesifik berbeda antar model dan merek (misalnya DragonLab). Rujuk manual produsen untuk alat Anda.
+Catatan: panduan ini bersifat umum. Ikuti manual model, label produk, SDS, dan SOP laboratorium yang berlaku.

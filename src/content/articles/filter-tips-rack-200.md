@@ -1,39 +1,45 @@
 ---
-title: Filter tips rack 200 µL
-description: |-
-  Filter tips rack ukuran 200 µL untuk micropipette P200: fungsi barrier filter, keunggulan format rak, dan panduan penggunaan pada kerja molekuler.
+title: "Filter Tips 200 µL dalam Rack: Hindari Salah Pasang dan Kontaminasi"
+description: >-
+  Kenali fungsi rack filter tips 200 µL, cara memeriksa kompatibilitas dengan micropipette, dan kebiasaan kerja yang mencegah kontaminasi silang.
 pillar: bahan-habis-pakai
 publishedAt: 2026-11-24
+updatedAt: 2026-11-28
 tags: [filter tips, rack, "200 µL", aerosol, pipette tips]
+featured: false
 author: Redaksi Biolabpedia
-readingTime: 1
+readingTime: 2
+sources:
+  - label: "Thermo Fisher — Choosing the right pipette tip"
+    url: "https://www.thermofisher.com/us/en/home/life-science/lab-plasticware-supplies/lab-plasticware-supplies-learning-center/lab-plasticware-supplies-resource-library/fundamentals-of-pipetting/liquid-handling-selection/selecting-the-right-pipette-tip.html"
+  - label: "Thermo Fisher — Preventing cross-contamination"
+    url: "https://www.thermofisher.com/us/en/home/life-science/lab-plasticware-supplies/lab-plasticware-supplies-learning-center/lab-plasticware-supplies-resource-library/fundamentals-of-pipetting/proper-pipetting-techniques/preventing-cross-contamination.html"
 ---
 
-Filter tips rack 200 µL adalah pipette tips ber-barrier filter dalam kemasan rak untuk micropipette berkapasitas 20–200 µL. Ukuran 200 µL termasuk yang paling sering dipakai di laboratorium biologi untuk menyiapkan reagen, master mix, dan transfer sampel.
+Volume 200 µL sering dipakai pada preparasi sampel dan assay rutin. Namun, angka kapasitas saja tidak cukup untuk menentukan kecocokan: geometri tip dan desain cone pipet juga harus sesuai.
 
-## Mengapa filter (barrier)
+![Filter Tips 200 µL dalam Rack: Hindari Salah Pasang dan Kontaminasi — ilustrasi editorial Biolabpedia](/images/articles/bahan-habis-pakai.png)
 
-- Mencegah aerosol dan cairan masuk ke barrel micropipette.
-- Mengurangi risiko kontaminasi silang antar sampel.
-- Melindungi sampel sensitif (DNA, RNA, protein) dari nuklease atau residu yang tertinggal di alat.
+## Hal yang Perlu Dipahami
 
-Format rak membuat tips tetap tertutup dan mudah diambil satu per satu, cocok untuk meja kerja yang sibuk.
+Cocokkan tip dengan model pipet pada daftar kompatibilitas pemasok. Gunakan tip baru untuk setiap sampel, jangan mengembalikan tip yang sudah terpakai ke rack, dan simpan rack tertutup agar permukaan tip tidak terpapar debu atau percikan.
 
-## Volume 200 µL untuk apa?
+> **Baca juga:** [Cara Memilih Pipette Tips: Cocokkan Tip, Sampel, dan Tujuan Uji](/artikel/memilih-pipette-tips/)
 
-- Menyiapkan master mix PCR (volume reagen per tabung umumnya 20–50 µL, jadi alat P200 menutup rentang itu).
-- Transfer sampel, buffer, atau larutan pewarna.
-- Penanganan sampel di microplate (dengan teknik yang benar).
+## Pemeriksaan Sebelum dan Sesudah Pipetting
 
-## Perbandingan dengan filter tips 100 µL
+Cocokkan alat dan tip, periksa kebocoran atau kerusakan, lalu gunakan gerakan yang konsisten. Ganti tip di antara sampel dan buang dengan ejector. Bila hasil kuantitatif penting, cek pipet dan teknik operator dengan prosedur verifikasi laboratorium.
 
-Untuk volume kerja kecil (1–100 µL), filter tips 100 µL lebih presisi. Tips 200 µL memberi fleksibilitas untuk volume sedang tetapi kurang akurat di ujung bawah rentang. Prinsipnya: gunakan tips yang volume kerjanya tidak terlalu jauh dari volume target.
+Untuk cairan kental, volatil, atau mudah berbusa, teknik forward pipetting standar mungkin tidak memberi pemulihan terbaik. Pertimbangkan tip low-retention atau wide-bore dan teknik alternatif hanya bila direkomendasikan metode. Catat pipet, tip, volume, dan operator ketika mengevaluasi variasi.
 
-## Penanganan
+## Jika Hasil Belum Konsisten
 
-- Pastikan tips cocok dengan micropipette P200 (20–200 µL).
-- Simpan rak tertutup setelah pemakaian untuk menghindari debu.
-- Jangan mengisi tips melebihi kapasitas — cairan bisa naik ke filter dan mengurangi efektivitas barrier.
-- Buang sesuai prosedur limbah bila telah terkontaminasi.
+Ubah satu faktor dalam satu waktu dan bandingkan dengan kontrol atau kondisi yang telah diketahui bekerja. Periksa catatan operator, alat, bahan, waktu, dan lingkungan sebelum mengulang seluruh pekerjaan. Pendekatan ini membantu membedakan masalah teknik dari masalah sampel atau reagen.
 
-> Catatan: spesifikasi bebas nuklease, pirogen, dan sterilisasi berbeda antar merek (Genfollower, Servicebio, Biologix, dan lainnya). Rujuk katalog dan sertifikat produsen.
+## Kesimpulan Praktis
+
+Filter Tips 200 µL dalam Rack perlu dipilih dan digunakan berdasarkan kebutuhan metode, spesifikasi produk, dan SOP laboratorium. Simpan catatan setelan serta lot bahan agar hasil dapat ditelusuri dan diulang.
+
+> **Baca juga:** [Filter Tips 100 µL dalam Rack: Kecocokan Tip dan Pipet](/artikel/filter-tips-rack-100/)
+
+Catatan: panduan ini bersifat umum. Ikuti manual model, label produk, SDS, dan SOP laboratorium yang berlaku.

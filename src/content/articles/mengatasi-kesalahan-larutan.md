@@ -1,59 +1,45 @@
 ---
-title: Mengatasi kesalahan pada pembuatan larutan
-description: |-
-  Troubleshooting pembuatan larutan dan buffer: endapan tidak larut, pH meleset, volume tidak akurat, hingga larutan terkontaminasi — beserta perbaikannya.
+title: "Larutan Tidak Sesuai Target? Cek Konsentrasi, pH, dan Urutan Kerja"
+description: >-
+  Jika pH atau konsentrasi larutan meleset, periksa catatan perhitungan, kemurnian bahan, alat ukur, urutan pencampuran, serta kondisi penyimpanan.
 pillar: pemecahan-masalah
 publishedAt: 2026-11-24
+updatedAt: 2026-11-28
 tags: [larutan, buffer, pH, troubleshooting, konsentrasi]
+featured: false
 author: Redaksi Biolabpedia
-readingTime: 1
+readingTime: 2
 sources:
-  - label: Panduan penyiapan larutan dan buffer (buku ajar / SOP laboratorium)
+  - label: "Merck — Buffer preparation background"
+    url: "https://www.merckmillipore.com/INTL/en/life-science-research/inhibitors-biochemicals/research-essential-biochemicals/buffers/background/mLeb.qB.vv4AAAFB8.dlvyda%2Cnav"
+  - label: "Thermo Fisher — pH calibration procedure"
+    url: "https://documents.thermofisher.com/TFS-Assets/CMD/Product-Bulletins/TN-ph-calibration-procedure-for-optimal-measurement-precision-T-PHCAL-EN.pdf"
 ---
 
-Kesalahan saat menyiapkan larutan sering baru ketahuan saat eksperimen gagal. Berikut masalah umum dan cara memperbaikinya sejak awal.
+Kesalahan dapat muncul sebelum larutan dibuat—misalnya salah satuan atau massa molekul—maupun saat pembuatan, seperti volume akhir yang diukur pada suhu berbeda atau pH meter yang belum dikalibrasi.
 
-## Endapan tidak larut
+![Larutan Tidak Sesuai Target? Cek Konsentrasi, pH, dan Urutan Kerja — ilustrasi editorial Biolabpedia](/images/articles/hotplate-indonesia.png)
 
-**Penyebab:** penambahan pelarut kurang, adukan tidak cukup, suhu terlalu rendah, atau bahan sudah rusak.
+## Hal yang Perlu Dipahami
 
-**Perbaikan:**
-- Tambahkan pelarut dan aduk lebih lama (magnetic stirrer untuk larutan besar).
-- Hangatkan pelan bila bahan larut pada suhu lebih tinggi (cek stabilitas bahan).
-- Pastikan bahan tidak kedaluwarsa atau menggumpal.
+Hitung ulang dari catatan primer dan verifikasi satuan serta bentuk hidrat reagen. Gunakan labu ukur untuk volume akhir yang presisi, kalibrasi pH meter sesuai prosedur, lalu tambahkan penyesuai pH bertahap sambil mengaduk. Jangan menutupi penyimpangan dengan penyesuaian tanpa dokumentasi.
 
-## pH meleset dari target
+> **Baca juga:** [Membuat Larutan Buffer: Hitung, Atur pH, lalu Verifikasi](/artikel/teknik-larutan-buffer/)
 
-**Penyebab:** penambahan asam/basa terlalu banyak, kalibrasi pH meter salah, atau pengukuran pada suhu yang berbeda.
+## Pemeriksaan dan Pencatatan
 
-**Perbaikan:**
-- Untuk buffer, tambahkan asam/basa encer sedikit demi sedikit sambil mengaduk.
-- Kalibrasi pH meter sebelum digunakan (larutan standar pH 4, 7, 10).
-- Ukur pH pada suhu yang sama dengan suhu kerja.
-- Bila pH terlanjur jauh meleset, lebih baik buat ulang daripada terus mengoreksi.
+Gunakan alat ukur yang sesuai dan catat bahan, lot, volume, setelan, suhu atau pH aktual, serta waktu. Jangan mengandalkan satu angka display jika prosedur membutuhkan pengukuran sampel langsung. Simpan larutan dalam wadah kompatibel dan beri label lengkap.
 
-## Volume akhir tidak presisi
+Perubahan volume akibat pemanasan atau penambahan titran dapat menggeser konsentrasi akhir. Catat suhu saat pengukuran pH dan waktu larutan dibuat. Untuk bahan mudah menguap atau berbahaya, gunakan kontrol ventilasi dan kompatibilitas wadah berdasarkan SDS serta penilaian risiko.
 
-**Penyebab:** mengukur volume dengan gelas beaker (bukan labu takar), menambahkan air berlebihan, atau bahan belum larut saat volume diukur.
+## Jika Hasil Belum Konsisten
 
-**Perbaikan:**
-- Gunakan labu takar (volumetric flask) untuk volume akhir yang presisi.
-- Larutkan bahan dulu hingga benar-benar larut, baru tambahkan sampai garis ukur.
-- Jangan menambah air melewati garis — bila terlanjur, buat ulang.
+Ubah satu faktor dalam satu waktu dan bandingkan dengan kontrol atau kondisi yang telah diketahui bekerja. Periksa catatan operator, alat, bahan, waktu, dan lingkungan sebelum mengulang seluruh pekerjaan. Pendekatan ini membantu membedakan masalah teknik dari masalah sampel atau reagen.
 
-## Larutan terkontaminasi
+## Kesimpulan Praktis
 
-**Penyebab:** alat tidak bersih, air bukan aquades, atau wadah tidak steril untuk kebutuhan aseptik.
+Larutan Tidak Sesuai Target? Cek Konsentrasi, pH, dan Urutan Kerja perlu dipilih dan digunakan berdasarkan kebutuhan metode, spesifikasi produk, dan SOP laboratorium. Simpan catatan setelan serta lot bahan agar hasil dapat ditelusuri dan diulang.
 
-**Perbaikan:**
-- Gunakan aquades dan wadah bersih.
-- Untuk kebutuhan bebas nuklease, gunakan bahan dan teknik khusus.
-- Buang larutan yang terkontaminasi — jangan dikoreksi.
+> **Baca juga:** [Hotplate Stirrer: Mengatur Panas dan Pengadukan dengan Aman](/artikel/hotplate-stirrer-panduan/)
 
-## Label dan penyimpanan
-
-- Selalu beri label: isi, konsentrasi, pH, tanggal, pembuat.
-- Periksa stabilitas (suhu, cahaya) — beberapa larutan cepat rusak.
-- Jangan pakai larutan tanpa label jelas.
-
-> Catatan: resep, konsentrasi, dan toleransi spesifik bergantung pada protokol masing-masing. Rujuk SOP dan panduan penyiapan larutan di laboratorium Anda.
+Catatan: panduan ini bersifat umum. Ikuti manual model, label produk, SDS, dan SOP laboratorium yang berlaku.

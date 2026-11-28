@@ -1,41 +1,45 @@
 ---
-title: Microcentrifuge tubes 1,5 mL steril
-description: |-
-  Microcentrifuge tubes 1,5 mL steril (500/bag): bahan polipropilena, kecocokan dengan rotor sentrifus, kegunaan pada sampel biologis, dan praktik penyimpanan.
+title: "Microcentrifuge Tube 1,5 mL Steril: Cek Sterilitas dan Batas Gaya"
+description: >-
+  Tube steril 1,5 mL membantu penanganan sampel skala kecil. Sebelum sentrifugasi atau penyimpanan, pastikan sertifikasi, kompatibilitas kimia, dan batas gaya sentrifugal untuk produk spesifik.
 pillar: bahan-habis-pakai
 publishedAt: 2026-11-24
+updatedAt: 2026-11-28
 tags: [microcentrifuge tubes, "1", "5 mL", steril, sentrifus, polipropilena]
+featured: false
 author: Redaksi Biolabpedia
-readingTime: 1
+readingTime: 2
+sources:
+  - label: "Eppendorf — Instructions for use: tubes"
+    url: "https://www.eppendorf.com/product-media/doc/en/234161/Consumables_Instructions-use_Tubes-Tubes-50-mL.pdf"
+  - label: "Thermo Fisher — Centrifuge best practices"
+    url: "https://www.thermofisher.com/uk/en/home/life-science/lab-equipment/lab-equipment-learning-center/centrifuges/centrifuge-best-practices.html"
 ---
 
-Microcentrifuge tubes 1,5 mL steril adalah tabung sentrifus mikro berpenutup, terbuat dari polipropilena, dan dikemas steril (umumnya 500/bag). Tabung ini dirancang untuk sampel volume kecil yang tahan putaran sentrifus berkecepatan tinggi.
+Steril pada kemasan tidak berarti tube cocok untuk semua kondisi atau dapat digunakan kembali. Ketahanan terhadap gaya bergantung pada bahan, bentuk, tutup, adaptor, suhu, durasi, dan spesifikasi produsennya.
 
-## Bahan dan sifat
+![Microcentrifuge Tube 1,5 mL Steril: Cek Sterilitas dan Batas Gaya — ilustrasi editorial Biolabpedia](/images/articles/bahan-habis-pakai.png)
 
-- **Polipropilena (PP)** — ringan, kuat, tahan banyak pelarut dan reagen umum.
-- **Steril** — cocok untuk sampel biologis, kultur, dan kerja yang menuntut kebersihan tinggi.
-- **Tahan suhu** — bisa didinginkan (freezer) dan pada rentang tertentu dipanaskan — cek spesifikasi produk.
+## Hal yang Perlu Dipahami
 
-## Kecocokan dengan sentrifus
+Periksa indikator sterilitas dan integritas segel sebelum membuka. Gunakan adaptor yang sesuai, tutup rapat tanpa merusak ulir, dan jangan melampaui batas RCF yang dinyatakan produsen untuk konfigurasi aktual. Pisahkan limbah setelah sekali pakai mengikuti SOP.
 
-- Sesuaikan dengan rotor sentrifus (ukuran, bentuk, kapasitas).
-- Tutup rapat selama berputar agar isinya tidak bocor atau membentuk aerosol.
-- Jangan melebihi kecepatan putar maksimum yang tercantum pada tabung dan rotor.
+> **Baca juga:** [Microcentrifuge Tube: Pilih Bahan dan Tutup untuk Sampel Anda](/artikel/microcentrifuge-tubes/)
 
-## Praktik penggunaan
+## Pemeriksaan Sebelum Menjalankan Alat
 
-1. Untuk tabung steril, buka kemasan dengan teknik yang tidak menyentuh bagian dalam.
-2. Masukkan sampel; jangan melebihi volume maksimum.
-3. Tutup rapat; pastikan tidak ada cairan di ulir/tepi tutup.
-4. Letakkan tabung seimbang dalam rotor (pasangan berlawanan) agar sentrifus tidak bergetar.
-5. Buka tutup perlahan setelah selesai untuk menghindari aerosol.
+Periksa rotor, tutup, adaptor, dan tabung terhadap kerusakan atau residu. Pastikan muatan seimbang secara simetris dan gunakan parameter yang diizinkan untuk kombinasi rotor-tabung tersebut. Setelah berhenti total, catat kondisi dan bersihkan sesuai manual.
 
-## Penyimpanan
+Batas maksimum tidak boleh dipindahkan begitu saja antar-merek atau antar-konfigurasi. Cek manual rotor dan instruksi tube untuk RCF, suhu, waktu, serta adaptor yang digunakan. Jika terjadi tumpahan atau tube pecah, ikuti prosedur dekontaminasi dan pelaporan laboratorium.
 
-- Simpan bag steril tertutup sampai digunakan.
-- Untuk sampel biologis, simpan pada suhu sesuai protokol (ruang pendingin/freezer).
-- Tabung sekali pakai umumnya tidak digunakan ulang untuk sampel berbeda — risiko kontaminasi silang.
-- Buang tabung bekas sampel berisiko sesuai prosedur limbah.
+## Jika Hasil Belum Konsisten
 
-> Catatan: volume maksimum, ketahanan suhu, dan kecepatan putar berbeda antar produk (Genfollower, dan lainnya). Rujuk katalog produsen dan SOP sentrifus laboratorium.
+Ubah satu faktor dalam satu waktu dan bandingkan dengan kontrol atau kondisi yang telah diketahui bekerja. Periksa catatan operator, alat, bahan, waktu, dan lingkungan sebelum mengulang seluruh pekerjaan. Pendekatan ini membantu membedakan masalah teknik dari masalah sampel atau reagen.
+
+## Kesimpulan Praktis
+
+Microcentrifuge Tube 1,5 mL Steril perlu dipilih dan digunakan berdasarkan kebutuhan metode, spesifikasi produk, dan SOP laboratorium. Simpan catatan setelan serta lot bahan agar hasil dapat ditelusuri dan diulang.
+
+> **Baca juga:** [Teknik Sentrifus: Menyeimbangkan Tabung dan Memilih RCF](/artikel/teknik-sentrifus/)
+
+Catatan: panduan ini bersifat umum. Ikuti manual model, label produk, SDS, dan SOP laboratorium yang berlaku.

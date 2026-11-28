@@ -774,6 +774,18 @@ img {
   margin: 0 0 1.45rem;
 }
 
+.prose > p:has(> img) {
+  margin: 2rem 0;
+}
+
+.prose img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-md);
+  box-shadow: 0 8px 24px rgb(25 45 75 / 10%);
+}
+
 .prose ul,
 .prose ol {
   margin: 0 0 1.55rem;
@@ -797,6 +809,19 @@ img {
   color: var(--color-muted);
   font-family: var(--font-display);
   font-style: italic;
+}
+
+.prose blockquote:has(a[href^="/artikel/"]) {
+  padding: 1rem 1.25rem;
+  background: color-mix(in srgb, var(--color-primary) 7%, white);
+  border-left-width: 3px;
+  font-style: normal;
+}
+
+.prose blockquote:has(a[href^="/artikel/"]) a {
+  color: var(--color-primary);
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
 }
 
 .prose blockquote p:last-child {

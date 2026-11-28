@@ -1,55 +1,45 @@
 ---
-title: Teknik dasar menyiapkan larutan dan buffer
-description: |-
-  Cara menyiapkan larutan standar dan buffer: menghitung konsentrasi, menimbang bahan, melarutkan, mengatur pH, hingga melabeli dan menyimpan larutan.
+title: "Membuat Larutan Buffer: Hitung, Atur pH, lalu Verifikasi"
+description: >-
+  Pembuatan buffer yang dapat diulang dimulai dari perhitungan konsentrasi, penimbangan bahan yang benar, pengaturan pH, dan pencatatan kondisi akhir.
 pillar: teknik-dasar
 publishedAt: 2026-11-24
+updatedAt: 2026-11-28
 tags: [larutan, buffer, konsentrasi, pH, penyiapan reagen]
+featured: false
 author: Redaksi Biolabpedia
 readingTime: 2
 sources:
-  - label: Panduan praktikum kimia biologi dan pembuatan larutan (buku ajar / SOP laboratorium)
+  - label: "Merck — Buffer preparation background"
+    url: "https://www.merckmillipore.com/INTL/en/life-science-research/inhibitors-biochemicals/research-essential-biochemicals/buffers/background/mLeb.qB.vv4AAAFB8.dlvyda%2Cnav"
+  - label: "Thermo Fisher — pH calibration procedure"
+    url: "https://documents.thermofisher.com/TFS-Assets/CMD/Product-Bulletins/TN-ph-calibration-procedure-for-optimal-measurement-precision-T-PHCAL-EN.pdf"
 ---
 
-Menyiapkan larutan dan buffer dengan benar adalah keterampilan dasar yang menentukan keberhasilan hampir semua eksperimen. Kesalahan konsentrasi atau pH pada tahap awal merambat ke seluruh hasil.
+Pastikan bentuk kimia dan massa molekul reagen benar, termasuk apakah bahan berbentuk hidrat. Siapkan larutan mendekati volume akhir sebelum menyesuaikan pH, karena volume titran turut mengubah konsentrasi.
 
-## Konsep konsentrasi dasar
+![Membuat Larutan Buffer: Hitung, Atur pH, lalu Verifikasi — ilustrasi editorial Biolabpedia](/images/articles/hotplate-indonesia.png)
 
-- **Molaritas (M)** — mol per liter larutan. Dihitung dari massa molar zat.
-- **Persen (% b/v)** — gram per 100 mL. Umum untuk garam dan pewarna.
-- **Pengenceran** — C₁V₁ = C₂V₂ (konsentrasi dan volume awal = akhir).
+## Hal yang Perlu Dipahami
 
-Contoh: membuat 100 mL larutan NaCl 0,9% (b/v) = menimbang 0,9 g NaCl, larutkan hingga volume total 100 mL.
+Kalibrasi pH meter dengan buffer standar yang mencakup rentang target. Tambahkan asam atau basa sedikit demi sedikit sambil mengaduk; setelah pH stabil, tepatkan volume akhir pada suhu yang sesuai metode. Labeli komposisi, pH, tanggal, pembuat, dan kondisi simpan.
 
-## Langkah penyiapan
+> **Baca juga:** [Larutan Tidak Sesuai Target? Cek Konsentrasi, pH, dan Urutan Kerja](/artikel/mengatasi-kesalahan-larutan/)
 
-1. **Hitung** jumlah bahan yang dibutuhkan berdasarkan volume dan konsentrasi target.
-2. **Timbang** dengan balance yang sesuai ketelitiannya.
-3. **Larutkan** dalam air (aquades untuk kebutuhan analitik) — aduk sampai benar-benar larut.
-4. **Ukur volume akhir** dalam labu takar (volumetric flask) untuk ketepatan, bukan gelas beaker.
-5. **Atur pH** bila diperlukan (khusus buffer) dengan pH meter.
-6. **Sterilkan** bila dibutuhkan (autoclave atau filter) — cek kecocokan bahan dengan metode.
-7. **Label** — isi, konsentrasi, pH, tanggal, pembuat.
+## Pemeriksaan dan Pencatatan
 
-## Buffer
+Gunakan alat ukur yang sesuai dan catat bahan, lot, volume, setelan, suhu atau pH aktual, serta waktu. Jangan mengandalkan satu angka display jika prosedur membutuhkan pengukuran sampel langsung. Simpan larutan dalam wadah kompatibel dan beri label lengkap.
 
-Buffer menahan perubahan pH. Komponen utamanya pasangan asam lemah–basa konjugatnya (misalnya Tris-HCl, fosfat). Tips:
+Perubahan volume akibat pemanasan atau penambahan titran dapat menggeser konsentrasi akhir. Catat suhu saat pengukuran pH dan waktu larutan dibuat. Untuk bahan mudah menguap atau berbahaya, gunakan kontrol ventilasi dan kompatibilitas wadah berdasarkan SDS serta penilaian risiko.
 
-- Pilih buffer dengan pKa dekat pH target (biasanya ±1).
-- Atur pH setelah melarutkan, pada suhu kerja (pH buffer bisa berubah dengan suhu).
-- Catat suhu pengukuran pH pada label.
+## Jika Hasil Belum Konsisten
 
-## Kesalahan umum
+Ubah satu faktor dalam satu waktu dan bandingkan dengan kontrol atau kondisi yang telah diketahui bekerja. Periksa catatan operator, alat, bahan, waktu, dan lingkungan sebelum mengulang seluruh pekerjaan. Pendekatan ini membantu membedakan masalah teknik dari masalah sampel atau reagen.
 
-- Menggunakan gelas beaker untuk mengukur volume akhir (kurang presisi).
-- Melarutkan hingga volume tertentu sebelum semua bahan larut.
-- Lupa mengatur pH setelah penambahan semua komponen.
-- Label tidak lengkap atau tidak diperbarui.
+## Kesimpulan Praktis
 
-## Penyimpanan
+Membuat Larutan Buffer perlu dipilih dan digunakan berdasarkan kebutuhan metode, spesifikasi produk, dan SOP laboratorium. Simpan catatan setelan serta lot bahan agar hasil dapat ditelusuri dan diulang.
 
-- Simpan sesuai stabilitas masing-masing larutan (suhu, cahaya).
-- Jangan menggunakan larutan tanpa label jelas atau melewati tanggal kedaluwarsa.
-- Buang larutan bekas sesuai prosedur limbah.
+> **Baca juga:** [Hotplate Stirrer: Mengatur Panas dan Pengadukan dengan Aman](/artikel/hotplate-stirrer-panduan/)
 
-> Catatan: formula spesifik, konsentrasi, dan metode sterilisasi bergantung pada protokol masing-masing. Rujuk SOP dan resep larutan yang dipakai di laboratorium Anda.
+Catatan: panduan ini bersifat umum. Ikuti manual model, label produk, SDS, dan SOP laboratorium yang berlaku.

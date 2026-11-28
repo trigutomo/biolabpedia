@@ -1,53 +1,45 @@
 ---
-title: |-
-  Vortex mixer: fungsi, pengaturan, dan batas penggunaan
-description: Penjelasan vortex mixer sebagai alat pengocok sampel, prinsip getaran orbit, pilihan kecepatan, penerapan pada campuran sampel, serta hal yang perlu diperhatikan agar hasil campuran konsisten.
+title: "Vortex Mixer: Kapan Dipakai dan Bagaimana Mengontrol Pencampuran"
+description: >-
+  Vortex mixer berguna untuk mencampur isi tabung kecil secara cepat. Keberhasilan pencampuran bergantung pada wadah, volume, viskositas, dan intensitas yang dibutuhkan.
 pillar: kenali-alat
 publishedAt: 2026-11-02
+updatedAt: 2026-11-28
 tags: [vortex, mixer, pengocok sampel, homogenisasi]
+featured: false
 author: Redaksi Biolabpedia
 readingTime: 2
+sources:
+  - label: "DLAB — MX-S vortex mixer user manual"
+    url: "https://assets.wolflabs.co.uk/AssetsStore/DLAB_Vortexer_MX_manual.pdf"
+  - label: "CDC/NIH — BMBL 6th edition"
+    url: "https://www.cdc.gov/labs/bmbl/"
 ---
 
-Vortex mixer adalah alat laboratorium untuk mengocok atau mencampur cairan dalam wadah kecil (tabung, botol, microcentrifuge tube) secara cepat. Prinsipnya sederhana: pelat karet di atas alat bergetar dengan gerakan orbit, dan ujung wadah yang ditekan pada pelat ikut bergetar sehingga isinya teraduk.
+Pencampuran kuat dapat menghasilkan busa atau aerosol, terutama pada sampel biologis. Untuk suspensi sensitif, pencampuran lembut atau inversi mungkin lebih sesuai daripada vortex.
 
-## Kapan dipakai
+![Vortex Mixer: Kapan Dipakai dan Bagaimana Mengontrol Pencampuran — ilustrasi editorial Biolabpedia](/images/articles/vortex-indonesia.png)
 
-- Mencampur reagen dalam tabung sebelum atau sesudah reaksi.
-- Menghomogenkan suspensi sel atau partikel.
-- Melarutkan padatan dalam pelarut.
-- Membuat larutan kerja dari stok.
+## Hal yang Perlu Dipahami
 
-Vortex **bukan** pengganti pengaduk magnetik (stirrer) untuk reaksi jangka panjang atau pemanasan serentak. Untuk campuran besar atau homogenisasi keras, ada homogenizer khusus.
+Tutup tabung dengan rapat, pilih adaptor yang cocok, dan gunakan durasi singkat yang konsisten. Jangan membuka tutup atau memegang tabung longgar saat alat berjalan. Bila ada risiko aerosol, lakukan langkah containment berdasarkan penilaian risiko dan SOP.
 
-## Pengaturan kecepatan
+> **Baca juga:** [Vortex DLAB MX-S: Kenali Mode dan Batas Penggunaan](/artikel/vortex-dlab-mx-s/)
 
-Sebagian besar vortex mixer punya pengatur kecepatan kontinu atau beberapa tingkat (misalnya rendah, sedang, tinggi). Prinsip pemilihan:
+## Langkah Kerja dan Pengendalian Risiko
 
-- **Kecepatan rendah** - mencampur larutan jernih, menghindari percikan atau buih berlebih.
-- **Kecepatan sedang sampai tinggi** - suspensi partikel, mengaduk ulang sedimen, campuran yang sulit homogen.
+Rencanakan urutan kerja sebelum mulai, gunakan alat pelindung dan containment sesuai penilaian risiko, serta ikuti manual, label produk, dan SOP fasilitas. Hentikan pekerjaan jika kondisi alat atau sampel tidak aman; dokumentasikan penyimpangan sebelum melanjutkan.
 
-Beberapa model punya mode touch (hanya bergetar saat wadah ditekan) dan mode continuous (bergetar terus). Mode continuous berguna saat mencampur banyak wadah bergantian, tetapi perhatikan waktu agar sampel tidak terlalu panas karena gesekan.
+Pembersihan, desinfeksi, dan sterilisasi adalah proses berbeda. Pilih metode berdasarkan agen, bahan permukaan, dan tujuan; pastikan waktu kontak serta kompatibilitas mengikuti label atau SOP. Catat insiden, lot bahan, dan langkah dekontaminasi untuk membantu investigasi bila masalah berulang.
 
-## Langkah dasar
+## Jika Hasil Belum Konsisten
 
-1. Pastikan alat di permukaan rata dan stabil.
-2. Pilih kecepatan sesuai sifat sampel.
-3. Tekan bagian bawah wadah pada pelat karet sampai getaran terasa merata.
-4. Tahan beberapa detik hingga campuran tampak homogen - waktu bergantung pada viskositas dan volume.
-5. Angkat wadah, matikan atau lepaskan dari pelat.
+Ubah satu faktor dalam satu waktu dan bandingkan dengan kontrol atau kondisi yang telah diketahui bekerja. Periksa catatan operator, alat, bahan, waktu, dan lingkungan sebelum mengulang seluruh pekerjaan. Pendekatan ini membantu membedakan masalah teknik dari masalah sampel atau reagen.
 
-## Batas dan hal yang perlu diperhatikan
+## Kesimpulan Praktis
 
-- **Sampel peka panas atau busa** - getaran terus-menerus bisa menaikkan suhu dan memperbanyak buih. Gunakan kecepatan rendah dan jeda.
-- **Wadah rapuh atau terbuka lebar** - risiko tumpah; jangan gunakan kecepatan tinggi tanpa tutup yang aman.
-- **Sampel biologis sensitif** - misalnya sel atau protein tertentu bisa rusak bila dikocok terlalu keras. Ikuti protokol.
-- **Vortex bukan untuk reaksi berpemanasan** - untuk itu gunakan hotplate stirrer atau alat pemanas yang sesuai.
+Vortex Mixer perlu dipilih dan digunakan berdasarkan kebutuhan metode, spesifikasi produk, dan SOP laboratorium. Simpan catatan setelan serta lot bahan agar hasil dapat ditelusuri dan diulang.
 
-## Perawatan
+> **Baca juga:** [Teknik Aseptik: Cegah Kontaminasi dengan Alur Kerja yang Tepat](/artikel/teknik-aseptik/)
 
-- Bersihkan pelat karet bila terkena tumpahan, terutama bahan korosif atau sampel biologis.
-- Jangan merendam seluruh alat dalam air.
-- Simpan pada tempat kering; cek kabel dan sakelar secara berkala.
-
-> Catatan: kecepatan, mode, dan batas waktu penggunaan berbeda antar model. Rujuk manual produsen untuk parameter tepatnya.
+Catatan: panduan ini bersifat umum. Ikuti manual model, label produk, SDS, dan SOP laboratorium yang berlaku.

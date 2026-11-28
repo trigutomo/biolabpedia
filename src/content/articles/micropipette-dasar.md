@@ -1,67 +1,45 @@
 ---
-title: |-
-  Micropipette: cara kerja, jenis, dan penggunaan dasar
-description: Pengenalan micropipette (pipet volume kecil yang presisi), prinsip kerja piston, jenis berdasarkan volume, serta langkah pengambilan dan penyaluran sampel yang benar.
+title: "Micropipette: Prinsip Kerja dan Teknik Dasar yang Perlu Dikuasai"
+description: >-
+  Pahami cara kerja micropipette, membaca rentang volumenya, memilih tip, dan melakukan aspirasi serta dispensasi secara konsisten.
 pillar: kenali-alat
 publishedAt: 2026-10-31
+updatedAt: 2026-11-28
 tags: [micropipette, pipette tips, volume kecil, presisi]
+featured: false
 author: Redaksi Biolabpedia
 readingTime: 2
 sources:
-  - label: Manual instruksi micropipette dari produsen (selalu rujuk manual model yang digunakan)
-  - label: Good Laboratory Practice untuk pipetting, literatur teknik laboratorium umum
+  - label: "Eppendorf — Liquid handling FAQ"
+    url: "https://www.eppendorf.com/us-en/lab-academy/life-science/microbiology/liquid-handling-faq/"
+  - label: "Eppendorf — Manual pipetting techniques"
+    url: "https://www.eppendorf.com/product-media/doc/en/72923/Eppendorf_Liquid-Handling_Poster_Manual-Pipettes_Pipetting-Techniques.pdf"
 ---
 
-Micropipette adalah alat untuk mengambil dan menyalurkan volume cairan kecil secara presisi, umumnya dalam rentang mikroliter (uL). Alat ini wajib dikuasai mahasiswa dan praktisi karena hampir semua teknik molekuler dan analitik bergantung pada volume yang akurat.
+Micropipette piston udara memindahkan cairan melalui perubahan volume udara di dalam pipet. Kebocoran, suhu, posisi, serta karakter cairan dapat menyebabkan volume aktual berbeda dari setelan.
 
-## Prinsip kerja
+![Micropipette: Prinsip Kerja dan Teknik Dasar yang Perlu Dikuasai — ilustrasi editorial Biolabpedia](/images/articles/pipetting-indonesia.png)
 
-Micropipette bekerja dengan sistem piston: menekan tombol plunger menggerakkan piston di dalam badan alat, mengubah tekanan udara di ruang udara. Saat tombol dilepas, tekanan menarik cairan masuk ke pipette tips (ujung sekali pakai yang terpasang di ujung alat). Menekan plunger ke posisi kedua (second stop) mendorong sisa cairan keluar.
+## Hal yang Perlu Dipahami
 
-Tiga bagian utama:
+Pilih pipet yang rentangnya sesuai dan tip kompatibel. Pada pipet standar, stop pertama digunakan untuk aspirasi dan dispensasi utama, sedangkan stop kedua membantu mengeluarkan sisa cairan; pahami desain model sebelum bekerja. Simpan tegak pada holder dan kalibrasi sesuai jadwal laboratorium.
 
-- **Plunger** - mengontrol tekanan udara.
-- **Barrel / badan alat** - tempat piston dan skala volume.
-- **Shank** - ujung tempat pipette tips dipasang.
+> **Baca juga:** [Cara Memilih Pipette Tips: Cocokkan Tip, Sampel, dan Tujuan Uji](/artikel/memilih-pipette-tips/)
 
-## Jenis berdasarkan volume
+## Pemeriksaan Sebelum dan Sesudah Pipetting
 
-Micropipette diklasifikasikan menurut rentang volume kerjanya, misalnya:
+Cocokkan alat dan tip, periksa kebocoran atau kerusakan, lalu gunakan gerakan yang konsisten. Ganti tip di antara sampel dan buang dengan ejector. Bila hasil kuantitatif penting, cek pipet dan teknik operator dengan prosedur verifikasi laboratorium.
 
-| Jenis | Rentang umum | Contoh penggunaan |
-|---|---|---|
-| P2 / P10 | 0,1-10 uL | PCR, reagen enzim, sampel DNA/RNA |
-| P20 | 2-20 uL | Transfer reagen ber-volume kecil |
-| P100 / P200 | 10-200 uL | Penyiapan larutan, sampel protein |
-| P1000 | 100-1000 uL | Penanganan buffer, pelarut |
+Untuk cairan kental, volatil, atau mudah berbusa, teknik forward pipetting standar mungkin tidak memberi pemulihan terbaik. Pertimbangkan tip low-retention atau wide-bore dan teknik alternatif hanya bila direkomendasikan metode. Catat pipet, tip, volume, dan operator ketika mengevaluasi variasi.
 
-Rentang tepat berbeda antar merek dan model - selalu cek skala pada alat atau manual.
+## Jika Hasil Belum Konsisten
 
-Ada pula micropipette multichannel (8 atau 12 kanal) untuk menyalurkan volume sama ke banyak sumur microplate, mempercepat pekerjaan berulang.
+Ubah satu faktor dalam satu waktu dan bandingkan dengan kontrol atau kondisi yang telah diketahui bekerja. Periksa catatan operator, alat, bahan, waktu, dan lingkungan sebelum mengulang seluruh pekerjaan. Pendekatan ini membantu membedakan masalah teknik dari masalah sampel atau reagen.
 
-## Langkah penggunaan dasar
+## Kesimpulan Praktis
 
-1. Pilih pipette tips yang sesuai volume dan cocok dengan shank.
-2. Set volume pada rentang kerja alat (putar knob sesuai arah manual).
-3. Tekan plunger ke **first stop** sebelum memasukkan ujung tips ke cairan.
-4. Masukkan tips ke cairan sedalam yang diizinkan (hindari menyentuh dasar wadah bila tidak perlu).
-5. Lepaskan plunger perlahan untuk menarik cairan; tunggu sebentar agar stabil.
-6. Pindahkan ke wadah tujuan, tekan ke **first stop**, lalu tekan ke **second stop** untuk mengeluarkan sisa.
-7. Lepaskan pipette tips ke wadah sampah yang benar sebelum mengambil sampel berikutnya.
+Micropipette perlu dipilih dan digunakan berdasarkan kebutuhan metode, spesifikasi produk, dan SOP laboratorium. Simpan catatan setelan serta lot bahan agar hasil dapat ditelusuri dan diulang.
 
-## Kesalahan umum yang menurunkan akurasi
+> **Baca juga:** [Pipetting Tidak Konsisten? Periksa 6 Kesalahan yang Sering Terjadi](/artikel/kesalahan-umum-pipetting/)
 
-- **Pipette tips longgar** - tekanan bocor, volume tidak konsisten. Pastikan terpasang rapat dengan memutar sedikit.
-- **Volume di luar rentang** - presisi menurun tajam; gunakan alat dengan rentang sesuai.
-- **Pipette dimiringkan ekstrem saat menarik cairan** - menyebabkan udara ikut terisap. Pertahankan tegak lurus.
-- **Tips terisi terlalu penuh** - cairan bisa masuk ke dalam badan alat. Ikuti batas maksimum pada tips.
-- **Plunger dilepas terlalu cepat** - timbul gelembung dan volume tidak stabil.
-- **Memakai ulang pipette tips** - kontaminasi silang dan ausnya seal.
-
-## Perawatan singkat
-
-- Jangan membasahi atau merendam badan alat.
-- Simpan tegak pada rak, plunger dalam keadaan longgar (posisi volume di tengah rentang bila menyimpan lama - ikuti manual).
-- Kalibrasi dan servis berkala sesuai jadwal laboratorium, terutama bila alat dipakai untuk hasil uji atau penelitian dengan syarat presisi ketat.
-
-> Catatan: detail seperti titik kalibrasi, rentang toleransi, dan prosedur kalibrasi spesifik berbeda antar model. Rujuk manual produsen untuk alat Anda.
+Catatan: panduan ini bersifat umum. Ikuti manual model, label produk, SDS, dan SOP laboratorium yang berlaku.

@@ -1,52 +1,45 @@
 ---
-title: Teknik aseptik dasar di laboratorium
-description: |-
-  Prinsip kerja aseptik untuk mencegah kontaminasi: alat dan area kerja, teknik membuka wadah, penggunaan bunsen/burner, serta kesalahan yang sering menyebabkan kontaminasi.
+title: "Teknik Aseptik: Cegah Kontaminasi dengan Alur Kerja yang Tepat"
+description: >-
+  Teknik aseptik menjaga sampel dan bahan kerja dari kontaminasi yang tidak diinginkan. Praktiknya bergantung pada risiko biologis, jenis prosedur, dan fasilitas yang tersedia.
 pillar: teknik-dasar
 publishedAt: 2026-11-24
+updatedAt: 2026-11-28
 tags: [aseptik, kontaminasi, sterilisasi, kultur, teknik dasar]
+featured: false
 author: Redaksi Biolabpedia
-readingTime: 1
+readingTime: 2
 sources:
-  - label: Panduan praktikum mikrobiologi dan teknik aseptik (buku ajar / SOP laboratorium)
+  - label: "CDC/NIH — BMBL 6th edition"
+    url: "https://www.cdc.gov/labs/bmbl/"
+  - label: "WHO — Laboratory biosafety manual, 4th edition"
+    url: "https://www.who.int/publications/i/item/9789240011311"
 ---
 
-Teknik aseptik adalah praktik bekerja tanpa memasukkan mikroorganisme atau kontaminan yang tidak diinginkan ke dalam sampel atau media. Teknik ini wajib dikuasai pada kultur sel, mikrobiologi, dan setiap kerja yang menuntut kemurnian sampel.
+Aseptik bukan berarti bekerja secepat mungkin atau selalu memakai api. Bunsen tidak menciptakan zona steril universal, dan nyala terbuka umumnya tidak dianjurkan di dalam biological safety cabinet karena dapat mengganggu aliran udara serta menimbulkan bahaya kebakaran.
 
-## Prinsip utama
+![Teknik Aseptik: Cegah Kontaminasi dengan Alur Kerja yang Tepat — ilustrasi editorial Biolabpedia](/images/articles/aseptic-indonesia.png)
 
-- **Sterilkan alat** sebelum dan sesudah digunakan (autoclave, bunsen, atau alkohol).
-- **Bekerja cepat** — semakin lama wadah terbuka, semakin besar risiko kontaminasi.
-- **Hindari menyentuh** bagian steril (ujung alat, dalam tutup, permukaan media).
-- **Arahkan aliran udara** menjauh dari wadah terbuka.
+## Hal yang Perlu Dipahami
 
-## Alat dan area kerja
+Siapkan alat dan bahan sebelum membuka wadah, minimalkan paparan, dan gunakan kontrol kontaminasi sesuai SOP. Jika pekerjaan berisiko aerosol atau paparan, lakukan penilaian risiko untuk memilih containment yang tepat. Biological safety cabinet harus tersertifikasi dan digunakan sesuai kelas serta prosedurnya.
 
-- **Bunsen/burner** — menciptakan area panas steril di sekitar nyala; buka/tutup wadah di dekatnya.
-- **Lemari asap biologis** (biosafety cabinet) — untuk kerja yang butuh perlindungan lebih.
-- **Alkohol 70%** — untuk mensterilkan permukaan dan tangan.
-- **Pinset/spatul steril** — untuk memindahkan sampel tanpa kontaminasi.
+> **Baca juga:** [Sampel Terkontaminasi? Telusuri Sumbernya Secara Sistematis](/artikel/mencari-sumber-kontaminasi/)
 
-## Membuka wadah dengan benar
+## Langkah Kerja dan Pengendalian Risiko
 
-1. Dekatkan ke nyala bunsen (bila memakai burner).
-2. Buka tutup wadah dengan tangan yang sama, tahan tutup — jangan letakkan di meja.
-3. Panaskan mulut tabung/beaker di nyala sebentar.
-4. Lakukan pemindahan cepat, lalu panaskan mulut lagi dan tutup.
-5. Untuk petri dish, buka sedikit (cukup untuk akses) dan segera tutup.
+Rencanakan urutan kerja sebelum mulai, gunakan alat pelindung dan containment sesuai penilaian risiko, serta ikuti manual, label produk, dan SOP fasilitas. Hentikan pekerjaan jika kondisi alat atau sampel tidak aman; dokumentasikan penyimpangan sebelum melanjutkan.
 
-## Kesalahan yang menyebabkan kontaminasi
+Pembersihan, desinfeksi, dan sterilisasi adalah proses berbeda. Pilih metode berdasarkan agen, bahan permukaan, dan tujuan; pastikan waktu kontak serta kompatibilitas mengikuti label atau SOP. Catat insiden, lot bahan, dan langkah dekontaminasi untuk membantu investigasi bila masalah berulang.
 
-- Wadah terbuka terlalu lama.
-- Menyentuh ujung alat atau dalam tutup dengan tangan/permukaan non-steril.
-- Bekerja di dekat angin/kipas yang membawa spora.
-- Alat tidak steril atau sterilisasi tidak sempurna.
-- Menggunakan kembali alat sekali pakai.
+## Jika Hasil Belum Konsisten
 
-## Keselamatan
+Ubah satu faktor dalam satu waktu dan bandingkan dengan kontrol atau kondisi yang telah diketahui bekerja. Periksa catatan operator, alat, bahan, waktu, dan lingkungan sebelum mengulang seluruh pekerjaan. Pendekatan ini membantu membedakan masalah teknik dari masalah sampel atau reagen.
 
-- Nyala bunsen panas — jaga jarak dan hindari bahan mudah terbakar.
-- Untuk sampel berisiko (patogen), gunakan biosafety cabinet dan ikuti level biosafety yang sesuai.
-- Buang media dan sampel bekas sesuai prosedur (autoclave bila perlu).
+## Kesimpulan Praktis
 
-> Catatan: prosedur aseptik bisa berbeda menurut jenis sampel, level biosafety, dan SOP laboratorium. Ikuti protokol setempat.
+Teknik Aseptik perlu dipilih dan digunakan berdasarkan kebutuhan metode, spesifikasi produk, dan SOP laboratorium. Simpan catatan setelan serta lot bahan agar hasil dapat ditelusuri dan diulang.
+
+> **Baca juga:** [Perawatan Alat Laboratorium: Rutinitas Sederhana yang Menjaga Kinerja](/artikel/perawatan-alat-lab-dasar/)
+
+Catatan: panduan ini bersifat umum. Ikuti manual model, label produk, SDS, dan SOP laboratorium yang berlaku.

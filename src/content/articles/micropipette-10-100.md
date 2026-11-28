@@ -1,56 +1,45 @@
 ---
-title: Micropipette volume 10–100 µL
-description: |-
-  Micropipette rentang 10–100 µL (P100): alat serbaguna untuk transfer volume sedang, panduan penggunaan, kesalahan umum, dan perawatan.
+title: "Micropipette 10–100 µL: Teknik Stabil untuk Transfer Rutin"
+description: >-
+  Rentang 10–100 µL digunakan luas pada preparasi dan assay. Kenali pengaturan yang tepat, pemilihan tip, dan langkah kecil yang memengaruhi konsistensi transfer.
 pillar: kenali-alat
 publishedAt: 2026-11-24
+updatedAt: 2026-11-28
 tags: [micropipette, "P100", volume sedang, transfer, DragonLab]
+featured: false
 author: Redaksi Biolabpedia
 readingTime: 2
+sources:
+  - label: "Eppendorf — Liquid handling FAQ"
+    url: "https://www.eppendorf.com/us-en/lab-academy/life-science/microbiology/liquid-handling-faq/"
+  - label: "Thermo Fisher — Pipetting recommendations by sample type"
+    url: "https://www.thermofisher.com/us/en/home/life-science/lab-plasticware-supplies/lab-plasticware-supplies-learning-center/lab-plasticware-supplies-resource-library/fundamentals-of-pipetting/proper-pipetting-techniques/pipetting-recommendations-for-different-sample-types.html"
 ---
 
-Micropipette rentang 10–100 µL (P100) adalah alat serbaguna untuk transfer volume sedang. Rentang ini banyak dipakai untuk menyiapkan reagen, buffer, dan sampel protein dalam berbagai teknik laboratorium.
+Pipet bekerja paling baik jika volume dipilih dalam rentang yang dinyatakan produsen. Tip yang tidak pas dapat bocor atau mengubah gaya pemasangan, sedangkan cairan kental dan mudah menguap mungkin memerlukan teknik khusus.
 
-## Kapan digunakan
+![Micropipette 10–100 µL: Teknik Stabil untuk Transfer Rutin — ilustrasi editorial Biolabpedia](/images/articles/pipetting-indonesia.png)
 
-- Penyiapan larutan dan reagen dalam volume 10–100 µL.
-- Transfer sampel protein, enzim, atau pewarna.
-- Penanganan sampel untuk ELISA atau microplate.
+## Hal yang Perlu Dipahami
 
-## Memilih tips
+Setel volume ketika pipet tidak terpasang pada sampel, lalu pasang tip dengan seal konsisten. Pegang tegak saat aspirasi, celupkan tip secukupnya, dan jaga gerak plunger tetap halus. Ganti tip antar sampel dan gunakan kalibrasi berkala sesuai sistem mutu laboratorium.
 
-Gunakan tips 100 µL (atau 200 µL bila volume mendekati 100 µL). Untuk kerja yang membutuhkan perlindungan dari kontaminasi silang (misalnya sampel biologis berisiko), gunakan filter tips.
+> **Baca juga:** [Micropipette: Prinsip Kerja dan Teknik Dasar yang Perlu Dikuasai](/artikel/micropipette-dasar/)
 
-## Teknik dasar
+## Pemeriksaan Sebelum dan Sesudah Pipetting
 
-1. Set volume di rentang kerja alat (idealnya di tengah rentang).
-2. Tekan plunger ke first stop, masukkan tips tegak lurus ke cairan.
-3. Tarik plunger perlahan, tunggu sebentar agar cairan stabil.
-4. Salurkan ke wadah tujuan dengan menekan sampai second stop.
-5. Ganti tips antar sampel untuk mencegah kontaminasi.
+Cocokkan alat dan tip, periksa kebocoran atau kerusakan, lalu gunakan gerakan yang konsisten. Ganti tip di antara sampel dan buang dengan ejector. Bila hasil kuantitatif penting, cek pipet dan teknik operator dengan prosedur verifikasi laboratorium.
 
-## Kesalahan umum
+Untuk cairan kental, volatil, atau mudah berbusa, teknik forward pipetting standar mungkin tidak memberi pemulihan terbaik. Pertimbangkan tip low-retention atau wide-bore dan teknik alternatif hanya bila direkomendasikan metode. Catat pipet, tip, volume, dan operator ketika mengevaluasi variasi.
 
-- Volume di ujung rentang (tepat 10 atau 100 µL) — presisi menurun.
-- Tips longgar atau aus — volume tidak konsisten.
-- Gelembung udara karena plunger dilepas terlalu cepat.
-- Cairan masuk ke barrel karena tips terisi berlebih.
+## Jika Hasil Belum Konsisten
 
-## Perawatan
+Ubah satu faktor dalam satu waktu dan bandingkan dengan kontrol atau kondisi yang telah diketahui bekerja. Periksa catatan operator, alat, bahan, waktu, dan lingkungan sebelum mengulang seluruh pekerjaan. Pendekatan ini membantu membedakan masalah teknik dari masalah sampel atau reagen.
 
-- Bersihkan badan alat dengan kain lembut; jangan direndam.
-- Simpan tegak pada rak, plunger longgar.
-- Kalibrasi berkala sesuai jadwal laboratorium.
+## Kesimpulan Praktis
 
-## Pertanyaan yang sering muncul
+Micropipette 10–100 µL perlu dipilih dan digunakan berdasarkan kebutuhan metode, spesifikasi produk, dan SOP laboratorium. Simpan catatan setelan serta lot bahan agar hasil dapat ditelusuri dan diulang.
 
-**Tips 100 atau 200 µL untuk alat ini?**
-Keduanya bisa, tergantung volume target. Untuk volume mendekati 100 µL, tips 200 µL lebih aman agar tidak mengisi penuh; untuk volume kecil, tips 100 µL lebih presisi.
+> **Baca juga:** [Cara Memilih Pipette Tips: Cocokkan Tip, Sampel, dan Tujuan Uji](/artikel/memilih-pipette-tips/)
 
-**Boleh dipakai untuk sampel protein?**
-Ya, umum untuk transfer sampel protein. Gunakan tips yang bersih dan ganti antar sampel untuk menghindari kontaminasi.
-
-**Kenapa presisi turun di volume 10 µL?**
-Karena itu batas bawah rentang. Pindah ke alat rentang kecil untuk volume 10 µL ke bawah.
-
-> Catatan: spesifikasi akurasi dan kalibrasi berbeda antar model dan merek (misalnya DragonLab). Rujuk manual produsen.
+Catatan: panduan ini bersifat umum. Ikuti manual model, label produk, SDS, dan SOP laboratorium yang berlaku.

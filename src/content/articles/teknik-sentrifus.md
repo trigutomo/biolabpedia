@@ -1,49 +1,45 @@
 ---
-title: Teknik dasar sentrifus
-description: Prinsip kerja sentrifus, cara memilih kecepatan (RPM vs RCF), keseimbangan rotor, penanganan sampel setelah sentrifus, serta kesalahan umum yang harus dihindari.
+title: "Teknik Sentrifus: Menyeimbangkan Tabung dan Memilih RCF"
+description: >-
+  Pemilihan RCF, rotor, tabung, dan keseimbangan yang tepat membantu menghasilkan pemisahan yang konsisten serta mengurangi risiko kerusakan alat.
 pillar: teknik-dasar
 publishedAt: 2026-11-24
+updatedAt: 2026-11-28
 tags: [sentrifus, RPM, RCF, rotor, pemisahan sampel]
+featured: false
 author: Redaksi Biolabpedia
 readingTime: 2
 sources:
-  - label: Manual sentrifus dan panduan praktikum pemisahan sampel
+  - label: "Thermo Fisher — Centrifuge best practices"
+    url: "https://www.thermofisher.com/uk/en/home/life-science/lab-equipment/lab-equipment-learning-center/centrifuges/centrifuge-best-practices.html"
+  - label: "Eppendorf — Instructions for use: tubes"
+    url: "https://www.eppendorf.com/product-media/doc/en/234161/Consumables_Instructions-use_Tubes-Tubes-50-mL.pdf"
 ---
 
-Sentrifus adalah teknik memisahkan komponen sampel berdasarkan densitas menggunakan putaran cepat. Partikel yang lebih berat (padat) terdorong ke dasar tabung, sementara cairan (supernatan) tetap di atas. Teknik ini dasar untuk banyak prosedur: memisahkan sel, mengendapkan DNA, memisahkan plasma dari darah, dan banyak lagi.
+RPM menyatakan kecepatan putar, sedangkan RCF menyatakan gaya relatif terhadap gravitasi dan dipengaruhi radius rotor. Karena itu, nilai RPM yang sama pada rotor berbeda tidak selalu menghasilkan gaya yang sama.
 
-## Prinsip kerja
+![Teknik Sentrifus: Menyeimbangkan Tabung dan Memilih RCF — ilustrasi editorial Biolabpedia](/images/articles/centrifuge-indonesia.png)
 
-Sentrifus memutar sampel pada kecepatan tinggi sehingga timbul gaya sentrifugal yang jauh lebih besar dari gravitasi. Gaya ini mendorong partikel ke arah luar (ke dasar tabung). Kecepatan partikel tergantung pada ukuran, bentuk, dan densitasnya — partikel besar/berat mengendap lebih cepat.
+## Hal yang Perlu Dipahami
 
-## RPM vs RCF
+Gunakan jenis tabung dan adaptor yang disetujui, timbang atau samakan massa pasangan tabung, dan susun secara simetris. Tutup rotor sesuai manual; jangan melampaui batas RCF, suhu, atau kecepatan. Tunggu rotor berhenti total sebelum membuka tutup alat.
 
-Dua satuan penting, sering tertukar:
+> **Baca juga:** [Sentrifus Bergetar atau Hasil Tidak Rapi? Mulai dari Pemeriksaan Ini](/artikel/mengatasi-masalah-sentrifus/)
 
-- **RPM** (revolutions per minute) — putaran per menit. Bergantung pada radius rotor.
-- **RCF** (relative centrifugal force) — gaya sentrifugal relatif (satuan × g). Satuan yang benar untuk membandingkan protokol.
+## Pemeriksaan Sebelum Menjalankan Alat
 
-Hubungannya: **RCF = 1,118 × 10⁻⁵ × r × (RPM)²**, dengan `r` = radius rotor (cm). Protokol biasanya menyebut RCF karena lebih universal. Bila manual hanya menyebut RPM, konversi sesuai radius rotor alat Anda.
+Periksa rotor, tutup, adaptor, dan tabung terhadap kerusakan atau residu. Pastikan muatan seimbang secara simetris dan gunakan parameter yang diizinkan untuk kombinasi rotor-tabung tersebut. Setelah berhenti total, catat kondisi dan bersihkan sesuai manual.
 
-## Keseimbangan rotor
+Batas maksimum tidak boleh dipindahkan begitu saja antar-merek atau antar-konfigurasi. Cek manual rotor dan instruksi tube untuk RCF, suhu, waktu, serta adaptor yang digunakan. Jika terjadi tumpahan atau tube pecah, ikuti prosedur dekontaminasi dan pelaporan laboratorium.
 
-- Selalu pasang tabung berlawanan (atau set simetris) dengan massa yang sama.
-- Timbang/samakan volume cairan antar tabung — perbedaan kecil membuat sentrifus bergetar.
-- Jangan mengisi tabung melebihi kapasitas.
-- Getaran berlebih = tanda keseimbangan salah — hentikan dan perbaiki.
+## Jika Hasil Belum Konsisten
 
-## Penanganan setelah sentrifus
+Ubah satu faktor dalam satu waktu dan bandingkan dengan kontrol atau kondisi yang telah diketahui bekerja. Periksa catatan operator, alat, bahan, waktu, dan lingkungan sebelum mengulang seluruh pekerjaan. Pendekatan ini membantu membedakan masalah teknik dari masalah sampel atau reagen.
 
-1. Keluarkan tabung dengan hati-hati; jangan mengguncang yang sudah terpisah.
-2. Untuk memisahkan supernatan, angkat perlahan atau pipet cairan di atas endapan.
-3. Jangan mengganggu endapan (pellet) bila ingin mempertahankannya.
-4. Untuk resuspensi, tambahkan pelarut dan aduk pelan (vortex kecepatan rendah bila perlu).
+## Kesimpulan Praktis
 
-## Kesalahan umum
+Teknik Sentrifus perlu dipilih dan digunakan berdasarkan kebutuhan metode, spesifikasi produk, dan SOP laboratorium. Simpan catatan setelan serta lot bahan agar hasil dapat ditelusuri dan diulang.
 
-- **Tidak seimbang** — getaran, kerusakan rotor, hasil tidak konsisten.
-- **Kecepatan salah** — partikel tidak terpisah atau justru rusak (sel pecah).
-- **Tutup tidak rapat** — aerosol dan tumpahan.
-- **Melebihi waktu/kecepatan** — endapan terlalu padat sulit diresuspensi.
+> **Baca juga:** [Microcentrifuge Tube: Pilih Bahan dan Tutup untuk Sampel Anda](/artikel/microcentrifuge-tubes/)
 
-> Catatan: kecepatan maksimum, radius rotor, dan kapasitas berbeda antar alat. Rujuk manual sentrifus dan SOP laboratorium. Untuk sampel berisiko, ikuti prosedur penanganan aerosol dan limbah.
+Catatan: panduan ini bersifat umum. Ikuti manual model, label produk, SDS, dan SOP laboratorium yang berlaku.

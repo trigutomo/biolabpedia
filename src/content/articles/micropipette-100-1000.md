@@ -1,56 +1,45 @@
 ---
-title: Micropipette volume 100–1000 µL
-description: |-
-  Micropipette rentang 100–1000 µL (P1000): untuk transfer volume besar dalam satuan mikroliter, panduan penggunaan, tips memilih ukuran, dan perawatan.
+title: "Micropipette 100–1000 µL: Hindari Kesalahan di Volume Besar"
+description: >-
+  Panduan menggunakan micropipette 100–1000 µL dengan pemilihan tip, aspirasi, dan dispensasi yang terkendali untuk sampel berair maupun cairan yang lebih sulit.
 pillar: kenali-alat
 publishedAt: 2026-11-24
+updatedAt: 2026-11-28
 tags: [micropipette, "P1000", volume besar, buffer, DragonLab]
+featured: false
 author: Redaksi Biolabpedia
 readingTime: 2
+sources:
+  - label: "Eppendorf — Liquid handling FAQ"
+    url: "https://www.eppendorf.com/us-en/lab-academy/life-science/microbiology/liquid-handling-faq/"
+  - label: "Thermo Fisher — Pipetting recommendations by sample type"
+    url: "https://www.thermofisher.com/us/en/home/life-science/lab-plasticware-supplies/lab-plasticware-supplies-learning-center/lab-plasticware-supplies-resource-library/fundamentals-of-pipetting/proper-pipetting-techniques/pipetting-recommendations-for-different-sample-types.html"
 ---
 
-Micropipette rentang 100–1000 µL (P1000) dipakai untuk transfer volume besar dalam satuan mikroliter — penanganan buffer, pelarut, dan sampel dalam jumlah yang tidak muat di alat rentang kecil.
+Volume besar lebih mudah memperlihatkan kebocoran tip atau aspirasi yang terlalu cepat. Kapasitas tip perlu cukup untuk volume target dan kompatibel dengan bentuk cone pipet.
 
-## Kapan digunakan
+![Micropipette 100–1000 µL: Hindari Kesalahan di Volume Besar — ilustrasi editorial Biolabpedia](/images/articles/pipetting-indonesia.png)
 
-- Penanganan buffer dan pelarut dalam volume ratusan µL.
-- Transfer sampel untuk kultur atau analisis volume besar.
-- Penyiapan larutan kerja.
+## Hal yang Perlu Dipahami
 
-## Memilih tips
+Pasang tip dengan rapat tanpa menekan berlebihan, celupkan sesuai kedalaman yang dianjurkan, lalu aspirasi secara perlahan. Saat mengeluarkan sampel, sentuhkan tip ke dinding wadah bila prosedur mengizinkan. Untuk cairan kental atau berbusa, konsultasikan teknik khusus dan lakukan validasi.
 
-Gunakan tips 1000 µL (filter tips bila diperlukan perlindungan dari kontaminasi). Tips yang lebih kecil dari kapasitas alat membuat volume tidak presisi dan cairan berisiko masuk ke barrel.
+> **Baca juga:** [Micropipette 1000–5000 µL: Kapan Rentang Besar Lebih Efisien?](/artikel/micropipette-1000-5000/)
 
-## Teknik dasar
+## Pemeriksaan Sebelum dan Sesudah Pipetting
 
-1. Set volume di rentang kerja (idealnya di tengah, sekitar 300–800 µL).
-2. Tekan plunger ke first stop, masukkan tips tegak lurus.
-3. Tarik perlahan; untuk volume besar, beri jeda lebih lama agar cairan stabil.
-4. Salurkan ke wadah tujuan sampai second stop.
-5. Ganti tips antar sampel.
+Cocokkan alat dan tip, periksa kebocoran atau kerusakan, lalu gunakan gerakan yang konsisten. Ganti tip di antara sampel dan buang dengan ejector. Bila hasil kuantitatif penting, cek pipet dan teknik operator dengan prosedur verifikasi laboratorium.
 
-## Kesalahan umum
+Untuk cairan kental, volatil, atau mudah berbusa, teknik forward pipetting standar mungkin tidak memberi pemulihan terbaik. Pertimbangkan tip low-retention atau wide-bore dan teknik alternatif hanya bila direkomendasikan metode. Catat pipet, tip, volume, dan operator ketika mengevaluasi variasi.
 
-- Mengisi melebihi kapasitas tips (1000 µL) — cairan masuk ke alat.
-- Memakai tips kecil pada alat P1000 — kebocoran dan volume meleset.
-- Gelembung karena plunger dilepas terlalu cepat.
-- Memiringkan pipette saat menarik cairan.
+## Jika Hasil Belum Konsisten
 
-## Perawatan
+Ubah satu faktor dalam satu waktu dan bandingkan dengan kontrol atau kondisi yang telah diketahui bekerja. Periksa catatan operator, alat, bahan, waktu, dan lingkungan sebelum mengulang seluruh pekerjaan. Pendekatan ini membantu membedakan masalah teknik dari masalah sampel atau reagen.
 
-- Bersihkan dengan kain lembut; jangan direndam.
-- Simpan tegak pada rak, plunger longgar.
-- Kalibrasi berkala sesuai jadwal laboratorium.
+## Kesimpulan Praktis
 
-## Pertanyaan yang sering muncul
+Micropipette 100–1000 µL perlu dipilih dan digunakan berdasarkan kebutuhan metode, spesifikasi produk, dan SOP laboratorium. Simpan catatan setelan serta lot bahan agar hasil dapat ditelusuri dan diulang.
 
-**Kenapa cairan masuk ke dalam alat?**
-Tips terisi melebihi kapasitas (1000 µL). Gunakan tips yang benar dan jangan mengisi penuh untuk volume mendekati batas.
+> **Baca juga:** [Pipetting Tidak Konsisten? Periksa 6 Kesalahan yang Sering Terjadi](/artikel/kesalahan-umum-pipetting/)
 
-**Bisakah memakai tips 200 µL pada alat ini?**
-Tidak disarankan — tips kecil membuat kebocoran udara dan volume tidak presisi. Selalu cocokkan ukuran tips dengan alat.
-
-**Untuk apa alat ini dibanding serological pipette?**
-Alat ini presisi untuk volume tetap ratusan µL. Serological pipette lebih praktis untuk transfer cepat volume mililiter besar.
-
-> Catatan: spesifikasi akurasi dan kalibrasi berbeda antar model dan merek (misalnya DragonLab). Rujuk manual produsen.
+Catatan: panduan ini bersifat umum. Ikuti manual model, label produk, SDS, dan SOP laboratorium yang berlaku.

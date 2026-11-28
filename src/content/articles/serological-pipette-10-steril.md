@@ -1,40 +1,45 @@
 ---
-title: Serological pipette 10 mL steril
-description: |-
-  Serological pipette 10 mL steril individual wrap: pipet ukur berkapasitas 10 mL untuk transfer volume besar, panduan penggunaan dengan pipet pump, dan pertimbangan keselamatan.
+title: "Serological Pipette 10 mL Steril: Periksa Graduasi dan Pengisi Pipet"
+description: >-
+  Pipet serologis steril 10 mL digunakan bersama pipette controller untuk memindahkan volume mililiter. Cocokkan graduasi, tipe ujung, dan spesifikasi produk dengan prosedur.
 pillar: panduan-penggunaan
 publishedAt: 2026-11-24
+updatedAt: 2026-11-28
 tags: [serological pipette, "10 mL", steril, pipet pump, volume besar]
+featured: false
 author: Redaksi Biolabpedia
-readingTime: 1
+readingTime: 2
+sources:
+  - label: "Thermo Fisher — Nunc 10 mL serological pipette"
+    url: "https://www.thermofisher.com/order/catalog/product/es/en/170374N"
+  - label: "WHO — Laboratory biosafety manual, 4th edition"
+    url: "https://www.who.int/publications/i/item/9789240011311"
 ---
 
-Serological pipette 10 mL steril adalah pipet ukur sekali pakai berkapasitas 10 mL, dikemas individual wrap. Pipet ini untuk menyalurkan volume mililiter yang lebih besar — penyiapan media, buffer, atau transfer sampel skala besar.
+Produk sekali pakai dapat berbeda dalam bahan, akurasi, skala graduasi, dan filter plug. Sterilitas kemasan harus dijaga sampai saat penggunaan dan tidak otomatis berarti bebas endotoksin atau cocok untuk setiap kultur.
 
-## Perbedaan dengan pipette 5 mL
+![Serological Pipette 10 mL Steril: Periksa Graduasi dan Pengisi Pipet — ilustrasi editorial Biolabpedia](/images/articles/bahan-habis-pakai.png)
 
-- Kapasitas lebih besar (10 mL) untuk kebutuhan volume yang lebih banyak.
-- Garis ukur lebih sedikit per mL, jadi pembacaan untuk volume kecil kurang presisi — gunakan pipette 5 mL bila volume target kecil.
-- Untuk volume di atas 10 mL, tersedia serological pipette berkapasitas 25 mL atau 50 mL.
+## Hal yang Perlu Dipahami
 
-Prinsipnya: pilih pipet yang kapasitasnya sedikit di atas volume target agar pembacaan tidak terlalu jauh dari batas maksimum.
+Pasang pada controller yang sesuai tanpa memegang ujung bawah. Aspirasi di atas volume target lalu atur meniskus pada tanda yang benar. Jangan memipet dengan mulut; buang pipet ke wadah limbah yang sesuai setelah penggunaan.
 
-## Kemasan individual wrap
+> **Baca juga:** [Pipet Serologis: Fungsi dan Teknik Transfer Volume Mililiter](/artikel/serological-pipette/)
 
-Menjaga sterilitas tiap pipet, cocok untuk kerja aseptik (media kultur, sampel biologis). Praktis untuk penggunaan yang tidak berurutan.
+## Langkah Kerja dan Pengendalian Risiko
 
-## Langkah penggunaan
+Rencanakan urutan kerja sebelum mulai, gunakan alat pelindung dan containment sesuai penilaian risiko, serta ikuti manual, label produk, dan SOP fasilitas. Hentikan pekerjaan jika kondisi alat atau sampel tidak aman; dokumentasikan penyimpangan sebelum melanjutkan.
 
-1. Buka bungkus individual tanpa menyentuh ujung pipet.
-2. Pasang pipet pump rapat di ujung atas.
-3. Masukkan ujung pipet ke cairan; hisap sampai sedikit di atas garis ukur.
-4. Turunkan perlahan hingga tepat pada garis ukur — baca meniskus sejajar mata.
-5. Salurkan ke wadah tujuan; buang pipet setelah pakai.
+Perhatikan apakah pipet bertanda “to deliver” atau “to contain” dan apakah modelnya blow-out; informasi ini menentukan cara membaca serta mengeluarkan volume. Gunakan controller yang kompatibel, jaga ujung tetap di dalam wadah saat aspirasi, dan hindari pembentukan aerosol.
 
-## Keselamatan
+## Jika Hasil Belum Konsisten
 
-- Gunakan hood/lemari asap untuk bahan kimia sesuai prosedur dan kenakan APD.
-- Jangan menghisap dengan mulut.
-- Buang pipet bekas sampel berisiko sesuai kategori limbah.
+Ubah satu faktor dalam satu waktu dan bandingkan dengan kontrol atau kondisi yang telah diketahui bekerja. Periksa catatan operator, alat, bahan, waktu, dan lingkungan sebelum mengulang seluruh pekerjaan. Pendekatan ini membantu membedakan masalah teknik dari masalah sampel atau reagen.
 
-> Catatan: volume, skala, dan status steril berbeda antar produk (Nest, dan lainnya). Rujuk katalog produsen dan SOP laboratorium.
+## Kesimpulan Praktis
+
+Serological Pipette 10 mL Steril perlu dipilih dan digunakan berdasarkan kebutuhan metode, spesifikasi produk, dan SOP laboratorium. Simpan catatan setelan serta lot bahan agar hasil dapat ditelusuri dan diulang.
+
+> **Baca juga:** [Serological Pipette 5 mL Steril: Transfer Aseptik yang Lebih Terkendali](/artikel/serological-pipette-5-steril/)
+
+Catatan: panduan ini bersifat umum. Ikuti manual model, label produk, SDS, dan SOP laboratorium yang berlaku.

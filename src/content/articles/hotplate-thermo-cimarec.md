@@ -1,46 +1,45 @@
 ---
-title: Hotplate stirrer Thermo Cimarec+
-description: |-
-  Hotplate stirrer Thermo Cimarec+ sebagai alat pemanas sekaligus pengaduk magnetik: prinsip kerja, cara mengoperasikan, indikator keselamatan, dan perawatan.
+title: "Hotplate Cimarec: Kenali Kontrol, Sensor, dan Batas Suhunya"
+description: >-
+  Panduan mengenali fungsi hotplate Cimarec dan membaca kontrolnya dengan benar. Nilai suhu dan fitur dapat berbeda antar model, jadi manual unit tetap menjadi acuan.
 pillar: kenali-alat
 publishedAt: 2026-11-24
+updatedAt: 2026-11-28
 tags: [hotplate, stirrer, Thermo, pemanas, pengaduk magnetik]
+featured: false
 author: Redaksi Biolabpedia
-readingTime: 1
+readingTime: 2
 sources:
-  - label: Manual hotplate stirrer Thermo Cimarec+ — rujuk manual untuk parameter tepat
+  - label: "Thermo Fisher — Cimarec operating manual"
+    url: "https://documents.thermofisher.com/TFS-Assets/LED/manuals/CimarecHotplates-Stirrers%20v17%2020170308.pdf"
+  - label: "Thermo Fisher — Cimarec+ product information"
+    url: "https://knowledge1.thermofisher.com/Manual_Repository/CIC00000809-EN_-_Rev_17_-_Cimarec__Stirrers%2C_Hotplates%2C_and_Stirring_Hotplates_Operating_Manual"
 ---
 
-Hotplate stirrer Thermo Cimarec+ menggabungkan dua fungsi: pelat pemanas listrik (hotplate) dan pengaduk magnetik (stirrer). Sebuah magnet di bawah pelat berputar, menarik stir bar di dalam wadah sehingga cairan teraduk sambil dipanaskan.
+Seri Cimarec mencakup hotplate, stirrer, dan kombinasi keduanya. Pada beberapa model, display suhu mengacu pada sensor di plate; angka tersebut bukan pengukuran otomatis suhu cairan di dalam gelas.
 
-## Prinsip kerja
+![Hotplate Cimarec: Kenali Kontrol, Sensor, dan Batas Suhunya — ilustrasi editorial Biolabpedia](/images/articles/hotplate-indonesia.png)
 
-- **Pemanasan** — elemen pemanas di bawah pelat mengubah listrik menjadi panas.
-- **Pengadukan** — motor memutar magnet; stir bar dalam wadah ikut berputar dan mengaduk cairan.
+## Hal yang Perlu Dipahami
 
-Cocok untuk melarutkan padatan, menyiapkan larutan, reaksi pada suhu terkendali, atau menjaga larutan tetap teraduk.
+Sebelum digunakan, cocokkan nomor model dan tegangan listrik dengan manual. Hindari memanaskan wadah tertutup atau bahan mudah terbakar pada unit yang tidak dirancang untuknya. Setelah dimatikan, anggap permukaan masih panas sampai indikator dan prosedur setempat menyatakan aman.
 
-## Pengoperasian dasar
+> **Baca juga:** [Hotplate Stirrer: Mengatur Panas dan Pengadukan dengan Aman](/artikel/hotplate-stirrer-panduan/)
 
-1. Letakkan alat pada permukaan rata, berventilasi, bebas bahan mudah terbakar.
-2. Posisikan wadah di tengah pelat; masukkan stir bar bersih.
-3. Nyalakan pengadukan pada kecepatan rendah, naikkan perlahan sampai pusaran stabil.
-4. Nyalakan pemanas; atur suhu perlahan sesuai kebutuhan.
-5. Pantau suhu (termometer/probe) selama proses.
-6. Matikan pemanas dan pengadukan; tunggu pelat dingin sebelum menyentuh.
+## Pemeriksaan dan Pencatatan
 
-## Keselamatan
+Gunakan alat ukur yang sesuai dan catat bahan, lot, volume, setelan, suhu atau pH aktual, serta waktu. Jangan mengandalkan satu angka display jika prosedur membutuhkan pengukuran sampel langsung. Simpan larutan dalam wadah kompatibel dan beri label lengkap.
 
-- **Pelat panas** — jangan disentuh; tunggu indikator dingin. Wadah kaca bisa ikut panas — gunakan penjepit.
-- **Pelarut mudah terbakar** — jangan digunakan terbuka tanpa pertimbangan hood/lemari asap dan peraturan laboratorium.
-- **Sampel memuai/berbusa** — gunakan wadah lebih besar dan kecepatan aduk moderat.
-- **Stir bar aus** — magnet yang tidak sinkron membuat adukan tidak efektif; ganti bila perlu.
-- **Jangan mengeringkan wadah di pelat** — residu sulit dibersihkan dan bisa terbakar.
+Perubahan volume akibat pemanasan atau penambahan titran dapat menggeser konsentrasi akhir. Catat suhu saat pengukuran pH dan waktu larutan dibuat. Untuk bahan mudah menguap atau berbahaya, gunakan kontrol ventilasi dan kompatibilitas wadah berdasarkan SDS serta penilaian risiko.
 
-## Perawatan
+## Jika Hasil Belum Konsisten
 
-- Bersihkan pelat setelah dingin; hindari pelarut yang merusak material pelat (cek manual).
-- Simpan stir bar di wadah khusus.
-- Periksa kabel dan sakelar berkala; hentikan pemakaian bila rusak.
+Ubah satu faktor dalam satu waktu dan bandingkan dengan kontrol atau kondisi yang telah diketahui bekerja. Periksa catatan operator, alat, bahan, waktu, dan lingkungan sebelum mengulang seluruh pekerjaan. Pendekatan ini membantu membedakan masalah teknik dari masalah sampel atau reagen.
 
-> Catatan: rentang suhu, kecepatan, dan fitur kontrol berbeda antar model dan merek (Thermo Cimarec+, dan lainnya). Rujuk manual produsen.
+## Kesimpulan Praktis
+
+Hotplate Cimarec perlu dipilih dan digunakan berdasarkan kebutuhan metode, spesifikasi produk, dan SOP laboratorium. Simpan catatan setelan serta lot bahan agar hasil dapat ditelusuri dan diulang.
+
+> **Baca juga:** [Perawatan Alat Laboratorium: Rutinitas Sederhana yang Menjaga Kinerja](/artikel/perawatan-alat-lab-dasar/)
+
+Catatan: panduan ini bersifat umum. Ikuti manual model, label produk, SDS, dan SOP laboratorium yang berlaku.

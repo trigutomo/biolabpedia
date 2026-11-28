@@ -1,57 +1,45 @@
 ---
-title: Mengatasi masalah umum pada sentrifus
-description: |-
-  Diagnosa dan perbaikan masalah sentrifus: getaran berlebih, hasil tidak terpisah, endapan tidak konsisten, bunyi aneh, hingga tanda kapan harus berhenti memakai alat.
+title: "Sentrifus Bergetar atau Hasil Tidak Rapi? Mulai dari Pemeriksaan Ini"
+description: >-
+  Getaran, tabung retak, atau pellet yang tidak konsisten perlu ditangani dengan menghentikan alat secara aman lalu memeriksa keseimbangan, rotor, adaptor, dan parameter.
 pillar: pemecahan-masalah
 publishedAt: 2026-11-24
+updatedAt: 2026-11-28
 tags: [sentrifus, troubleshooting, getaran, rotor, pemisahan]
+featured: false
 author: Redaksi Biolabpedia
-readingTime: 1
+readingTime: 2
 sources:
-  - label: Manual sentrifus dan panduan perawatan — rujuk manual untuk gejala spesifik model
+  - label: "Thermo Fisher — Centrifuge best practices"
+    url: "https://www.thermofisher.com/uk/en/home/life-science/lab-equipment/lab-equipment-learning-center/centrifuges/centrifuge-best-practices.html"
+  - label: "Eppendorf — Instructions for use, tubes"
+    url: "https://www.eppendorf.com/product-media/doc/en/234161/Consumables_Instructions-use_Tubes-Tubes-50-mL.pdf"
 ---
 
-Sentrifus yang bermasalah menghasilkan pemisahan yang tidak konsisten dan berisiko merusak alat. Berikut gejala umum, penyebab, dan cara mengatasinya.
+Ketidakseimbangan massa sering menjadi penyebab getaran, tetapi suara atau hasil buruk juga dapat mengindikasikan rotor, adaptor, atau tabung yang tidak sesuai. Jangan membuka tutup paksa saat rotor masih bergerak.
 
-## Getaran atau berisik saat berputar
+![Sentrifus Bergetar atau Hasil Tidak Rapi? Mulai dari Pemeriksaan Ini — ilustrasi editorial Biolabpedia](/images/articles/centrifuge-indonesia.png)
 
-**Penyebab:** keseimbangan rotor salah — massa tabung tidak sama, posisi tidak simetris, atau rotor kotor/aus.
+## Hal yang Perlu Dipahami
 
-**Perbaikan:**
-- Berhenti, pastikan tabung berpasangan dengan massa sama (timbang bila ragu).
-- Pasang tabung secara simetris di rotor.
-- Bersihkan rotor dari cairan atau partikel.
-- Bila getaran berlanjut setelah seimbang — bisa jadi bearing/aus rotor; hentikan pemakaian dan periksa teknisi.
+Hentikan proses sesuai instruksi alat dan tunggu rotor berhenti total. Periksa pasangan tabung, posisi simetris, volume dan massa, kondisi rotor, serta batas RCF tabung dan adaptor. Catat rotor, radius, RCF, waktu, dan suhu agar kondisi dapat direproduksi.
 
-## Sampel tidak terpisah (supernatan keruh)
+> **Baca juga:** [Teknik Sentrifus: Menyeimbangkan Tabung dan Memilih RCF](/artikel/teknik-sentrifus/)
 
-**Penyebab:** kecepatan terlalu rendah, waktu terlalu singkat, atau kecepatan salah (RPM vs RCF tertukar).
+## Pemeriksaan Sebelum Menjalankan Alat
 
-**Perbaikan:**
-- Naikkan RCF atau waktu sesuai protokol.
-- Konversi RPM ke RCF berdasarkan radius rotor alat.
-- Pastikan arah rotor benar dan tabung terisi benar.
+Periksa rotor, tutup, adaptor, dan tabung terhadap kerusakan atau residu. Pastikan muatan seimbang secara simetris dan gunakan parameter yang diizinkan untuk kombinasi rotor-tabung tersebut. Setelah berhenti total, catat kondisi dan bersihkan sesuai manual.
 
-## Endapan (pellet) tidak konsisten antar tabung
+Batas maksimum tidak boleh dipindahkan begitu saja antar-merek atau antar-konfigurasi. Cek manual rotor dan instruksi tube untuk RCF, suhu, waktu, serta adaptor yang digunakan. Jika terjadi tumpahan atau tube pecah, ikuti prosedur dekontaminasi dan pelaporan laboratorium.
 
-**Penyebab:** volume/massa awal tidak sama, waktu/kecepatan tidak seragam, atau suhu berbeda.
+## Jika Hasil Belum Konsisten
 
-**Perbaikan:**
-- Samakan volume dan konsentrasi awal tiap sampel.
-- Jalankan semua tabung dalam satu siklus yang sama.
-- Untuk sentrifus berpendingin, pastikan suhu stabil.
+Ubah satu faktor dalam satu waktu dan bandingkan dengan kontrol atau kondisi yang telah diketahui bekerja. Periksa catatan operator, alat, bahan, waktu, dan lingkungan sebelum mengulang seluruh pekerjaan. Pendekatan ini membantu membedakan masalah teknik dari masalah sampel atau reagen.
 
-## Tutup bocor atau tumpah
+## Kesimpulan Praktis
 
-**Penyebab:** tutup tidak rapat, tabung retak, atau diisi melebihi kapasitas.
+Sentrifus Bergetar atau Hasil Tidak Rapi? Mulai dari Pemeriksaan Ini perlu dipilih dan digunakan berdasarkan kebutuhan metode, spesifikasi produk, dan SOP laboratorium. Simpan catatan setelan serta lot bahan agar hasil dapat ditelusuri dan diulang.
 
-**Perbaikan:**
-- Tutup rapat sebelum berputar; periksa kondisi tabung.
-- Jangan melebihi volume maksimum.
-- Bila tumpah, bersihkan rotor menyeluruh sebelum dipakai lagi.
+> **Baca juga:** [Microcentrifuge Tube: Pilih Bahan dan Tutup untuk Sampel Anda](/artikel/microcentrifuge-tubes/)
 
-## Kapan berhenti dan melapor
-
-Hentikan pemakaian dan panggil teknisi bila: bunyi kasar/berderak tidak wajar, getaran hebat, rotor retak, alat berbau terbakar, atau tombol/layar tidak merespons. Jangan memperbaiki sendiri alat yang berputar cepat — risiko keamanan tinggi.
-
-> Catatan: gejala dan perbaikan spesifik berbeda antar model sentrifus. Rujuk manual produsen untuk kode error dan prosedur perawatan.
+Catatan: panduan ini bersifat umum. Ikuti manual model, label produk, SDS, dan SOP laboratorium yang berlaku.
